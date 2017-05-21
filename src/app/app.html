@@ -1,0 +1,66 @@
+<ion-menu [content]="content" (ionOpen)="menuOpened()" (ionClose)="menuClosed()">
+    <ion-content class="applyBasicBgColor">
+        <ion-list class="applyBasicBgColor colorToWhite">
+            <!--<button class="applyBasicBgColor colorToWhite" ion-item (click)="updateApp()">
+                <div *ngIf="!updateFlag"><ion-icon name="settings" item-left> {{ 'MENU.CHECK_UPDATE' | translate }}</ion-icon></div>
+                <div *ngIf="updateFlag" >
+                    <ion-icon name="download" class="colorToRed" item-left></ion-icon> 
+                    {{ 'MENU.UPDATE_NOW' | translate }} 
+                </div>
+            </button>-->
+            <button class="applyBasicBgColor colorToWhite borderToZero" ion-item (click)="openPage('HomePage', 'homePage')">
+                <img class="centerAndMiddle" style="margin-right: 8px; min-width: 28px; min-height:28px; max-width: 28px; max-height:28px" 
+                    src="assets/img/menu/home.png"> {{ 'MENU.HOME' | translate }}
+            </button>
+            <button id="menuFavourite" class="applyBasicBgColor colorToWhite" ion-item (click)="openPage('GenAppList', 'favourite')">
+                <img class="centerAndMiddle" style="margin-right: 8px; min-width: 28px; min-height:28px; max-width: 28px; max-height:28px" 
+                    src="assets/img/menu/favourite.png"> {{ 'MENU.MY_FAVOURITE' | translate }}
+            </button>
+            <button id="menuTransport" class="applyBasicBgColor colorToWhite" ion-item (click)="openPage('GenAppList', 'transport')">
+                <img class="centerAndMiddle" style="margin-right: 8px;  min-height:28px; max-width: 28px; max-height:28px" 
+                    src="assets/img/menu/transport.png"> {{ 'MENU.TRANSPORT' | translate }}
+            </button>
+            <button id="menuDining" class="applyBasicBgColor colorToWhite" ion-item (click)="openPage('GenAppList', 'dining')">
+                <img class="centerAndMiddle" style="margin-right: 8px;  min-height:28px; max-width: 28px; max-height:28px" 
+                    src="assets/img/menu/dining.png"> {{ 'MENU.DINING' | translate }}
+            </button>
+            <button id="menuWeather" class="applyBasicBgColor colorToWhite" ion-item (click)="openPage('GenAppList', 'weather')">
+                <img class="centerAndMiddle" style="margin-right: 8px;  min-height:28px; max-width: 28px; max-height:28px" 
+                    src="assets/img/menu/weather.png"> {{ 'MENU.WEATHER' | translate }}
+            </button>
+            <button id="menuAccommodation" class="applyBasicBgColor colorToWhite" ion-item (click)="openPage('GenAppList', 'accommodation')">
+                <img class="centerAndMiddle" style="margin-right: 8px;  min-height:28px; max-width: 28px; max-height:28px" 
+                    src="assets/img/menu/accommodation.png"> {{ 'MENU.ACCOMMODATION' | translate }}
+            </button>
+            <button id="menuShopping" class="applyBasicBgColor colorToWhite" ion-item (click)="openPage('GenAppList', 'shopping')">
+                <img class="centerAndMiddle" style="margin-right: 8px;  min-height:28px; max-width: 28px; max-height:28px" 
+                    src="assets/img/menu/shopping.png"> {{ 'MENU.SHOPPING' | translate }}
+            </button>
+            <button id="menuEntertainment" class="applyBasicBgColor colorToWhite" ion-item (click)="openPage('GenAppList', 'entertainment')">
+                <img class="centerAndMiddle" style="margin-right: 8px;  min-height:28px; max-width: 28px; max-height:28px" 
+                    src="assets/img/menu/entertainment.png"> {{ 'MENU.ENTERTAINMENT' | translate }}
+            </button>
+            <button id="menuUtility" class="applyBasicBgColor colorToWhite" ion-item (click)="openPage('GenAppList', 'utility')">
+                <img class="centerAndMiddle" style="margin-right: 8px;  min-height:28px; max-width: 28px; max-height:28px" 
+                    src="assets/img/menu/utility.png"> {{ 'MENU.UTILITY' | translate }}
+            </button>
+            <button class="applyBasicBgColor colorToWhite" ion-item (click)="changeLangInd('en')">
+                {{ 'MENU.EN' | translate }}
+            </button>
+            <button class="applyBasicBgColor colorToWhite" ion-item (click)="changeLangInd('cn')">
+                {{ 'MENU.CN' | translate }}
+            </button>
+            <button class="applyBasicBgColor colorToWhite" ion-item (click)="changeLangInd('zh')">
+                {{ 'MENU.ZH' | translate }}
+            </button>
+            <button id="menuSupport" class="applyBasicBgColor colorToWhite borderToZero" ion-item (click)="openPage('SupportPage', 'supportPage')">
+                <img class="centerAndMiddle" style="margin-right: 8px;  min-height:28px; max-width: 28px; max-height:28px" 
+                    src="assets/img/menu/support.png"> {{ 'MENU.SUPPORT' | translate }}
+            </button>
+        </ion-list>
+    </ion-content>
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

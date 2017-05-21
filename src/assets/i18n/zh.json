@@ -1,0 +1,44 @@
+{
+  "MAIN": {
+    "HONG_KONG_TRAVEL_APP_PACK": "香港旅遊流動應用程式合集"
+  },
+  "MENU": {
+    "CHECK_UPDATE": "Check Update",
+    "UPDATE_NOW": "Update Now",
+    "HOME": "首頁",
+    "MY_FAVOURITE": "我的最愛",
+    "TRANSPORT": "交通",
+    "DINING": "飲食",
+    "WEATHER": "天氣",
+    "ACCOMMODATION": "住宿",
+    "SHOPPING": "購物",
+    "ENTERTAINMENT": "娛樂",
+    "UTILITY": "實用",
+    "LANGUAGE": "語言",
+    "EN": "ENG",
+    "CN": "简",
+    "ZH": "繁",
+    "SUPPORT": "支持"
+  },  
+   "HOME": {
+    "WELCOME": "歡迎",
+    "EMPTY": "吉的",
+    "CLEAR_All": "全部清空"
+  },
+  "GENAPP": {
+    "EDITOR_WORD": "編輯的話",
+    "DESC": "描述",
+    "FUN_FACT": "有趣事"
+  },  
+   "SUPPORT": {
+    "THANKS": "多謝！",
+    "MORE_APPS_COMING_SOON": "將會加入更多apps！",
+    "CHECK_UPDATE_IN_APP_STORE": "在 APP Store 檢查更新", 
+    "CHECK_UPDATE_IN_GOOGLE_PLAY": "在 Google Play 檢查更新", 
+    "PLEASE_RATE": "請給予評價和意見",
+    "ALSO_YOU_CAN_SUPPORT_ME_BY": "另外，你也可以透過以下方法去支持我",
+    "WATCH_NORMAL_ADV": "看一則普通廣告",
+    "CLICK_THE_ADV_IF_YOU_ARE_INTERETED": "(可點擊有興趣的廣告！)",
+    "WATCH_VIDEO_ADV": "看一則視頻廣告"
+  }
+}

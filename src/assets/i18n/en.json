@@ -1,0 +1,44 @@
+{
+  "MAIN": {
+    "HONG_KONG_TRAVEL_APP_PACK": "Hong Kong Travel App Pack"
+  },
+  "MENU": {
+    "CHECK_UPDATE": "Check Update",
+    "UPDATE_NOW": "Update Now",
+    "HOME": "Home",
+    "MY_FAVOURITE": "My Favourite",
+    "TRANSPORT": "Transport",
+    "DINING": "Dining",
+    "WEATHER": "Weather",
+    "ACCOMMODATION": "Accommodation",
+    "SHOPPING": "Shopping",
+    "ENTERTAINMENT": "Entertainment",
+    "UTILITY": "Utility",
+    "LANGUAGE": "Language",
+    "EN": "ENG",
+    "CN": "简",
+    "ZH": "繁",
+    "SUPPORT": "Support"
+  },  
+   "HOME": {
+    "WELCOME": "Welcome",
+    "EMPTY": "Empty",
+    "CLEAR_All": "Clear All"
+  },
+  "GENAPP": {
+    "EDITOR_WORD": "Editor's word",
+    "DESC": "Description",
+    "FUN_FACT": "Fun Fact"
+  },  
+   "SUPPORT": {
+    "THANKS": "Thank you!",
+    "MORE_APPS_COMING_SOON": "More apps coming soon!",
+    "CHECK_UPDATE_IN_APP_STORE": "Check update in App Store", 
+    "CHECK_UPDATE_IN_GOOGLE_PLAY": "Check update in Google Play", 
+    "PLEASE_RATE": "Please rate and comment this app now.",
+    "ALSO_YOU_CAN_SUPPORT_ME_BY": "Also, you can support me by",
+    "WATCH_NORMAL_ADV": "Watch normal adv",
+    "CLICK_THE_ADV_IF_YOU_ARE_INTERETED": "(Click the adv if you are intereted!)",
+    "WATCH_VIDEO_ADV": "Watch video adv"
+  }
+}

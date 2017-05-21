@@ -1,0 +1,44 @@
+{
+  "MAIN": {
+    "HONG_KONG_TRAVEL_APP_PACK": "香港旅游流动应用程式合集"
+  },
+  "MENU": {
+    "CHECK_UPDATE": "Check Update",
+    "UPDATE_NOW": "Update Now",
+    "HOME": "首页",
+    "MY_FAVOURITE": "我的最爱",
+    "TRANSPORT": "交通",
+    "DINING": "饮食",
+    "WEATHER": "天气",
+    "ACCOMMODATION": "住宿",
+    "SHOPPING": "购物",
+    "ENTERTAINMENT": "娱乐",
+    "UTILITY": "实用",
+    "LANGUAGE": "语言",
+    "EN": "ENG",
+    "CN": "简",
+    "ZH": "繁",
+    "SUPPORT": "支持"
+  },  
+   "HOME": {
+    "WELCOME": "欢迎",
+    "EMPTY": "空的",
+    "CLEAR_All": "全部清空"
+  },
+  "GENAPP": {
+    "EDITOR_WORD": "编辑的话",
+    "DESC": "描述",
+    "FUN_FACT": "有趣事"
+  },  
+   "SUPPORT": {
+    "THANKS": "多谢！",
+    "MORE_APPS_COMING_SOON": "将会加入更多apps！",
+    "CHECK_UPDATE_IN_APP_STORE": "在 APP Store 检查更新", 
+    "CHECK_UPDATE_IN_GOOGLE_PLAY": "在 Google Play 检查更新", 
+    "PLEASE_RATE": "请给予评价和意见。",
+    "ALSO_YOU_CAN_SUPPORT_ME_BY": "另外，你也可以透过以下方法去支持我",
+    "WATCH_NORMAL_ADV": "看一则普通广告",
+    "CLICK_THE_ADV_IF_YOU_ARE_INTERETED": "(可点击有兴趣的广告！)",
+    "WATCH_VIDEO_ADV": "看一则视频广告"
+  }
+}
