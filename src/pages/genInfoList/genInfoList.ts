@@ -5,13 +5,13 @@ import { Storage } from '@ionic/storage';
 import { OT_GV, IGV } from './../../globalVar/gv';
 import { GF } from './../../globalFunc/gf';
 import { AppItem } from "./../../models/appItem/AppItem";
-import { TransAppItemList } from './../../models/appItem/TransAppItemList';
-import { DiningAppItemList } from './../../models/appItem/DiningAppItemList';
-import { WeatherAppItemList } from './../../models/appItem/WeatherAppItemList';
-import { AccomAppItemList } from './../../models/appItem/AccomAppItemList';
-import { ShopAppItemList } from './../../models/appItem/ShopAppItemList';
-import { EnterAppItemList } from './../../models/appItem/EnterAppItemList';
-import { UtilityAppItemList } from './../../models/appItem/UtilityAppItemList';
+import { TransportList } from './../../models/appItem/TransportList';
+import { DiningList } from './../../models/appItem/DiningList';
+import { WeatherList } from './../../models/appItem/WeatherList';
+import { AccommodationList } from './../../models/appItem/AccommodationList';
+import { ShoppingList } from './../../models/appItem/ShoppingList';
+import { EntertainmentList } from './../../models/appItem/EntertainmentList';
+import { UtilityList } from './../../models/appItem/UtilityList';
 import { GenApp } from "./genApp/genApp";
 
 @Component({
@@ -28,13 +28,13 @@ export class GenAppList {
     public alertCtrl: AlertController,
     public storage: Storage,
     public navCtrl: NavController,
-    public transAppItemList: TransAppItemList,
-    public diningAppItemList: DiningAppItemList,
-    public weatherAppItemList: WeatherAppItemList,
-    public accomAppItemList: AccomAppItemList,
-    public shopAppItemList: ShopAppItemList,
-    public enterAppItemList: EnterAppItemList,
-    public utilityAppItemList: UtilityAppItemList,) {
+    public transportList: TransportList,
+    public diningList: DiningList,
+    public weatherList: WeatherList,
+    public accommodationList: AccommodationList,
+    public shoppingList: ShoppingList,
+    public entertainmentList: EntertainmentList,
+    public utilityList: UtilityList,) {
 
     switch (this.IGV.gPageInd) {
       case 'favourite': {
@@ -42,35 +42,35 @@ export class GenAppList {
         break;
       }
       case 'transport': {
-        this.appItemList = transAppItemList.list;
+        this.appItemList = transportList.list;
         break;
       }
       case 'dining': {
-        this.appItemList = diningAppItemList.list;
+        this.appItemList = diningList.list;
         break;
       }
       case 'weather': {
-         this.appItemList = weatherAppItemList.list;
+         this.appItemList = weatherList.list;
         break;
       }
       case 'accommodation': {
-         this.appItemList = accomAppItemList.list;
+         this.appItemList = accommodationList.list;
         break;
       }
       case 'shopping': {
-         this.appItemList = shopAppItemList.list;
+         this.appItemList = shoppingList.list;
         break;
       }
       case 'entertainment': {
-         this.appItemList = enterAppItemList.list;
+         this.appItemList = entertainmentList.list;
         break;
       }
       case 'utility': {
-         this.appItemList = utilityAppItemList.list;
+         this.appItemList = utilityList.list;
         break;
       }
       default: {
-        this.appItemList = transAppItemList.list;
+        this.appItemList = transportList.list;
         break;
       }
     }

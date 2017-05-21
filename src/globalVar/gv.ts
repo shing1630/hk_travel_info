@@ -9,7 +9,7 @@ export interface IGV {
     ADMOB_MAX_NUMBER: number;
     admobCount: number;
     gLangInd: string;
-    gAppItemInd: string;
+    gPageInd: string;
     myAppItemList: AppItem[];
     myAppItemMap: Map<string, AppItem>;
 
@@ -65,7 +65,7 @@ export const IGV: IGV = {
     admobCount: 8,
 
     gLangInd: '',
-    gAppItemInd: '',
+    gPageInd: '',
 
     myAppItemList: [],
 

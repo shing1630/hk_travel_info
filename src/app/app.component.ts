@@ -124,7 +124,7 @@ export class MyApp {
     //this.globalFunc.removeBanner();
   }
 
-  openPage(page, appItemInd) {
+  openPage(page, pageInd) {
     // close the menu when clicking a link from the menu
     this.menu.close();
     this.globalFunc.showInterstitial();
@@ -137,7 +137,7 @@ export class MyApp {
       }
       case 'GenAppList': {
         toPage = GenAppList;
-        this.IGV.gAppItemInd = appItemInd;
+        this.IGV.gPageInd = pageInd;
         break;
       }
       case 'SupportPage': {

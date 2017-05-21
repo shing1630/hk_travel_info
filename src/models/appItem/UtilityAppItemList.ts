@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { AppItem } from "./AppItem";
 
 @Injectable()
-export class UtilityList {
+export class UtilityAppItemList {
 
     public list: AppItem[] = [];
 
