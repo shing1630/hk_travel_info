@@ -1,5 +1,5 @@
 import { OpaqueToken } from '@angular/core';
-import { AppItem } from "./../models/AppItem";
+import { AppItem } from "./../models/appItem/AppItem";
 
 export let OT_GV = new OpaqueToken('gv');
 

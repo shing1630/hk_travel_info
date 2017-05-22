@@ -22,13 +22,13 @@ import { GenAppList } from '../pages/genAppList/genAppList';
 import { GenApp } from '../pages/genAppList/genApp/genApp';
 import { SupportPage } from '../pages/support/support';
 
-import { TransportList } from './../models/TransportList';
-import { DiningList } from './../models/DiningList';
-import { WeatherList } from './../models/WeatherList';
-import { AccommodationList } from './../models/AccommodationList';
-import { ShoppingList } from './../models/ShoppingList';
-import { EntertainmentList } from './../models/EntertainmentList';
-import { UtilityList } from './../models/UtilityList';
+import { TransAppItemList } from './../models/appItem/TransAppItemList';
+import { DiningAppItemList } from './../models/appItem/DiningAppItemList';
+import { WeatherAppItemList } from './../models/appItem/WeatherAppItemList';
+import { AccomAppItemList } from './../models/appItem/AccomAppItemList';
+import { ShopAppItemList } from './../models/appItem/ShopAppItemList';
+import { EnterAppItemList } from './../models/appItem/EnterAppItemList';
+import { UtilityAppItemList } from './../models/appItem/UtilityAppItemList';
 
 const cloudSettings: CloudSettings = {
   'core': {
@@ -76,13 +76,13 @@ const cloudSettings: CloudSettings = {
     Market,
     StatusBar,
     SplashScreen,
-    TransportList,
-    DiningList,
-    WeatherList,
-    AccommodationList,
-    ShoppingList,
-    EntertainmentList,
-    UtilityList
+    TransAppItemList,
+    DiningAppItemList,
+    WeatherAppItemList,
+    AccomAppItemList,
+    ShopAppItemList,
+    EnterAppItemList,
+    UtilityAppItemList
   ]
 })
 export class AppModule { }

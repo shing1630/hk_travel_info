@@ -4,15 +4,8 @@ import { Storage } from '@ionic/storage';
 
 import { OT_GV, IGV } from './../../globalVar/gv';
 import { GF } from './../../globalFunc/gf';
-import { AppItem } from "./../../models/appItem/AppItem";
-import { TransportList } from './../../models/appItem/TransportList';
-import { DiningList } from './../../models/appItem/DiningList';
-import { WeatherList } from './../../models/appItem/WeatherList';
-import { AccommodationList } from './../../models/appItem/AccommodationList';
-import { ShoppingList } from './../../models/appItem/ShoppingList';
-import { EntertainmentList } from './../../models/appItem/EntertainmentList';
-import { UtilityList } from './../../models/appItem/UtilityList';
 import { GenApp } from "./genApp/genApp";
+import { AppItem } from "./../../models/appItem/AppItem";
 
 @Component({
   selector: 'genAppList',
@@ -27,14 +20,7 @@ export class GenAppList {
     public globalFunc: GF,
     public alertCtrl: AlertController,
     public storage: Storage,
-    public navCtrl: NavController,
-    public transportList: TransportList,
-    public diningList: DiningList,
-    public weatherList: WeatherList,
-    public accommodationList: AccommodationList,
-    public shoppingList: ShoppingList,
-    public entertainmentList: EntertainmentList,
-    public utilityList: UtilityList,) {
+    public navCtrl: NavController) {
 
     switch (this.IGV.gPageInd) {
       case 'favourite': {
@@ -42,35 +28,35 @@ export class GenAppList {
         break;
       }
       case 'transport': {
-        this.appItemList = transportList.list;
+        this.appItemList = null;
         break;
       }
       case 'dining': {
-        this.appItemList = diningList.list;
+        this.appItemList = null;
         break;
       }
       case 'weather': {
-         this.appItemList = weatherList.list;
+         this.appItemList = null;
         break;
       }
       case 'accommodation': {
-         this.appItemList = accommodationList.list;
+         this.appItemList = null;
         break;
       }
       case 'shopping': {
-         this.appItemList = shoppingList.list;
+         this.appItemList = null;
         break;
       }
       case 'entertainment': {
-         this.appItemList = entertainmentList.list;
+         this.appItemList = null;
         break;
       }
       case 'utility': {
-         this.appItemList = utilityList.list;
+         this.appItemList = null;
         break;
       }
       default: {
-        this.appItemList = transportList.list;
+        this.appItemList = null;
         break;
       }
     }

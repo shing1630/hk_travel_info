@@ -10,7 +10,7 @@ import { Deploy } from "@ionic/cloud-angular";
 
 import { OT_GV, IGV } from './../globalVar/gv';
 import { GF } from './../globalFunc/gf';
-import { AppItem } from "./../models/AppItem";
+import { AppItem } from "./../models/appItem/AppItem";
 import { HomePage } from '../pages/home/home';
 import { GenAppList } from '../pages/genAppList/genAppList';
 import { SupportPage } from '../pages/support/support';
