@@ -6,13 +6,14 @@ import { Storage } from '@ionic/storage';
 import { AppItem } from "./../../../models/appItem/AppItem";
 import { OT_GV, IGV } from './../../../globalVar/gv';
 import { GF } from './../../../globalFunc/gf';
+import { InfoItem } from "../../../models/infoItem/InfoItem";
 
 @Component({
-  selector: 'genApp',
-  templateUrl: 'genApp.html'
+  selector: 'genInfo',
+  templateUrl: 'genInfo.html'
 })
-export class GenApp {
-  selectedAppItem: AppItem;
+export class GenInfo {
+  selectedInfoItem: InfoItem;
 
   constructor( @Inject(OT_GV) public IGV: IGV,
     public platform: Platform,
@@ -21,32 +22,7 @@ export class GenApp {
     public storage: Storage,
     public navParams: NavParams) {
 
-    this.selectedAppItem = navParams.get('selectedAppItem');
-  }
-
-  saveToMyFavourite() {
-    // save app
-    this.selectedAppItem.saveFlag = true;
-    this.IGV.myAppItemList.push(this.selectedAppItem);
-    this.IGV.myAppItemMap.set(this.selectedAppItem.id, this.selectedAppItem);
-    this.storage.set('myFavourite', { myappItemList: this.IGV.myAppItemList });
-  }
-
-  removeFromMyFavourite() {
-    // Remove app
-    this.selectedAppItem.saveFlag = false;
-    let index: number = this.IGV.myAppItemList.indexOf(this.IGV.myAppItemMap.get(this.selectedAppItem.id));
-    if (index !== -1) {
-      this.IGV.myAppItemList.splice(index, 1);
-      this.IGV.myAppItemMap.delete(this.selectedAppItem.id);
-      this.storage.set('myFavourite', { myappItemList: this.IGV.myAppItemList });
-    }
-  }
-
-  openAppStore() {
-    if (this.IGV.isAndroid) {
-      this.globalFunc.openMarket(this.selectedAppItem.androiLink)
-    }
+    this.selectedInfoItem = navParams.get('selectedInfoItem');
   }
 
 }

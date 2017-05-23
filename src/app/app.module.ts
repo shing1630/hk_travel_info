@@ -19,6 +19,7 @@ import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
 
 import { HomePage } from '../pages/home/home';
 import { GenAppList } from '../pages/genAppList/genAppList';
+import { GenInfoList } from '../pages/genInfoList/genInfoList';
 import { GenApp } from '../pages/genAppList/genApp/genApp';
 import { SupportPage } from '../pages/support/support';
 
@@ -29,6 +30,8 @@ import { AccomAppItemList } from './../models/appItem/AccomAppItemList';
 import { ShopAppItemList } from './../models/appItem/ShopAppItemList';
 import { EnterAppItemList } from './../models/appItem/EnterAppItemList';
 import { UtilityAppItemList } from './../models/appItem/UtilityAppItemList';
+import { AccomInfoItemList } from "../models/infoItem/AccomInfoItemList";
+import { GenInfo } from "../pages/genInfoList/genInfo/genInfo";
 
 const cloudSettings: CloudSettings = {
   'core': {
@@ -42,7 +45,9 @@ const cloudSettings: CloudSettings = {
     IsShowAppItem,
     HomePage,
     GenAppList,
+    GenInfoList,
     GenApp,
+    GenInfo,
     SupportPage
   ],
   imports: [
@@ -63,7 +68,9 @@ const cloudSettings: CloudSettings = {
     MyApp,
     HomePage,
     GenAppList,
+    GenInfoList,
     GenApp,
+    GenInfo,
     SupportPage
   ],
   providers: [
@@ -80,6 +87,7 @@ const cloudSettings: CloudSettings = {
     DiningAppItemList,
     WeatherAppItemList,
     AccomAppItemList,
+    AccomInfoItemList,
     ShopAppItemList,
     EnterAppItemList,
     UtilityAppItemList

@@ -12,8 +12,8 @@ import { OT_GV, IGV } from './../globalVar/gv';
 import { GF } from './../globalFunc/gf';
 import { AppItem } from "./../models/appItem/AppItem";
 import { HomePage } from '../pages/home/home';
-import { GenAppList } from '../pages/genAppList/genAppList';
 import { SupportPage } from '../pages/support/support';
+import { GenInfoList } from "../pages/genInfoList/genInfoList";
 
 @Component({
   templateUrl: 'app.html'
@@ -135,8 +135,8 @@ export class MyApp {
         toPage = HomePage;
         break;
       }
-      case 'GenAppList': {
-        toPage = GenAppList;
+      case 'GenInfoList': {
+        toPage = GenInfoList;
         this.IGV.gPageInd = pageInd;
         break;
       }
