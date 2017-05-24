@@ -38,9 +38,9 @@ export interface IGV {
     RELOAD_EN: string;
     RELOAD_CN: string;
     RELOAD_ZH: string;
-    CLEAR_ALL_MY_FAVOURITE_EN: string;
-    CLEAR_ALL_MY_FAVOURITE_CN: string;
-    CLEAR_ALL_MY_FAVOURITE_ZH: string;
+    CLEAR_ALL_MY_FAVOURITE_APP_EN: string;
+    CLEAR_ALL_MY_FAVOURITE_APP_CN: string;
+    CLEAR_ALL_MY_FAVOURITE_APP_ZH: string;
     YES_EN: string;
     YES_CN: string;
     YES_ZH: string;
@@ -102,9 +102,9 @@ export const IGV: IGV = {
     RELOAD_CN: '重载',
     RELOAD_ZH: '重載',
 
-    CLEAR_ALL_MY_FAVOURITE_EN: 'Clear All My Favourite?',
-    CLEAR_ALL_MY_FAVOURITE_CN: '清空我的最爱?',
-    CLEAR_ALL_MY_FAVOURITE_ZH: '清空我的最愛?',
+    CLEAR_ALL_MY_FAVOURITE_APP_EN: 'Clear All My Favourite?',
+    CLEAR_ALL_MY_FAVOURITE_APP_CN: '清空我的最爱?',
+    CLEAR_ALL_MY_FAVOURITE_APP_ZH: '清空我的最愛?',
     YES_EN: 'Yes',
     YES_CN: '是',
     YES_ZH: '是',

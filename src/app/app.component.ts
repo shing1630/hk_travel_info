@@ -14,6 +14,7 @@ import { AppItem } from "./../models/appItem/AppItem";
 import { HomePage } from '../pages/home/home';
 import { SupportPage } from '../pages/support/support';
 import { GenInfoList } from "../pages/genInfoList/genInfoList";
+import { GenAppList } from "../pages/genAppList/genAppList";
 
 @Component({
   templateUrl: 'app.html'
@@ -133,6 +134,11 @@ export class MyApp {
     switch (page) {
       case 'HomePage': {
         toPage = HomePage;
+        break;
+      }
+      case 'GenAppList': {
+        toPage = GenAppList;
+        this.IGV.gPageInd = pageInd;
         break;
       }
       case 'GenInfoList': {

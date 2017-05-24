@@ -77,15 +77,15 @@ export class GenAppList {
     let no: string;
     let yes: string;
     if (this.IGV.gLangInd === 'zh') {
-      title = this.IGV.CLEAR_ALL_MY_FAVOURITE_ZH;
+      title = this.IGV.CLEAR_ALL_MY_FAVOURITE_APP_ZH;
       no = this.IGV.NO_ZH;
       yes = this.IGV.YES_ZH;
     } else if (this.IGV.gLangInd === 'cn') {
-      title = this.IGV.CLEAR_ALL_MY_FAVOURITE_CN;
+      title = this.IGV.CLEAR_ALL_MY_FAVOURITE_APP_CN;
       no = this.IGV.NO_CN;
       yes = this.IGV.YES_CN;
     } else {
-      title = this.IGV.CLEAR_ALL_MY_FAVOURITE_EN;
+      title = this.IGV.CLEAR_ALL_MY_FAVOURITE_APP_EN;
       no = this.IGV.NO_EN;
       yes = this.IGV.YES_EN;
     }
