@@ -8,7 +8,6 @@ import { AppItem } from "./../../models/appItem/AppItem";
 import { AccomInfoItemList } from "../../models/infoItem/AccomInfoItemList";
 import { InfoItem } from "../../models/infoItem/InfoItem";
 import { AccomAppItemList } from "../../models/appItem/AccomAppItemList";
-import { GenApp } from "../genAppList/genApp/genApp";
 import { GenInfo } from "./genInfo/genInfo";
 
 @Component({

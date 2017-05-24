@@ -25,6 +25,9 @@
     "EMPTY": "空的",
     "CLEAR_All": "全部清空"
   },
+  "GENINFO": {
+    "RELATED_APP_REVIEW": "Related App Review"
+  },
   "GENAPP": {
     "EDITOR_WORD": "编辑的话",
     "DESC": "描述",

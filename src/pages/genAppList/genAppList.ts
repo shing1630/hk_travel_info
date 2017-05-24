@@ -1,5 +1,5 @@
 import { Component, Inject, ViewChild } from '@angular/core';
-import { NavController, Content, AlertController } from 'ionic-angular';
+import { NavController, Content, AlertController, NavParams } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
 
 import { OT_GV, IGV } from './../../globalVar/gv';
@@ -27,58 +27,14 @@ export class GenAppList {
     public globalFunc: GF,
     public alertCtrl: AlertController,
     public storage: Storage,
-    public navCtrl: NavController,
-    public transAppItemList: TransAppItemList,
-    public diningAppItemList: DiningAppItemList,
-    public weatherAppItemList: WeatherAppItemList,
-    public accomAppItemList: AccomAppItemList,
-    public shopAppItemList: ShopAppItemList,
-    public enterAppItemList: EnterAppItemList,
-    public utilityAppItemList: UtilityAppItemList,) {
+    public navParams: NavParams,
+    public navCtrl: NavController) {
 
-    switch (this.IGV.gPageInd) {
-      case 'favourite': {
-        this.appItemList = this.IGV.myAppItemList;
-        break;
-      }
-      case 'transport': {
-        this.appItemList = transAppItemList.list;
-        break;
-      }
-      case 'dining': {
-        this.appItemList = diningAppItemList.list;
-        break;
-      }
-      case 'weather': {
-         this.appItemList = weatherAppItemList.list;
-        break;
-      }
-      case 'accommodation': {
-         this.appItemList = accomAppItemList.list;
-        break;
-      }
-      case 'shopping': {
-         this.appItemList = shopAppItemList.list;
-        break;
-      }
-      case 'entertainment': {
-         this.appItemList = enterAppItemList.list;
-        break;
-      }
-      case 'utility': {
-         this.appItemList = utilityAppItemList.list;
-        break;
-      }
-      default: {
-        this.appItemList = transAppItemList.list;
-        break;
-      }
-    }
-
+    this.appItemList = navParams.get('selectedAppItemList');
     // Set My Favourite flag
-    for (let appItem of this.appItemList) {
-      appItem.saveFlag = this.globalFunc.isMyFavourite(appItem.id);
-    }
+    // for (let appItem of this.appItemList) {
+    //   appItem.saveFlag = this.globalFunc.isMyFavourite(appItem.id);
+    // }
 
   }
 

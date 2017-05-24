@@ -1,12 +1,12 @@
 import { Component, Inject } from '@angular/core';
-import { Platform, NavParams } from 'ionic-angular';
+import { Platform, NavParams, NavController } from 'ionic-angular';
 import { Market } from '@ionic-native/market';
 import { Storage } from '@ionic/storage';
 
-import { AppItem } from "./../../../models/appItem/AppItem";
 import { OT_GV, IGV } from './../../../globalVar/gv';
 import { GF } from './../../../globalFunc/gf';
 import { InfoItem } from "../../../models/infoItem/InfoItem";
+import { GenAppList } from "../../genAppList/genAppList";
 
 @Component({
   selector: 'genInfo',
@@ -20,9 +20,16 @@ export class GenInfo {
     private market: Market,
     public globalFunc: GF,
     public storage: Storage,
+    public navCtrl: NavController,
     public navParams: NavParams) {
 
     this.selectedInfoItem = navParams.get('selectedInfoItem');
+  }
+
+  appReviewTapped(event, selectedAppItemList) {
+    this.navCtrl.push(GenAppList, {
+      selectedAppItemList: selectedAppItemList
+    });
   }
 
 }

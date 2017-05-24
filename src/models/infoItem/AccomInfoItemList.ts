@@ -22,12 +22,12 @@ export class AccomInfoItemList {
         accomInfoItem.info1DescEN=	'Taxis of Hong Kong provide a taxi system. Although a few taxis are independently owned and operated, the vast majority are owned by 17 independent taxi companies that rent out taxis on a shift basis to 40,000 self-employed drivers.'
         accomInfoItem.info1DescCN=	'香港的士，即香港的出租车，“的士”一字是从出租车的英语“Taxi”音译出来的。乘客上车后指明目的地，司机直接驾驶前往，是方便快捷的公共交通工具。车费根据车程及等候时间而定，而存放行李、电话召唤出租车及使用收费道路等则需缴付附加费用。香港各区设有不少出租车站供乘客等候出租车，而部分停车禁区亦设有一些出租车专用的上落客位置。'
         accomInfoItem.info1DescZH=	'香港的士，即香港的的士，「的士」一字是從計程車的英語「Taxi」音譯出來的。乘客上車後指明目的地，司機直接駕駛前往，是方便快捷的公共交通工具。車費根據車程及等候時間而定，而存放行李、電話召喚的士及使用收費道路等則需繳付附加費用。香港各區設有不少的士站供乘客等候的士，而部分停車禁區亦設有一些的士專用的上落客位置。'
-        accomInfoItem.info1Pic=	'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Toyota_Comfort_2008_FrontView.jpg/280px-Toyota_Comfort_2008_FrontView.jpg'
-        accomInfoItem.info2Flag=	false
+        accomInfoItem.info1Pic=	'https://vgy.me/GMohI1.jpeg'
+        accomInfoItem.info2Flag=	true
         accomInfoItem.info2DescEN=	''
         accomInfoItem.info2DescCN=	''
         accomInfoItem.info2DescZH=	''
-        accomInfoItem.info2Pic=	'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/HK_Toyota_Comfort_Green_Taxi.jpg/200px-HK_Toyota_Comfort_Green_Taxi.jpg'
+        accomInfoItem.info2Pic=	'https://vgy.me/FenAPG.jpeg'
         accomInfoItem.info3Flag=	false
         accomInfoItem.info3DescEN=	''
         accomInfoItem.info3DescCN=	'IA001'
@@ -53,7 +53,7 @@ export class AccomInfoItemList {
         accomInfoItem.info7DescCN=	''
         accomInfoItem.info7DescZH=	''
         accomInfoItem.info7Pic=	''
-        accomInfoItem.infoAppFlag=	false
+        accomInfoItem.infoAppFlag=	true
         accomInfoItem.appItemIdlist.push('A001', 'A002');
         accomInfoItem.appItemlist=	null;
 

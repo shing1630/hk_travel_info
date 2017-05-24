@@ -9,9 +9,9 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content >
+<ion-content>
+  <ion-grid class="fontSizeTo18">
 
-  <ion-grid>
     <ion-row *ngIf="selectedInfoItem.info1Flag">
       <ion-col *ngIf="IGV.gLangInd === 'zh'" col-12 class="leftAndMiddle">
           {{selectedInfoItem.info1DescZH}}
@@ -22,7 +22,99 @@
       <ion-col *ngIf="IGV.gLangInd === 'cn'" col-12 class="leftAndMiddle">
           {{selectedInfoItem.info1DescCN}}
       </ion-col>
-      <ion-img [src]="selectedInfoItem.iosPicEN1"></ion-img>
+      <ion-col col-12 class="centerAndMiddle">
+         <ion-img [width]="300" [height]="532" [src]="selectedInfoItem.info1Pic"></ion-img>
+      </ion-col>
+    </ion-row>
+
+    <ion-row *ngIf="selectedInfoItem.info2Flag">
+      <ion-col *ngIf="IGV.gLangInd === 'zh'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info2DescZH}}
+      </ion-col>
+      <ion-col *ngIf="IGV.gLangInd === 'en'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info2DescEN}}
+      </ion-col>
+      <ion-col *ngIf="IGV.gLangInd === 'cn'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info2DescCN}}
+      </ion-col>
+      <ion-col col-12 class="centerAndMiddle">
+          <ion-img [width]="300" [height]="532" [src]="selectedInfoItem.info2Pic"></ion-img>
+      </ion-col>
+    </ion-row>
+
+    <ion-row *ngIf="selectedInfoItem.info3Flag">
+      <ion-col *ngIf="IGV.gLangInd === 'zh'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info3DescZH}}
+      </ion-col>
+      <ion-col *ngIf="IGV.gLangInd === 'en'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info3DescEN}}
+      </ion-col>
+      <ion-col *ngIf="IGV.gLangInd === 'cn'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info3DescCN}}
+      </ion-col>
+      <ion-col col-12 class="centerAndMiddle">
+          <ion-img [src]="selectedInfoItem.info3Pic"></ion-img>
+      </ion-col>
+    </ion-row>
+
+    <ion-row *ngIf="selectedInfoItem.info4Flag">
+      <ion-col *ngIf="IGV.gLangInd === 'zh'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info4DescZH}}
+      </ion-col>
+      <ion-col *ngIf="IGV.gLangInd === 'en'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info4DescEN}}
+      </ion-col>
+      <ion-col *ngIf="IGV.gLangInd === 'cn'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info4DescCN}}
+      </ion-col>
+      <ion-img [src]="selectedInfoItem.iosPicEN4" class="centerAndMiddle" ></ion-img>
+    </ion-row>
+
+    <ion-row *ngIf="selectedInfoItem.info5Flag">
+      <ion-col *ngIf="IGV.gLangInd === 'zh'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info5DescZH}}
+      </ion-col>
+      <ion-col *ngIf="IGV.gLangInd === 'en'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info5DescEN}}
+      </ion-col>
+      <ion-col *ngIf="IGV.gLangInd === 'cn'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info5DescCN}}
+      </ion-col>
+      <ion-img [src]="selectedInfoItem.iosPicEN5" class="centerAndMiddle" ></ion-img>
+    </ion-row>
+
+    <ion-row *ngIf="selectedInfoItem.info6Flag">
+      <ion-col *ngIf="IGV.gLangInd === 'zh'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info6DescZH}}
+      </ion-col>
+      <ion-col *ngIf="IGV.gLangInd === 'en'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info6DescEN}}
+      </ion-col>
+      <ion-col *ngIf="IGV.gLangInd === 'cn'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info6DescCN}}
+      </ion-col>
+      <ion-img [src]="selectedInfoItem.iosPicEN6" class="centerAndMiddle" ></ion-img>
+    </ion-row>
+
+    <ion-row *ngIf="selectedInfoItem.info7Flag">
+      <ion-col *ngIf="IGV.gLangInd === 'zh'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info7DescZH}}
+      </ion-col>
+      <ion-col *ngIf="IGV.gLangInd === 'en'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info7DescEN}}
+      </ion-col>
+      <ion-col *ngIf="IGV.gLangInd === 'cn'" col-12 class="leftAndMiddle">
+          {{selectedInfoItem.info7DescCN}}
+      </ion-col>
+      <ion-img [src]="selectedInfoItem.iosPicEN7" class="centerAndMiddle" ></ion-img>
+    </ion-row>
+
+     <ion-row *ngIf="selectedInfoItem.infoAppFlag">
+      <ion-col col-12 class="centerAndMiddle">
+          <button ion-button full (click)="appReviewTapped($event, selectedInfoItem.appItemlist)"> 
+            {{ 'GENINFO.RELATED_APP_REVIEW' | translate }}
+          </button>
+      </ion-col>
     </ion-row>
 
   </ion-grid>
