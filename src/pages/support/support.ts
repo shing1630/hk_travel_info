@@ -35,12 +35,16 @@ export class SupportPage {
     this.globalFunc.showRewardVideoAd();
   }
 
+  showInterstitialVideoImmd() {
+    IGV.isDisableVideoAdv = true;
+    this.globalFunc.showInterstitialVideoImmd();
+  }
+
   showInterstitialImmd() {
+    IGV.isDisableInterAdv = true;
     this.globalFunc.showInterstitialImmd();
   }
 
-  showInterstitialVideoImmd() {
-    this.globalFunc.showInterstitialVideoImmd();
-  }
+
 
 }

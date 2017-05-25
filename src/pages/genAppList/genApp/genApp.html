@@ -9,7 +9,7 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content >
+<ion-content>
 
   <ion-grid>
     <ion-row>
@@ -23,7 +23,7 @@
           </button>
           <button *ngIf="selectedAppItem.saveFlag" ion-button style="width: 130px;" (click)="removeFromMyFavourite()">
             <img width="30" height="30" src="assets/img/star.png">
-          </button>  
+          </button>
         </ion-col>
         <ion-col col-12>
           <a *ngIf="IGV.isIOS" href="{{selectedAppItem.iosLink}}">
@@ -55,9 +55,9 @@
       </ion-col>
     </ion-row>
     <ion-row>
-       <ion-col col-12 class="leftAndMiddle fontSizeTo25 colorToBasic fontToBold">
+      <ion-col col-12 class="leftAndMiddle fontSizeTo25 colorToBasic fontToBold">
         {{ 'GENAPP.EDITOR_WORD' | translate }}
-       </ion-col>
+      </ion-col>
     </ion-row>
     <ion-row>
       <ion-col col-12 class="leftAndMiddle fontSizeTo18 colorToBasic">
@@ -73,9 +73,9 @@
       </ion-col>
     </ion-row>
     <ion-row>
-       <ion-col col-12 class="leftAndMiddle fontSizeTo25 colorToBasic fontToBold">
-         {{ 'GENAPP.DESC' | translate }}
-       </ion-col>
+      <ion-col col-12 class="leftAndMiddle fontSizeTo25 colorToBasic fontToBold">
+        {{ 'GENAPP.DESC' | translate }}
+      </ion-col>
     </ion-row>
     <ion-row>
       <ion-col col-12 class="leftAndMiddle fontSizeTo18 colorToBasic">
@@ -105,5 +105,10 @@
       </ion-col>
     </ion-row>
 
+    <ion-row>
+      <ion-col col-12 class="bottomPaddingAdvBanner">
+
+      </ion-col>
+    </ion-row>
   </ion-grid>
 </ion-content>

@@ -84,7 +84,6 @@ export class GF {
             return;
         }
         this.setAdMobIds();
-        //this.showBanner();
         this.showInterstitial();
     }
 

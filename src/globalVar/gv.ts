@@ -8,6 +8,8 @@ export interface IGV {
     DEPLOY_CHANNEL: string;
     ADMOB_MAX_NUMBER: number;
     admobCount: number;
+    isDisableVideoAdv: boolean;
+    isDisableInterAdv: boolean;
     gLangInd: string;
     gPageInd: string;
     myAppItemList: AppItem[];
@@ -57,12 +59,15 @@ export interface IGV {
 export const IGV: IGV = {
 
     // Change it to false when production
-    isTestingAdmob: false,
+    isTestingAdmob: true,
     DEPLOY_CHANNEL: 'dev',
     // Change it to false when production
 
     ADMOB_MAX_NUMBER: 8,
     admobCount: 8,
+
+    isDisableVideoAdv: false,
+    isDisableInterAdv: false,
 
     gLangInd: '',
     gPageInd: '',

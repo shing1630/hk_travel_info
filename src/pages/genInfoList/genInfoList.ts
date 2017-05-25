@@ -27,6 +27,7 @@ export class GenInfoList {
     public accomInfoItemList: AccomInfoItemList,
     public accomAppItemList: AccomAppItemList, ) {
 
+    this.globalFunc.removeBanner();
     switch (this.IGV.gPageInd) {
       case 'transport': {
         this.infoItemList = null;

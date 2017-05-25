@@ -21,8 +21,6 @@ import { GenApp } from "./genApp/genApp";
 export class GenAppList {
   appItemList: AppItem[] = [];
 
-  @ViewChild(Content) content: Content;
-
   constructor( @Inject(OT_GV) public IGV: IGV,
     public globalFunc: GF,
     public alertCtrl: AlertController,
@@ -30,6 +28,7 @@ export class GenAppList {
     public navParams: NavParams,
     public navCtrl: NavController) {
 
+    this.globalFunc.removeBanner();
     this.appItemList = navParams.get('selectedAppItemList');
     // Set My Favourite flag
     // for (let appItem of this.appItemList) {
@@ -38,18 +37,7 @@ export class GenAppList {
 
   }
 
-  ngAfterViewInit() {
-    this.content.ionScrollEnd.subscribe(($event: any) => {
-      if (this.content.getContentDimensions().scrollTop
-        + this.content.getContentDimensions().contentHeight
-        >= this.content.getContentDimensions().scrollHeight) {
-        this.globalFunc.removeBanner();
-      }
-    });
-  }
-
   itemTapped(event, selectedAppItem) {
-    this.globalFunc.removeBanner();
     this.navCtrl.push(GenApp, {
       selectedAppItem: selectedAppItem
     });

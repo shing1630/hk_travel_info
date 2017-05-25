@@ -1,5 +1,4 @@
-import { Component, Inject, ViewChild } from '@angular/core';
-import { Content } from 'ionic-angular';
+import { Component, Inject } from '@angular/core';
 
 import { OT_GV, IGV } from './../../globalVar/gv';
 import { GF } from './../../globalFunc/gf';
@@ -10,21 +9,11 @@ import { GF } from './../../globalFunc/gf';
 })
 export class HomePage {
 
-  @ViewChild(Content) content: Content;
-
   constructor(
     @Inject(OT_GV) public IGV: IGV,
     public globalFunc: GF
-  ) {}
-
-  ngAfterViewInit() {
-    this.content.ionScrollEnd.subscribe(($event: any) => {
-      if (this.content.getContentDimensions().scrollTop
-        + this.content.getContentDimensions().contentHeight
-        >= this.content.getContentDimensions().scrollHeight) {
-        this.globalFunc.removeBanner();
-      }
-    });
+  ) {
+    this.globalFunc.showBanner();
   }
 
   openPage(page: string) {

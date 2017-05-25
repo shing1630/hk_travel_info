@@ -21,6 +21,7 @@ export class GenApp {
     public storage: Storage,
     public navParams: NavParams) {
 
+    this.globalFunc.showBanner();
     this.selectedAppItem = navParams.get('selectedAppItem');
   }
 

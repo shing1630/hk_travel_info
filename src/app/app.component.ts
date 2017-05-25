@@ -117,12 +117,10 @@ export class MyApp {
 
   menuClosed() {
     //code to execute when menu has closed
-    //this.globalFunc.showBanner();
   }
 
   menuOpened() {
     //code to execute when menu ha opened
-    //this.globalFunc.removeBanner();
   }
 
   openPage(page, pageInd) {

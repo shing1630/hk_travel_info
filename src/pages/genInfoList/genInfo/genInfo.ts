@@ -14,6 +14,7 @@ import { GenAppList } from "../../genAppList/genAppList";
 })
 export class GenInfo {
   selectedInfoItem: InfoItem;
+  // @ViewChild(Content) content: Content;
 
   constructor( @Inject(OT_GV) public IGV: IGV,
     public platform: Platform,
@@ -22,9 +23,19 @@ export class GenInfo {
     public storage: Storage,
     public navCtrl: NavController,
     public navParams: NavParams) {
-
+    
+    this.globalFunc.showBanner();
     this.selectedInfoItem = navParams.get('selectedInfoItem');
   }
+
+  // ngAfterViewInit() {
+  //   this.content.ionScrollEnd.subscribe(($event: any) => {
+  //     if (this.content.getContentDimensions().scrollTop
+  //       + this.content.getContentDimensions().contentHeight
+  //       >= this.content.getContentDimensions().scrollHeight) {
+  //     }
+  //   });
+  // }
 
   appReviewTapped(event, selectedAppItemList) {
     this.navCtrl.push(GenAppList, {
