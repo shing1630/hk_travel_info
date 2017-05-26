@@ -38,6 +38,7 @@ export class GenAppList {
   }
 
   itemTapped(event, selectedAppItem) {
+    this.globalFunc.showInterstitial();
     this.navCtrl.push(GenApp, {
       selectedAppItem: selectedAppItem
     });

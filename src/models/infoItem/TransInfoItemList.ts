@@ -17,7 +17,7 @@ export class TransInfoItemList {
         accomInfoItem.infoHeaderEN=	'Mass Transit Railway'
         accomInfoItem.infoHeaderCN=	'港铁 MTR'
         accomInfoItem.infoHeaderZH=	'港鐵 MTR'
-        accomInfoItem.infoLogo=	'https://vgy.me/PdUDgn.png'
+        accomInfoItem.infoLogo=	'assets/img/info/train.png'
         accomInfoItem.info1Flag=	true
         accomInfoItem.info1DescEN=	'Taxis of Hong Kong provide a taxi system. Although a few taxis are independently owned and operated, the vast majority are owned by 17 independent taxi companies that rent out taxis on a shift basis to 40,000 self-employed drivers.'
         accomInfoItem.info1DescCN=	'香港的士，即香港的出租车，“的士”一字是从出租车的英语“Taxi”音译出来的。乘客上车后指明目的地，司机直接驾驶前往，是方便快捷的公共交通工具。车费根据车程及等候时间而定，而存放行李、电话召唤出租车及使用收费道路等则需缴付附加费用。香港各区设有不少出租车站供乘客等候出租车，而部分停车禁区亦设有一些出租车专用的上落客位置。'

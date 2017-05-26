@@ -63,8 +63,8 @@ export const IGV: IGV = {
     DEPLOY_CHANNEL: 'dev',
     // Change it to false when production
 
-    ADMOB_MAX_NUMBER: 8,
-    admobCount: 8,
+    ADMOB_MAX_NUMBER: 10,
+    admobCount: 10,
 
     isDisableVideoAdv: false,
     isDisableInterAdv: false,
