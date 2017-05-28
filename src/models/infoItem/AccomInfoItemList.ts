@@ -54,8 +54,8 @@ export class AccomInfoItemList {
         accomInfoItem.info7DescZH=	''
         accomInfoItem.info7Pic=	''
         accomInfoItem.infoAppFlag=	true
-        accomInfoItem.appItemIdlist.push('A001', 'A002');
-        accomInfoItem.appItemlist=	null;
+        accomInfoItem.appItemIdList.push('A001', 'A002');
+        accomInfoItem.appItemList=	null;
 
         this.list.push(accomInfoItem);
         accomInfoItem = new InfoItem();

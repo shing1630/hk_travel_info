@@ -32,6 +32,7 @@ import { EnterAppItemList } from './../models/appItem/EnterAppItemList';
 import { UtilityAppItemList } from './../models/appItem/UtilityAppItemList';
 import { AccomInfoItemList } from "../models/infoItem/AccomInfoItemList";
 import { GenInfo } from "../pages/genInfoList/genInfo/genInfo";
+import { TransInfoItemList } from "../models/infoItem/TransInfoItemList";
 
 const cloudSettings: CloudSettings = {
   'core': {
@@ -83,11 +84,12 @@ const cloudSettings: CloudSettings = {
     Market,
     StatusBar,
     SplashScreen,
+    TransInfoItemList,
     TransAppItemList,
     DiningAppItemList,
     WeatherAppItemList,
-    AccomAppItemList,
     AccomInfoItemList,
+    AccomAppItemList,
     ShopAppItemList,
     EnterAppItemList,
     UtilityAppItemList

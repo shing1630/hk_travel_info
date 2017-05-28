@@ -56,7 +56,7 @@ export class InfoItem {
     info7Pic: string;
 
     infoAppFlag: boolean;
-    appItemIdlist: Array<String> = new Array();
-    appItemlist: Array<AppItem> = new Array();
+    appItemIdList: Array<String> = new Array();
+    appItemList: Array<AppItem> = new Array();
     
 }

@@ -7,8 +7,13 @@ import { OT_GV, IGV } from './../globalVar/gv';
 export class IsShowAppItem {
   constructor( @Inject(OT_GV) public IGV: IGV) { }
   transform(value) {
-    return value.filter((appItem)=> {
-      return ((this.IGV.isIOS && appItem.iosFlag) || (this.IGV.isAndroid && appItem.androidFlag))
-    });
+    if(typeof value != 'undefined'){
+       return value.filter((appItem)=> {
+       return ((this.IGV.isIOS && appItem.iosFlag) || (this.IGV.isAndroid && appItem.androidFlag))
+      });
+    }else{
+      return false;
+    }
+   
   }
 }

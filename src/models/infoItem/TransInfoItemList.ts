@@ -12,53 +12,53 @@ export class TransInfoItemList {
 
     init() {
 
-        let accomInfoItem = new InfoItem();
-        accomInfoItem.id=	'IT001'
-        accomInfoItem.infoHeaderEN=	'Mass Transit Railway'
-        accomInfoItem.infoHeaderCN=	'港铁 MTR'
-        accomInfoItem.infoHeaderZH=	'港鐵 MTR'
-        accomInfoItem.infoLogo=	'assets/img/info/train.png'
-        accomInfoItem.info1Flag=	true
-        accomInfoItem.info1DescEN=	'Taxis of Hong Kong provide a taxi system. Although a few taxis are independently owned and operated, the vast majority are owned by 17 independent taxi companies that rent out taxis on a shift basis to 40,000 self-employed drivers.'
-        accomInfoItem.info1DescCN=	'香港的士，即香港的出租车，“的士”一字是从出租车的英语“Taxi”音译出来的。乘客上车后指明目的地，司机直接驾驶前往，是方便快捷的公共交通工具。车费根据车程及等候时间而定，而存放行李、电话召唤出租车及使用收费道路等则需缴付附加费用。香港各区设有不少出租车站供乘客等候出租车，而部分停车禁区亦设有一些出租车专用的上落客位置。'
-        accomInfoItem.info1DescZH=	'香港的士，即香港的的士，「的士」一字是從計程車的英語「Taxi」音譯出來的。乘客上車後指明目的地，司機直接駕駛前往，是方便快捷的公共交通工具。車費根據車程及等候時間而定，而存放行李、電話召喚的士及使用收費道路等則需繳付附加費用。香港各區設有不少的士站供乘客等候的士，而部分停車禁區亦設有一些的士專用的上落客位置。'
-        accomInfoItem.info1Pic=	'https://vgy.me/GMohI1.jpeg'
-        accomInfoItem.info2Flag=	true
-        accomInfoItem.info2DescEN=	''
-        accomInfoItem.info2DescCN=	''
-        accomInfoItem.info2DescZH=	''
-        accomInfoItem.info2Pic=	'https://vgy.me/FenAPG.jpeg'
-        accomInfoItem.info3Flag=	false
-        accomInfoItem.info3DescEN=	''
-        accomInfoItem.info3DescCN=	'IA001'
-        accomInfoItem.info3DescZH=	''
-        accomInfoItem.info3Pic=	''
-        accomInfoItem.info4Flag=	false
-        accomInfoItem.info4DescEN=	''
-        accomInfoItem.info4DescCN=	''
-        accomInfoItem.info4DescZH=	''
-        accomInfoItem.info5Pic=	''
-        accomInfoItem.info5Flag=	false
-        accomInfoItem.info5DescEN=	''
-        accomInfoItem.info5DescCN=	''
-        accomInfoItem.info5DescZH=	''
-        accomInfoItem.info5Pic=	''
-        accomInfoItem.info6Flag=	false
-        accomInfoItem.info6DescEN=	''
-        accomInfoItem.info6DescCN=	''
-        accomInfoItem.info6DescZH=	''
-        accomInfoItem.info6Pic=	''
-        accomInfoItem.info7Flag=	false
-        accomInfoItem.info7DescEN=	''
-        accomInfoItem.info7DescCN=	''
-        accomInfoItem.info7DescZH=	''
-        accomInfoItem.info7Pic=	''
-        accomInfoItem.infoAppFlag=	true
-        accomInfoItem.appItemIdlist.push('A001', 'A002');
-        accomInfoItem.appItemlist=	null;
+        let transInfoItem = new InfoItem();
+        transInfoItem.id=	'IT001'
+        transInfoItem.infoHeaderEN=	'Mass Transit Railway'
+        transInfoItem.infoHeaderCN=	'港铁 MTR'
+        transInfoItem.infoHeaderZH=	'港鐵 MTR'
+        transInfoItem.infoLogo=	'assets/img/info/train.png'
+        transInfoItem.info1Flag=	true
+        transInfoItem.info1DescEN=	'Single Journey Ticket Fare ranged from HK$4.5 to HK$10. If crossing harbour (Hong Kong Island to Kowloon), fare ranged from HK$9 to HK$30'
+        transInfoItem.info1DescCN=	'单程票价从 HK$4.5至 HK$10不等。过海港（港岛至九龙）的票价为港币 HK$9至 HK$30'
+        transInfoItem.info1DescZH=	'單程票價從 HK$4.5到 HK$10不等。 過海港（港島至九龍）的票價為港幣HK$9至HK$30'
+        transInfoItem.info1Pic=	'https://vgy.me/xsXUwq.png'
+        transInfoItem.info2Flag=	true
+        transInfoItem.info2DescEN=	'Using Octopus card (electronic payment) instead of Single Journey Ticket can enjoy discount up to HK$3.'
+        transInfoItem.info2DescCN=	'使用八达通（电子收费）而不是单程票可享受高达HK $ 3的折扣。'
+        transInfoItem.info2DescZH=	'使用八達通（電子收費）而不是單程票可享受高達 HK$3的折扣。'
+        transInfoItem.info2Pic=	'https://vgy.me/2EebIe.jpg'
+        transInfoItem.info3Flag=	false
+        transInfoItem.info3DescEN=	''
+        transInfoItem.info3DescCN=	'IA001'
+        transInfoItem.info3DescZH=	''
+        transInfoItem.info3Pic=	''
+        transInfoItem.info4Flag=	false
+        transInfoItem.info4DescEN=	''
+        transInfoItem.info4DescCN=	''
+        transInfoItem.info4DescZH=	''
+        transInfoItem.info5Pic=	''
+        transInfoItem.info5Flag=	false
+        transInfoItem.info5DescEN=	''
+        transInfoItem.info5DescCN=	''
+        transInfoItem.info5DescZH=	''
+        transInfoItem.info5Pic=	''
+        transInfoItem.info6Flag=	false
+        transInfoItem.info6DescEN=	''
+        transInfoItem.info6DescCN=	''
+        transInfoItem.info6DescZH=	''
+        transInfoItem.info6Pic=	''
+        transInfoItem.info7Flag=	false
+        transInfoItem.info7DescEN=	''
+        transInfoItem.info7DescCN=	''
+        transInfoItem.info7DescZH=	''
+        transInfoItem.info7Pic=	''
+        transInfoItem.infoAppFlag=	true
+        transInfoItem.appItemIdList.push("T001", "T002");
+        transInfoItem.appItemList=	null
 
-        this.list.push(accomInfoItem);
-        accomInfoItem = new InfoItem();
+        this.list.push(transInfoItem);
+        transInfoItem = new InfoItem();
     }
 
 }

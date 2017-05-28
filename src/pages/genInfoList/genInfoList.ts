@@ -9,6 +9,8 @@ import { AccomInfoItemList } from "../../models/infoItem/AccomInfoItemList";
 import { InfoItem } from "../../models/infoItem/InfoItem";
 import { AccomAppItemList } from "../../models/appItem/AccomAppItemList";
 import { GenInfo } from "./genInfo/genInfo";
+import { TransInfoItemList } from "../../models/infoItem/TransInfoItemList";
+import { TransAppItemList } from "../../models/appItem/TransAppItemList";
 
 @Component({
   selector: 'genInfoList',
@@ -25,12 +27,17 @@ export class GenInfoList {
     public storage: Storage,
     public navCtrl: NavController,
     public accomInfoItemList: AccomInfoItemList,
-    public accomAppItemList: AccomAppItemList, ) {
+    public accomAppItemList: AccomAppItemList, 
+    public transInfoItemList: TransInfoItemList,
+    public transAppItemList: TransAppItemList,) {
 
     this.globalFunc.removeBanner();
     switch (this.IGV.gPageInd) {
       case 'transport': {
-        this.infoItemList = null;
+        this.infoItemList = transInfoItemList.list;
+        this.infoItemList.forEach(infoItem => {
+          infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, transAppItemList.list);
+        });
         break;
       }
       case 'dining': {
@@ -44,7 +51,7 @@ export class GenInfoList {
       case 'accommodation': {
         this.infoItemList = accomInfoItemList.list;
         this.infoItemList.forEach(infoItem => {
-          infoItem.appItemlist = this.getAppItemList(infoItem.appItemIdlist, accomAppItemList.list);
+          infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, accomAppItemList.list);
         });
         break;
       }
@@ -74,9 +81,9 @@ export class GenInfoList {
     });
   }
 
-  getAppItemList(appItemIdlist: Array<String>, appItemList: Array<AppItem>) {
+  getAppItemList(appItemIdList: Array<String>, appItemList: Array<AppItem>) {
     let resultlist: Array<AppItem> = new Array();
-    appItemIdlist.forEach(appItemId => {
+    appItemIdList.forEach(appItemId => {
       appItemList.forEach(appItem => {
         if(appItemId === appItem.id){
           resultlist.push(appItem);

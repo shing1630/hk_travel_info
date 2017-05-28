@@ -24,11 +24,11 @@
                 {{selectedInfoItem.info1DescCN}}
             </ion-col>
             <ion-col col-12 class="centerAndMiddle">
-                <ion-img [width]="300" [height]="532" [src]="selectedInfoItem.info1Pic"></ion-img>
+                <ion-img style="width: 100%; height: 100%;" 
+                         class="containToNone" [src]="selectedInfoItem.info1Pic">
+                </ion-img>
             </ion-col>
-            <ion-col col-12 class="centerAndMiddle">
-                <ion-item-divider>
-                </ion-item-divider>
+            <ion-col col-12 class="divider">
             </ion-col>
         </ion-row>
 
@@ -44,11 +44,11 @@
                 {{selectedInfoItem.info2DescCN}}
             </ion-col>
             <ion-col col-12 class="centerAndMiddle">
-                <ion-img [width]="300" [height]="532" [src]="selectedInfoItem.info2Pic"></ion-img>
+                <ion-img style="width: 100%; height: 100%;" 
+                         class="containToNone" [src]="selectedInfoItem.info2Pic">
+                </ion-img>
             </ion-col>
-            <ion-col col-12 class="centerAndMiddle">
-                <ion-item-divider>
-                </ion-item-divider>
+            <ion-col col-12 class="divider">
             </ion-col>
         </ion-row>
 
@@ -64,11 +64,11 @@
                 {{selectedInfoItem.info3DescCN}}
             </ion-col>
             <ion-col col-12 class="centerAndMiddle">
-                <ion-img [width]="300" [height]="532" [src]="selectedInfoItem.info3Pic"></ion-img>
+                <ion-img style="width: 100%; height: 100%;" 
+                         class="containToNone" [src]="selectedInfoItem.info3Pic">
+                </ion-img>
             </ion-col>
-            <ion-col col-12 class="centerAndMiddle">
-                <ion-item-divider>
-                </ion-item-divider>
+            <ion-col col-12 class="divider">
             </ion-col>
         </ion-row>
 
@@ -84,11 +84,11 @@
                 {{selectedInfoItem.info4DescCN}}
             </ion-col>
             <ion-col col-12 class="centerAndMiddle">
-                <ion-img [width]="300" [height]="532" [src]="selectedInfoItem.info4Pic"></ion-img>
+                <ion-img style="width: 100%; height: 100%;" 
+                         class="containToNone" [src]="selectedInfoItem.info4Pic">
+                </ion-img>
             </ion-col>
-            <ion-col col-12 class="centerAndMiddle">
-                <ion-item-divider>
-                </ion-item-divider>
+            <ion-col col-12 class="divider">
             </ion-col>
         </ion-row>
 
@@ -104,11 +104,11 @@
                 {{selectedInfoItem.info5DescCN}}
             </ion-col>
             <ion-col col-12 class="centerAndMiddle">
-                <ion-img [width]="300" [height]="532" [src]="selectedInfoItem.info5Pic"></ion-img>
+                <ion-img style="width: 100%; height: 100%;" 
+                         class="containToNone" [src]="selectedInfoItem.info5Pic">
+                </ion-img>
             </ion-col>
-            <ion-col col-12 class="centerAndMiddle">
-                <ion-item-divider>
-                </ion-item-divider>
+            <ion-col col-12 class="divider">
             </ion-col>
         </ion-row>
 
@@ -124,11 +124,11 @@
                 {{selectedInfoItem.info6DescCN}}
             </ion-col>
             <ion-col col-12 class="centerAndMiddle">
-                <ion-img [width]="300" [height]="532" [src]="selectedInfoItem.info6Pic"></ion-img>
+                <ion-img style="width: 100%; height: 100%;" 
+                         class="containToNone" [src]="selectedInfoItem.info6Pic">
+                </ion-img>
             </ion-col>
-            <ion-col col-12 class="centerAndMiddle">
-                <ion-item-divider>
-                </ion-item-divider>
+            <ion-col col-12 class="divider">
             </ion-col>
         </ion-row>
 
@@ -144,17 +144,17 @@
                 {{selectedInfoItem.info7DescCN}}
             </ion-col>
             <ion-col col-12 class="centerAndMiddle">
-                <ion-img [width]="300" [height]="532" [src]="selectedInfoItem.info7Pic"></ion-img>
+                <ion-img style="width: 100%; height: 100%;" 
+                         class="containToNone" [src]="selectedInfoItem.info7Pic">
+                </ion-img>
             </ion-col>
-            <ion-col col-12 class="centerAndMiddle">
-                <ion-item-divider>
-                </ion-item-divider>
+            <ion-col col-12 class="divider">
             </ion-col>
         </ion-row>
 
         <ion-row *ngIf="selectedInfoItem.infoAppFlag">
             <ion-col col-12 class="centerAndMiddle">
-                <button ion-button full (click)="appReviewTapped($event, selectedInfoItem.appItemlist)"> 
+                <button ion-button full (click)="appReviewTapped($event, selectedInfoItem.appItemList)"> 
             {{ 'GENINFO.RELATED_APP_REVIEW' | translate }}
           </button>
             </ion-col>
@@ -162,7 +162,6 @@
 
         <ion-row>
             <ion-col col-12 class="bottomPaddingAdvBanner">
-
             </ion-col>
         </ion-row>
 
