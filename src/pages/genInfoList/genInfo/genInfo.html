@@ -11,9 +11,11 @@
 
 <ion-content>
     <ion-grid class="fontSizeTo18">
-
         <ion-row *ngIf="selectedInfoItem.info1Flag">
             <img width="45" height="45" src="assets/img/info/1.png">
+            <div *ngIf="IGV.gLangInd === 'zh'" class="infoHeader">{{selectedInfoItem.info1HdrZH}}</div>
+            <div *ngIf="IGV.gLangInd === 'en'" class="infoHeader">{{selectedInfoItem.info1HdrEN}}</div>
+            <div *ngIf="IGV.gLangInd === 'cn'" class="infoHeader">{{selectedInfoItem.info1HdrCN}}</div>
             <ion-col *ngIf="IGV.gLangInd === 'zh'" col-12 class="leftAndMiddle">
                 {{selectedInfoItem.info1DescZH}}
             </ion-col>
@@ -24,9 +26,8 @@
                 {{selectedInfoItem.info1DescCN}}
             </ion-col>
             <ion-col col-12 class="centerAndMiddle">
-                <ion-img style="width: 100%; height: 100%;" 
-                         class="containToNone" [src]="selectedInfoItem.info1Pic">
-                </ion-img>
+                <img style="width: 100%; height: 100%; min-height:45px;" 
+                         class="infoImgLoader" [src]="selectedInfoItem.info1Pic">
             </ion-col>
             <ion-col col-12 class="divider">
             </ion-col>
@@ -34,6 +35,9 @@
 
         <ion-row *ngIf="selectedInfoItem.info2Flag">
             <img width="45" height="45" src="assets/img/info/2.png">
+            <div *ngIf="IGV.gLangInd === 'zh'" class="infoHeader">{{selectedInfoItem.info2HdrZH}}</div>
+            <div *ngIf="IGV.gLangInd === 'en'" class="infoHeader">{{selectedInfoItem.info2HdrEN}}</div>
+            <div *ngIf="IGV.gLangInd === 'cn'" class="infoHeader">{{selectedInfoItem.info2HdrCN}}</div>
             <ion-col *ngIf="IGV.gLangInd === 'zh'" col-12 class="leftAndMiddle">
                 {{selectedInfoItem.info2DescZH}}
             </ion-col>
@@ -44,9 +48,8 @@
                 {{selectedInfoItem.info2DescCN}}
             </ion-col>
             <ion-col col-12 class="centerAndMiddle">
-                <ion-img style="width: 100%; height: 100%;" 
-                         class="containToNone" [src]="selectedInfoItem.info2Pic">
-                </ion-img>
+                <img style="width: 100%; height: 100%; min-height:45px;" 
+                         class="infoImgLoader" [src]="selectedInfoItem.info2Pic">
             </ion-col>
             <ion-col col-12 class="divider">
             </ion-col>
@@ -54,6 +57,9 @@
 
         <ion-row *ngIf="selectedInfoItem.info3Flag">
             <img width="45" height="45" src="assets/img/info/3.png">
+            <div *ngIf="IGV.gLangInd === 'zh'" class="infoHeader">{{selectedInfoItem.info3HdrZH}}</div>
+            <div *ngIf="IGV.gLangInd === 'en'" class="infoHeader">{{selectedInfoItem.info3HdrEN}}</div>
+            <div *ngIf="IGV.gLangInd === 'cn'" class="infoHeader">{{selectedInfoItem.info3HdrCN}}</div>
             <ion-col *ngIf="IGV.gLangInd === 'zh'" col-12 class="leftAndMiddle">
                 {{selectedInfoItem.info3DescZH}}
             </ion-col>
@@ -64,9 +70,8 @@
                 {{selectedInfoItem.info3DescCN}}
             </ion-col>
             <ion-col col-12 class="centerAndMiddle">
-                <ion-img style="width: 100%; height: 100%;" 
-                         class="containToNone" [src]="selectedInfoItem.info3Pic">
-                </ion-img>
+                <img style="width: 100%; height: 100%; min-height:45px;" 
+                         class="infoImgLoader" [src]="selectedInfoItem.info3Pic">
             </ion-col>
             <ion-col col-12 class="divider">
             </ion-col>
@@ -74,6 +79,9 @@
 
         <ion-row *ngIf="selectedInfoItem.info4Flag">
             <img width="45" height="45" src="assets/img/info/4.png">
+            <div *ngIf="IGV.gLangInd === 'zh'" class="infoHeader">{{selectedInfoItem.info4HdrZH}}</div>
+            <div *ngIf="IGV.gLangInd === 'en'" class="infoHeader">{{selectedInfoItem.info4HdrEN}}</div>
+            <div *ngIf="IGV.gLangInd === 'cn'" class="infoHeader">{{selectedInfoItem.info4HdrCN}}</div>
             <ion-col *ngIf="IGV.gLangInd === 'zh'" col-12 class="leftAndMiddle">
                 {{selectedInfoItem.info4DescZH}}
             </ion-col>
@@ -84,9 +92,8 @@
                 {{selectedInfoItem.info4DescCN}}
             </ion-col>
             <ion-col col-12 class="centerAndMiddle">
-                <ion-img style="width: 100%; height: 100%;" 
-                         class="containToNone" [src]="selectedInfoItem.info4Pic">
-                </ion-img>
+                <img style="width: 100%; height: 100%; min-height:45px;" 
+                         class="infoImgLoader" [src]="selectedInfoItem.info4Pic">
             </ion-col>
             <ion-col col-12 class="divider">
             </ion-col>
@@ -94,6 +101,9 @@
 
         <ion-row *ngIf="selectedInfoItem.info5Flag">
             <img width="45" height="45" src="assets/img/info/5.png">
+            <div *ngIf="IGV.gLangInd === 'zh'" class="infoHeader">{{selectedInfoItem.info5HdrZH}}</div>
+            <div *ngIf="IGV.gLangInd === 'en'" class="infoHeader">{{selectedInfoItem.info5HdrEN}}</div>
+            <div *ngIf="IGV.gLangInd === 'cn'" class="infoHeader">{{selectedInfoItem.info5HdrCN}}</div>
             <ion-col *ngIf="IGV.gLangInd === 'zh'" col-12 class="leftAndMiddle">
                 {{selectedInfoItem.info5DescZH}}
             </ion-col>
@@ -104,9 +114,8 @@
                 {{selectedInfoItem.info5DescCN}}
             </ion-col>
             <ion-col col-12 class="centerAndMiddle">
-                <ion-img style="width: 100%; height: 100%;" 
-                         class="containToNone" [src]="selectedInfoItem.info5Pic">
-                </ion-img>
+                <img style="width: 100%; height: 100%; min-height:45px;" 
+                         class="infoImgLoader" [src]="selectedInfoItem.info5Pic">
             </ion-col>
             <ion-col col-12 class="divider">
             </ion-col>
@@ -114,6 +123,9 @@
 
         <ion-row *ngIf="selectedInfoItem.info6Flag">
             <img width="45" height="45" src="assets/img/info/6.png">
+            <div *ngIf="IGV.gLangInd === 'zh'" class="infoHeader">{{selectedInfoItem.info6HdrZH}}</div>
+            <div *ngIf="IGV.gLangInd === 'en'" class="infoHeader">{{selectedInfoItem.info6HdrEN}}</div>
+            <div *ngIf="IGV.gLangInd === 'cn'" class="infoHeader">{{selectedInfoItem.info6HdrCN}}</div>
             <ion-col *ngIf="IGV.gLangInd === 'zh'" col-12 class="leftAndMiddle">
                 {{selectedInfoItem.info6DescZH}}
             </ion-col>
@@ -124,9 +136,8 @@
                 {{selectedInfoItem.info6DescCN}}
             </ion-col>
             <ion-col col-12 class="centerAndMiddle">
-                <ion-img style="width: 100%; height: 100%;" 
-                         class="containToNone" [src]="selectedInfoItem.info6Pic">
-                </ion-img>
+                <img style="width: 100%; height: 100%; min-height:45px;" 
+                         class="infoImgLoader" [src]="selectedInfoItem.info6Pic">
             </ion-col>
             <ion-col col-12 class="divider">
             </ion-col>
@@ -134,6 +145,9 @@
 
         <ion-row *ngIf="selectedInfoItem.info7Flag">
             <img width="45" height="45" src="assets/img/info/7.png">
+            <div *ngIf="IGV.gLangInd === 'zh'" class="infoHeader">{{selectedInfoItem.info7HdrZH}}</div>
+            <div *ngIf="IGV.gLangInd === 'en'" class="infoHeader">{{selectedInfoItem.info7HdrEN}}</div>
+            <div *ngIf="IGV.gLangInd === 'cn'" class="infoHeader">{{selectedInfoItem.info7HdrCN}}</div>
             <ion-col *ngIf="IGV.gLangInd === 'zh'" col-12 class="leftAndMiddle">
                 {{selectedInfoItem.info7DescZH}}
             </ion-col>
@@ -144,9 +158,8 @@
                 {{selectedInfoItem.info7DescCN}}
             </ion-col>
             <ion-col col-12 class="centerAndMiddle">
-                <ion-img style="width: 100%; height: 100%;" 
-                         class="containToNone" [src]="selectedInfoItem.info7Pic">
-                </ion-img>
+                <img style="width: 100%; height: 100%; min-height:45px;" 
+                         class="infoImgLoader" [src]="selectedInfoItem.info7Pic">
             </ion-col>
             <ion-col col-12 class="divider">
             </ion-col>

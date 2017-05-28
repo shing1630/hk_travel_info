@@ -62,7 +62,7 @@ const cloudSettings: CloudSettings = {
       deps: [Http]
     }),
     CloudModule.forRoot(cloudSettings),
-    IonicStorageModule.forRoot(),
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
