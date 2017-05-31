@@ -56,7 +56,7 @@
     </ion-row>
     <ion-row>
       <ion-col col-12 class="leftAndMiddle fontSizeTo25 colorToBasic fontToBold">
-        {{ 'GENAPP.EDITOR_WORD' | translate }}
+        {{ 'GENAPP.REVIEW' | translate }}
       </ion-col>
     </ion-row>
     <ion-row>
@@ -72,7 +72,7 @@
         </div>
       </ion-col>
     </ion-row>
-    <ion-row>
+    <!--<ion-row>
       <ion-col col-12 class="leftAndMiddle fontSizeTo25 colorToBasic fontToBold">
         {{ 'GENAPP.DESC' | translate }}
       </ion-col>
@@ -86,7 +86,7 @@
         <div [innerHTML]="selectedAppItem.descZH" *ngIf="IGV.gLangInd === 'zh'">
         </div>
       </ion-col>
-    </ion-row>
+    </ion-row>-->
     <ion-row *ngIf="selectedAppItem.funFactFlag">
       <ion-col col-12 class="centerAndMiddle">
         <ion-img [src]="selectedAppItem.funFactPic1"></ion-img>
