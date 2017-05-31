@@ -17,7 +17,7 @@ export class TransInfoItemList {
         transInfoItem.infoHeaderEN = 'Train'
         transInfoItem.infoHeaderCN = '铁路'
         transInfoItem.infoHeaderZH = '鐵路'
-        transInfoItem.infoLogo = 'assets/img/info/train.png'
+        transInfoItem.infoLogo = 'assets/img/info/trans/train.png'
         transInfoItem.info1Flag = true
         transInfoItem.info1HdrEN = 'Ticket Fare'
         transInfoItem.info1HdrCN = '票价'
@@ -76,6 +76,74 @@ export class TransInfoItemList {
         transInfoItem.info7Pic = ''
         transInfoItem.infoAppFlag = true
         transInfoItem.appItemIdList.push("T001", "T002");
+        transInfoItem.appItemList = null
+
+        this.list.push(transInfoItem);
+        transInfoItem = new InfoItem();
+
+        transInfoItem.id = 'IT002'
+        transInfoItem.infoHeaderEN = 'Bus'
+        transInfoItem.infoHeaderCN = '巴士'
+        transInfoItem.infoHeaderZH = '巴士'
+        transInfoItem.infoLogo = 'assets/img/info/trans/bus.png'
+        transInfoItem.info1Flag = true
+        transInfoItem.info1HdrEN = 'Bus Companies'
+        transInfoItem.info1HdrCN = '巴士公司'
+        transInfoItem.info1HdrZH = '巴士公司'
+        transInfoItem.info1DescEN = 'Three major bus companies operate franchised public bus services - 1. Kowloon Motor Bus provides Kowloon and the New Territories, and operates cross-harbour tunnel routes. 2. Citybus Limited provides Hong Kong Island, cross-harbour routes. 3. New World First Bus provides Hong Kong Island, cross-harbour routes.'
+        transInfoItem.info1DescCN = '三大巴士公司特许经营公共巴士服务 - 1.九龙巴士(简称九巴)营运九龙，新界及过海隧道路线。2.城巴有限公司(简称城巴)营运香港岛及过海路线。3.新世界第一巴士(简称新巴)营运香港岛及过海路线。'
+        transInfoItem.info1DescZH = '三大巴士公司特許經營公共巴士服務 - 1.九龍巴士(簡稱九巴)營運九龍，新界及過海隧道路線。2.城巴有限公司(簡稱城巴)營運香港島及過海路線。3.新世界第一巴士(簡稱新巴)營運香港島及過海路線。'
+        transInfoItem.info1Pic = 'https://vgy.me/budT5Q.jpg'
+        transInfoItem.info2Flag = true
+        transInfoItem.info2HdrEN = 'How to ride'
+        transInfoItem.info2HdrCN = '乘搭方法'
+        transInfoItem.info2HdrZH = '乘搭方法'
+        transInfoItem.info2DescEN = 'Boarding in the front door. Self-service ticketing and no change is given (Better use Octopus Card). When near destination stop, press the BELL buttons and get off through the rear door.'
+        transInfoItem.info2DescCN = '前门登车，将车资投入箱中，不设找续（建议使用八达通）。当接近目的地前，按BELL车铃，由後门下车。'
+        transInfoItem.info2DescZH = '前門登車，將車資投入箱中，不設找續（建議使用八達通）。當接近目的地前，按BELL車鈴，由後門下車。'
+        transInfoItem.info2Pic = 'https://vgy.me/HpgaDX.jpg'
+        transInfoItem.info3Flag = true
+        transInfoItem.info3HdrEN = 'Airport Bus'
+        transInfoItem.info3HdrCN = '机场巴士'
+        transInfoItem.info3HdrZH = '機場巴士'
+        transInfoItem.info3DescEN = 'Route number A prefix (A11, A20) and E (E23, E33) prefix are airport bus. A prefix route is faster than E prefix but E prefix is cheaper (popular with airport workers).'
+        transInfoItem.info3DescCN = '路线为A字首（A11，A20）和路线为E字首（E23，E33）是机场巴士。 A字首比E字首快，但E字首比A字首便宜（受机场工作人员欢迎）。'
+        transInfoItem.info3DescZH = '路線為A字首（A11，A20）和路線為E字首（E23，E33）是機場巴士。 A字首比E字首快，但E字首比A字首便宜（受機場工作人員歡迎）。'
+        transInfoItem.info3Pic = 'https://vgy.me/F7UfR6.jpg'
+        transInfoItem.info4Flag = true
+        transInfoItem.info4HdrEN = 'Bus Fare'
+        transInfoItem.info4HdrCN = '巴士票价'
+        transInfoItem.info4HdrZH = '巴士票價'
+        transInfoItem.info4DescEN = 'Bus fare ranged from HK$4 to HK$50. Average fare is around HK$7. Check the fare in related apps or on bus stop signs.'
+        transInfoItem.info4DescCN = '巴士票价由HK$4至HK$50不等。平均票价约HK$7。可在相关应用程序或巴士车站查询票价。'
+        transInfoItem.info4DescZH = '巴士票價由HK$4至HK$50不等。平均票價約HK$7。可在相關應用程序或巴士車站查詢票價。'
+        transInfoItem.info4Pic = 'https://vgy.me/F7UfR6.jpg'
+        transInfoItem.info5Flag = false
+        transInfoItem.info5HdrEN = ''
+        transInfoItem.info5HdrCN = ''
+        transInfoItem.info5HdrZH = ''
+        transInfoItem.info5DescEN = ''
+        transInfoItem.info5DescCN = ''
+        transInfoItem.info5DescZH = ''
+        transInfoItem.info5Pic = ''
+        transInfoItem.info6Flag = false
+        transInfoItem.info6HdrEN = ''
+        transInfoItem.info6HdrCN = ''
+        transInfoItem.info6HdrZH = ''
+        transInfoItem.info6DescEN = ''
+        transInfoItem.info6DescCN = ''
+        transInfoItem.info6DescZH = ''
+        transInfoItem.info6Pic = ''
+        transInfoItem.info7Flag = false
+        transInfoItem.info7HdrEN = ''
+        transInfoItem.info7HdrCN = ''
+        transInfoItem.info7HdrZH = ''
+        transInfoItem.info7DescEN = ''
+        transInfoItem.info7DescCN = ''
+        transInfoItem.info7DescZH = ''
+        transInfoItem.info7Pic = ''
+        transInfoItem.infoAppFlag = true
+        transInfoItem.appItemIdList.push("T003", "T004", "T002", "T012");
         transInfoItem.appItemList = null
 
         this.list.push(transInfoItem);
