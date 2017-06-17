@@ -11,6 +11,16 @@ import { AccomAppItemList } from "../../models/appItem/AccomAppItemList";
 import { GenInfo } from "./genInfo/genInfo";
 import { TransInfoItemList } from "../../models/infoItem/TransInfoItemList";
 import { TransAppItemList } from "../../models/appItem/TransAppItemList";
+import { DiningInfoItemList } from "../../models/infoItem/DiningInfoItemList";
+import { WeatherInfoItemList } from "../../models/infoItem/WeatherInfoItemList";
+import { ShopInfoItemList } from "../../models/infoItem/ShopInfoItemList";
+import { EnterInfoItemList } from "../../models/infoItem/EnterInfoItemList";
+import { UtilityInfoItemList } from "../../models/infoItem/UtilityInfoItemList";
+import { DiningAppItemList } from "../../models/appItem/DiningAppItemList";
+import { WeatherAppItemList } from "../../models/appItem/WeatherAppItemList";
+import { ShopAppItemList } from "../../models/appItem/ShopAppItemList";
+import { EnterAppItemList } from "../../models/appItem/EnterAppItemList";
+import { UtilityAppItemList } from "../../models/appItem/UtilityAppItemList";
 
 @Component({
   selector: 'genInfoList',
@@ -26,10 +36,20 @@ export class GenInfoList {
     public alertCtrl: AlertController,
     public storage: Storage,
     public navCtrl: NavController,
-    public accomInfoItemList: AccomInfoItemList,
-    public accomAppItemList: AccomAppItemList, 
     public transInfoItemList: TransInfoItemList,
-    public transAppItemList: TransAppItemList,) {
+    public accomInfoItemList: AccomInfoItemList,
+    public diningInfoItemList: DiningInfoItemList,
+    public weatherInfoItemList: WeatherInfoItemList,
+    public shopInfoItemList: ShopInfoItemList,
+    public enterInfoItemList: EnterInfoItemList,
+    public utilityInfoItemList: UtilityInfoItemList,
+    public accomAppItemList: AccomAppItemList,
+    public transAppItemList: TransAppItemList,
+    public diningAppItemList: DiningAppItemList,
+    public weatherAppItemList: WeatherAppItemList,
+    public shopAppItemList: ShopAppItemList,
+    public enterAppItemList: EnterAppItemList,
+    public utilityAppItemList: UtilityAppItemList) {
 
     this.globalFunc.removeBanner();
     switch (this.IGV.gPageInd) {
@@ -41,11 +61,17 @@ export class GenInfoList {
         break;
       }
       case 'dining': {
-        this.infoItemList = null;
+        this.infoItemList = diningInfoItemList.list;
+        this.infoItemList.forEach(infoItem => {
+          infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, diningAppItemList.list);
+        });
         break;
       }
       case 'weather': {
-        this.infoItemList = null;
+        this.infoItemList = weatherInfoItemList.list;
+        this.infoItemList.forEach(infoItem => {
+          infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, weatherAppItemList.list);
+        });
         break;
       }
       case 'accommodation': {
@@ -56,15 +82,24 @@ export class GenInfoList {
         break;
       }
       case 'shopping': {
-        this.infoItemList = null;
+        this.infoItemList = shopInfoItemList.list;
+        this.infoItemList.forEach(infoItem => {
+          infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, shopAppItemList.list);
+        });
         break;
       }
       case 'entertainment': {
-        this.infoItemList = null;
+        this.infoItemList = enterInfoItemList.list;
+        this.infoItemList.forEach(infoItem => {
+          infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, enterAppItemList.list);
+        });
         break;
       }
       case 'utility': {
-        this.infoItemList = null;
+        this.infoItemList = utilityInfoItemList.list;
+        this.infoItemList.forEach(infoItem => {
+          infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, utilityAppItemList.list);
+        });
         break;
       }
       default: {
@@ -85,7 +120,7 @@ export class GenInfoList {
     let resultlist: Array<AppItem> = new Array();
     appItemIdList.forEach(appItemId => {
       appItemList.forEach(appItem => {
-        if(appItemId === appItem.id){
+        if (appItemId === appItem.id) {
           resultlist.push(appItem);
         }
       });

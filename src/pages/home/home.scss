@@ -1,13 +1,16 @@
 page-home {
 
 .homeBtn, .homeBtn.activated{
-    color: #382E1C;
-    background-color: #FFFFFF;
     min-width: 150px; 
     min-height:120px; 
     max-width: 150px;
     max-height:120px;
     box-shadow: none !important;
+}
+
+.mainBackground {
+    background-size: 100% 100%;
+    background: url("../assets/img/bg/night_1.jpg") no-repeat center center fixed;
 }
 
 }

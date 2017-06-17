@@ -33,6 +33,11 @@ import { UtilityAppItemList } from './../models/appItem/UtilityAppItemList';
 import { AccomInfoItemList } from "../models/infoItem/AccomInfoItemList";
 import { GenInfo } from "../pages/genInfoList/genInfo/genInfo";
 import { TransInfoItemList } from "../models/infoItem/TransInfoItemList";
+import { WeatherInfoItemList } from "../models/infoItem/WeatherInfoItemList";
+import { DiningInfoItemList } from "../models/infoItem/DiningInfoItemList";
+import { ShopInfoItemList } from "../models/infoItem/ShopInfoItemList";
+import { EnterInfoItemList } from "../models/infoItem/EnterInfoItemList";
+import { UtilityInfoItemList } from "../models/infoItem/UtilityInfoItemList";
 
 const cloudSettings: CloudSettings = {
   'core': {
@@ -85,10 +90,15 @@ const cloudSettings: CloudSettings = {
     StatusBar,
     SplashScreen,
     TransInfoItemList,
+    DiningInfoItemList,
+    WeatherInfoItemList,
+    AccomInfoItemList,
+    ShopInfoItemList,
+    EnterInfoItemList,
+    UtilityInfoItemList,
     TransAppItemList,
     DiningAppItemList,
     WeatherAppItemList,
-    AccomInfoItemList,
     AccomAppItemList,
     ShopAppItemList,
     EnterAppItemList,

@@ -111,8 +111,8 @@ $basicColor: #382E1C;
   // border-bottom: 1px solid #dedede;
 }
 
-ion-img {
-  background: transparent;
+ion-img, .transBg {
+  background: transparent !important;
 }
 
 // Override loading
