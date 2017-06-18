@@ -33,14 +33,20 @@ export class DiningInfoItemList {
         diningInfoItem.info2DescEN = 'Traditionally, Dim sum is ordered from trolleys that circulate around the restaurant. But nowadays, Dim sum is ordered from a paper menu that customers write down the number of each dim sum type and then pass it to staff for ordering.'
         diningInfoItem.info2DescCN = '传统上，点心手推车会在荼楼内游走，食客可在附近的手推车直接点选。但现在，大多数是从点心纸中点选每个点心类型的数量，再交给职员下单。'
         diningInfoItem.info2DescZH = '傳統上，點心手推車會在荼樓內遊走，食客可在附近的手推車直接點選。但現在，大多數是從點心紙中點選每個點心類型的數量，再交給職員下單。'
-        diningInfoItem.info2Pic = ''
+        diningInfoItem.info2Pic = ""
         diningInfoItem.info3Flag = true
         diningInfoItem.info3HdrEN = 'Extra Charge'
         diningInfoItem.info3HdrCN = '附加费'
         diningInfoItem.info3HdrZH = '附加費'
-        diningInfoItem.info3DescEN = 'There are extra charges in Cantonese restaurants. 1. Tea (Cover) charge around HK$6-20 per person. 2. 10% Service charge. Some restaurants may apply no service charge and no tea charge policies to attract customers.'
-        diningInfoItem.info3DescCN = '茶楼附加费。 茶位费每人约 HK$6-20。 2. 10％ 服务费。 一些餐厅可能不需要服务费，也不需要收取茶位费来吸引顾客。'
-        diningInfoItem.info3DescZH = '茶樓附加費。 茶位費每人約 HK$6-20。 2. 10％ 服務費。 一些餐廳可能不需要服務費，也不需要收取茶位費來吸引顧客。'
+        diningInfoItem.info3DescEN = `There are extra charges in Cantonese restaurants. <br>
+                                    1. Tea (Cover) charge around HK$6-20 per person. <br>
+                                    2. 10% Service charge. Some restaurants may apply no service charge and no tea charge policies to attract customers. `
+        diningInfoItem.info3DescCN = `茶楼附加费。<br>
+                                    1. 茶位费每人约 HK$6-20。 <br>
+                                    2. 10％ 服务费。 一些餐厅可能不需要服务费，也不需要收取茶位费来吸引顾客。`
+        diningInfoItem.info3DescZH = `茶樓附加費。<br>
+                                    1. 茶位費每人約 HK$6-20。 <br>
+                                    2. 10％ 服務費。 一些餐廳可能不需要服務費，也不需要收取茶位費來吸引顧客。`
         diningInfoItem.info3Pic = 'https://vgy.me/hkfx4S.jpg'
         diningInfoItem.info4Flag = false
         diningInfoItem.info4HdrEN = ''
@@ -77,8 +83,10 @@ export class DiningInfoItemList {
         diningInfoItem.infoAppFlag = true
         diningInfoItem.appItemIdList.push("D001", "D002", "D003");
         diningInfoItem.appItemList = null
+
         this.list.push(diningInfoItem);
         diningInfoItem = new InfoItem();
+
         diningInfoItem.id = 'ID002'
         diningInfoItem.infoHeaderEN = 'Street Food (Local Snacks)'
         diningInfoItem.infoHeaderCN = '街头小食'
@@ -96,25 +104,34 @@ export class DiningInfoItemList {
         diningInfoItem.info2HdrEN = 'Must eat - 1'
         diningInfoItem.info2HdrCN = '必吃 - 1'
         diningInfoItem.info2HdrZH = '必吃 - 1'
-        diningInfoItem.info2DescEN = 'Fishballs: Made from fish-paste and usually served in curry. Egg waffles: Made from Eggs, sugar, flour, evaporated milk. Also known as Bubble Waffle'
-        diningInfoItem.info2DescCN = '鱼蛋：由鱼肉加淀粉制成，通常以咖哩汤料烹调。 鸡蛋仔：以鸡蛋丶砂糖丶牛油丶面粉和淡奶制成。 制成後呈金黄色。'
-        diningInfoItem.info2DescZH = '魚蛋：由魚肉加澱粉製成，通常以咖哩湯料烹調。 雞蛋仔：以雞蛋、砂糖、牛油、麵粉和淡奶製成。 製成後呈金黃色。'
+        diningInfoItem.info2DescEN = `Fishballs: Made from fish-paste and usually served in curry. <br>
+                                    Egg waffles: Made from Eggs, sugar, flour, evaporated milk. Also known as Bubble Waffle. `
+        diningInfoItem.info2DescCN = `鱼蛋：由鱼肉加淀粉制成，通常以咖哩汤料烹调。 <br>
+                                    鸡蛋仔：以鸡蛋丶砂糖丶牛油丶面粉和淡奶制成。 制成後呈金黄色。`
+        diningInfoItem.info2DescZH = `魚蛋：由魚肉加澱粉制成，通常以咖哩湯料烹調。 <br>
+                                    雞蛋仔：以雞蛋、砂糖、牛油、面粉和淡奶制成。 制成後呈金黃色。`
         diningInfoItem.info2Pic = 'https://vgy.me/PONG0q.jpg'
         diningInfoItem.info3Flag = true
         diningInfoItem.info3HdrEN = 'Must eat - 2'
         diningInfoItem.info3HdrCN = '必吃 - 2'
         diningInfoItem.info3HdrZH = '必吃 - 2'
-        diningInfoItem.info3DescEN = 'Siu mai: Usually made from fish meat and pork. Different from the dim sum served in Cantonese restaurants. Egg tarts: Usually made from a rich custard (Flour, butter, sugar, egg, milk).'
-        diningInfoItem.info3DescCN = '烧卖：通常由鱼肉和猪肉制成。 不同於茶楼的点心。 蛋挞：通常由丰富的奶油（面粉，黄油，糖，蛋，牛奶）制成。'
-        diningInfoItem.info3DescZH = '燒賣：通常由魚肉和豬肉製成。 不同於茶樓的點心。 蛋撻：通常由豐富的奶油（麵粉，黃油，糖，蛋，牛奶）製成。'
+        diningInfoItem.info3DescEN = `Siu mai: Usually made from fish meat and pork. Different from the dim sum served in Cantonese restaurants. <br>
+                                    Egg tarts: Usually made from a rich custard (Flour, butter, sugar, egg, milk). `
+        diningInfoItem.info3DescCN = `烧卖：通常由鱼肉和猪肉制成。 不同於茶楼的点心。<br>
+                                    蛋挞：通常由丰富的奶油（面粉，黄油，糖，蛋，牛奶）制成。`
+        diningInfoItem.info3DescZH = `燒賣：通常由魚肉和豬肉制成。 不同於茶樓的點心。<br>
+                                    蛋撻：通常由豐富的奶油（面粉，黃油，糖，蛋，牛奶）制成。`
         diningInfoItem.info3Pic = 'https://vgy.me/FQj8vl.jpg'
         diningInfoItem.info4Flag = true
         diningInfoItem.info4HdrEN = 'Must eat - 3'
         diningInfoItem.info4HdrCN = '必吃 - 3'
         diningInfoItem.info4HdrZH = '必吃 - 3'
-        diningInfoItem.info4DescEN = 'Put chai ko: Usually made from steamed sugar with any one of the beans. Like pudding cake with palm size. Sweet in taste.  Stinky tofu: Made from fermented tofu. Deep-fried and has a strong odor.'
-        diningInfoItem.info4DescCN = '砵仔糕：以黄糖丶粘米粉等加入红豆造成。 一般以半碗为单位，味道甜，口感弹牙。 臭豆腐：由发酵豆腐制成。 油炸，气味强烈。'
-        diningInfoItem.info4DescZH = '砵仔糕：以黃糖、粘米粉等加入紅豆造成。 一般以半碗為單位，味道甜，口感彈牙。 臭豆腐：由發酵豆腐製成。 油炸，氣味強烈。'
+        diningInfoItem.info4DescEN = `Put chai ko: Usually made from steamed sugar with any one of the beans. Like pudding cake with palm size. Sweet in taste.  <br>
+                                    Stinky tofu: Made from fermented tofu. Deep-fried and has a strong odor. `
+        diningInfoItem.info4DescCN = `砵仔糕：以黄糖丶粘米粉等加入红豆造成。 一般以半碗为单位，味道甜，口感弹牙。 <br>
+                                    臭豆腐：由发酵豆腐制成。 油炸，气味强烈。`
+        diningInfoItem.info4DescZH = `砵仔糕：以黃糖、粘米粉等加入紅豆造成。 一般以半碗為單位，味道甜，口感彈牙。 <br>
+                                    臭豆腐：由發酵豆腐制成。 油炸，氣味強烈。`
         diningInfoItem.info4Pic = 'https://vgy.me/sWUC8s.jpg'
         diningInfoItem.info5Flag = false
         diningInfoItem.info5HdrEN = ''

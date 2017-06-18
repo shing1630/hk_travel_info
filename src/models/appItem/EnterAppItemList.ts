@@ -210,6 +210,83 @@ export class EnterAppItemList {
         this.list.push(entertainmentAppItem);
         entertainmentAppItem = new AppItem();
 
+        entertainmentAppItem.id = 'E004'
+        entertainmentAppItem.iosFlag = true
+        entertainmentAppItem.androidFlag = true
+        entertainmentAppItem.goodFlag = true
+        entertainmentAppItem.hotFlag = false
+        entertainmentAppItem.saveFlag = false
+        entertainmentAppItem.nameEN = 'Ocean Park Hong Kong'
+        entertainmentAppItem.nameCN = '香港海洋公园'
+        entertainmentAppItem.nameZH = '香港海洋公園'
+        entertainmentAppItem.logoPic = 'https://vgy.me/o3slSi.jpg'
+        entertainmentAppItem.iosLink = 'https://appsto.re/hk/RTZbH.i'
+        entertainmentAppItem.androiLink = 'com.oceanpark.mobileapp'
+        entertainmentAppItem.iosPicEN1 = 'https://vgy.me/gPy75H.jpeg'
+        entertainmentAppItem.iosPicCN1 = 'https://vgy.me/GM1Ram.jpeg'
+        entertainmentAppItem.iosPicZH1 = 'https://vgy.me/GM1Ram.jpeg'
+        entertainmentAppItem.iosPicEN2 = 'https://vgy.me/4joprw.jpeg'
+        entertainmentAppItem.iosPicCN2 = 'https://vgy.me/6QnDaX.jpeg'
+        entertainmentAppItem.iosPicZH2 = 'https://vgy.me/6QnDaX.jpeg'
+        entertainmentAppItem.androidPicEN1 = 'https://vgy.me/n9W23Q.jpg'
+        entertainmentAppItem.androidPicCN1 = 'https://vgy.me/lMCArM.jpg'
+        entertainmentAppItem.androidPicZH1 = 'https://vgy.me/lMCArM.jpg'
+        entertainmentAppItem.androidPicEN2 = 'https://vgy.me/fYlwpu.jpg'
+        entertainmentAppItem.androidPicCN2 = 'https://vgy.me/MGfi8J.jpg'
+        entertainmentAppItem.androidPicZH2 = 'https://vgy.me/MGfi8J.jpg'
+        entertainmentAppItem.editorWordEN = 'It is an official app that provides Virtual Guided Tour, eCoupon, shows timetable and attractions queue time. Good interface and easy to use. Good to download if visit.'
+        entertainmentAppItem.editorWordCN = '一个官方应用程序，提供虚拟导览，电子优惠劵，表演时间表和景点排队时间。介面简单，容易操作。如到访,建议下载。'
+        entertainmentAppItem.editorWordZH = '一個官方應用程序，提供虛擬導覽，電子優惠劵，表演時間表和景點排隊時間。介面簡單，容易操作。如到訪,建議下載。'
+        entertainmentAppItem.descEN = ''
+        entertainmentAppItem.descCN = ''
+        entertainmentAppItem.descZH = ''
+        entertainmentAppItem.funFactFlag = false
+        entertainmentAppItem.funFactPic1 = ''
+        entertainmentAppItem.funFactPic2 = ''
+        entertainmentAppItem.funFactDescEN = ''
+        entertainmentAppItem.funFactDescCN = ''
+        entertainmentAppItem.funFactDescZH = ''
+
+        this.list.push(entertainmentAppItem);
+        entertainmentAppItem = new AppItem();
+
+        entertainmentAppItem.id = 'E005'
+        entertainmentAppItem.iosFlag = true
+        entertainmentAppItem.androidFlag = true
+        entertainmentAppItem.goodFlag = true
+        entertainmentAppItem.hotFlag = false
+        entertainmentAppItem.saveFlag = false
+        entertainmentAppItem.nameEN = 'Hong Kong Disneyland'
+        entertainmentAppItem.nameCN = '香港迪士尼乐园'
+        entertainmentAppItem.nameZH = '香港迪士尼樂園'
+        entertainmentAppItem.logoPic = 'https://vgy.me/1u4YOG.jpg'
+        entertainmentAppItem.iosLink = 'https://appsto.re/hk/54Hoab.i'
+        entertainmentAppItem.androiLink = 'com.disney.hongkongdisneyland_goo'
+        entertainmentAppItem.iosPicEN1 = 'https://vgy.me/qkZoDM.jpeg'
+        entertainmentAppItem.iosPicCN1 = 'https://vgy.me/LzzynS.jpeg'
+        entertainmentAppItem.iosPicZH1 = 'https://vgy.me/LzzynS.jpeg'
+        entertainmentAppItem.iosPicEN2 = 'https://vgy.me/lrSXNt.jpeg'
+        entertainmentAppItem.iosPicCN2 = 'https://vgy.me/GpHZq4.jpeg'
+        entertainmentAppItem.iosPicZH2 = 'https://vgy.me/GpHZq4.jpeg'
+        entertainmentAppItem.androidPicEN1 = 'https://vgy.me/s0iZsj.jpg'
+        entertainmentAppItem.androidPicCN1 = 'https://vgy.me/B5YL3M.jpg'
+        entertainmentAppItem.androidPicZH1 = 'https://vgy.me/kNet4o.jpg'
+        entertainmentAppItem.androidPicEN2 = 'https://vgy.me/UeTkXV.jpg'
+        entertainmentAppItem.androidPicCN2 = 'https://vgy.me/J4TyWV.jpg'
+        entertainmentAppItem.androidPicZH2 = 'https://vgy.me/zbewvI.jpg'
+        entertainmentAppItem.editorWordEN = 'It is an official app that provides attractions wait time, a GPS-enabled map, show schedules, restaurant and hotel reservations. Good interface and easy to use. Good to download if visit.'
+        entertainmentAppItem.editorWordCN = '一个官方应用程序，提供景点等待时间，GPS启用地图，表演时间表，餐厅和酒店预订。 良好的界面和易於使用。 如到访,建议下载。'
+        entertainmentAppItem.editorWordZH = '一個官方應用程序，提供景點等待時間，GPS啟用地圖，表演時間表，餐廳和酒店預訂。 良好的界面和易於使用。 如到訪,建議下載。'
+        entertainmentAppItem.descEN = ''
+        entertainmentAppItem.descCN = ''
+        entertainmentAppItem.descZH = ''
+        entertainmentAppItem.funFactFlag = false
+        entertainmentAppItem.funFactPic1 = ''
+        entertainmentAppItem.funFactPic2 = ''
+        entertainmentAppItem.funFactDescEN = ''
+        entertainmentAppItem.funFactDescCN = ''
+        entertainmentAppItem.funFactDescZH = ''
+
     }
 
 

@@ -62,13 +62,13 @@
     <ion-row>
       <ion-col col-12 class="leftAndMiddle fontSizeTo18 colorToBasic">
         <div *ngIf="IGV.gLangInd === 'en'">
-          {{selectedAppItem.editorWordEN}}
+          <div [innerHTML]="selectedAppItem.editorWordEN"></div>
         </div>
         <div *ngIf="IGV.gLangInd === 'cn'">
-          {{selectedAppItem.editorWordCN}}
+          <div [innerHTML]="selectedAppItem.editorWordCN"></div>
         </div>
         <div *ngIf="IGV.gLangInd === 'zh'">
-          {{selectedAppItem.editorWordZH}}
+          <div [innerHTML]="selectedAppItem.editorWordZH"></div>
         </div>
       </ion-col>
     </ion-row>

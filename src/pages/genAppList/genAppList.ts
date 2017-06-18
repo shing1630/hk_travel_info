@@ -1,17 +1,10 @@
-import { Component, Inject, ViewChild } from '@angular/core';
-import { NavController, Content, AlertController, NavParams } from 'ionic-angular';
+import { Component, Inject } from '@angular/core';
+import { NavController, AlertController, NavParams } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
 
 import { OT_GV, IGV } from './../../globalVar/gv';
 import { GF } from './../../globalFunc/gf';
 import { AppItem } from "./../../models/appItem/AppItem";
-import { TransAppItemList } from './../../models/appItem/TransAppItemList';
-import { DiningAppItemList } from './../../models/appItem/DiningAppItemList';
-import { WeatherAppItemList } from './../../models/appItem/WeatherAppItemList';
-import { AccomAppItemList } from './../../models/appItem/AccomAppItemList';
-import { ShopAppItemList } from './../../models/appItem/ShopAppItemList';
-import { EnterAppItemList } from './../../models/appItem/EnterAppItemList';
-import { UtilityAppItemList } from './../../models/appItem/UtilityAppItemList';
 import { GenApp } from "./genApp/genApp";
 
 @Component({

@@ -12,53 +12,151 @@ export class EnterInfoItemList {
 
     init() {
 
-        let accomInfoItem = new InfoItem();
-        accomInfoItem.id=	'IA001'
-        accomInfoItem.infoHeaderEN=	'Taxi'
-        accomInfoItem.infoHeaderCN=	'出租车'
-        accomInfoItem.infoHeaderZH=	'的士'
-        accomInfoItem.infoLogo=	'assets/img/info/train.png'
-        accomInfoItem.info1Flag=	true
-        accomInfoItem.info1DescEN=	'Taxis of Hong Kong provide a taxi system. Although a few taxis are independently owned and operated, the vast majority are owned by 17 independent taxi companies that rent out taxis on a shift basis to 40,000 self-employed drivers.'
-        accomInfoItem.info1DescCN=	'香港的士，即香港的出租车，“的士”一字是从出租车的英语“Taxi”音译出来的。乘客上车后指明目的地，司机直接驾驶前往，是方便快捷的公共交通工具。车费根据车程及等候时间而定，而存放行李、电话召唤出租车及使用收费道路等则需缴付附加费用。香港各区设有不少出租车站供乘客等候出租车，而部分停车禁区亦设有一些出租车专用的上落客位置。'
-        accomInfoItem.info1DescZH=	'香港的士，即香港的的士，「的士」一字是從計程車的英語「Taxi」音譯出來的。乘客上車後指明目的地，司機直接駕駛前往，是方便快捷的公共交通工具。車費根據車程及等候時間而定，而存放行李、電話召喚的士及使用收費道路等則需繳付附加費用。香港各區設有不少的士站供乘客等候的士，而部分停車禁區亦設有一些的士專用的上落客位置。'
-        accomInfoItem.info1Pic=	'https://vgy.me/GMohI1.jpeg'
-        accomInfoItem.info2Flag=	true
-        accomInfoItem.info2DescEN=	'Taxis of Hong Kong provide a taxi system. Although a few taxis are independently owned and operated, the vast majority are owned by 17 independent taxi companies that rent out taxis on a shift basis to 40,000 self-employed drivers.'
-        accomInfoItem.info2DescCN=	'香港的士，即香港的出租车，“的士”一字是从出租车的英语“Taxi”音译出来的。乘客上车后指明目的地，司机直接驾驶前往，是方便快捷的公共交通工具。车费根据车程及等候时间而定，而存放行李、电话召唤出租车及使用收费道路等则需缴付附加费用。香港各区设有不少出租车站供乘客等候出租车，而部分停车禁区亦设有一些出租车专用的上落客位置。'
-        accomInfoItem.info2DescZH=	'香港的士，即香港的的士，「的士」一字是從計程車的英語「Taxi」音譯出來的。乘客上車後指明目的地，司機直接駕駛前往，是方便快捷的公共交通工具。車費根據車程及等候時間而定，而存放行李、電話召喚的士及使用收費道路等則需繳付附加費用。香港各區設有不少的士站供乘客等候的士，而部分停車禁區亦設有一些的士專用的上落客位置。'
-        accomInfoItem.info2Pic=	'https://vgy.me/FenAPG.jpeg'
-        accomInfoItem.info3Flag=	false
-        accomInfoItem.info3DescEN=	''
-        accomInfoItem.info3DescCN=	'IA001'
-        accomInfoItem.info3DescZH=	''
-        accomInfoItem.info3Pic=	''
-        accomInfoItem.info4Flag=	false
-        accomInfoItem.info4DescEN=	''
-        accomInfoItem.info4DescCN=	''
-        accomInfoItem.info4DescZH=	''
-        accomInfoItem.info5Pic=	''
-        accomInfoItem.info5Flag=	false
-        accomInfoItem.info5DescEN=	''
-        accomInfoItem.info5DescCN=	''
-        accomInfoItem.info5DescZH=	''
-        accomInfoItem.info5Pic=	''
-        accomInfoItem.info6Flag=	false
-        accomInfoItem.info6DescEN=	''
-        accomInfoItem.info6DescCN=	''
-        accomInfoItem.info6DescZH=	''
-        accomInfoItem.info6Pic=	''
-        accomInfoItem.info7Flag=	false
-        accomInfoItem.info7DescEN=	''
-        accomInfoItem.info7DescCN=	''
-        accomInfoItem.info7DescZH=	''
-        accomInfoItem.info7Pic=	''
-        accomInfoItem.infoAppFlag=	true
-        accomInfoItem.appItemIdList.push('A001', 'A002');
-        accomInfoItem.appItemList=	null;
+        let enterInfoItem = new InfoItem();
+        enterInfoItem.id = 'IE001'
+        enterInfoItem.infoHeaderEN = 'Theme Park'
+        enterInfoItem.infoHeaderCN = '主题乐团'
+        enterInfoItem.infoHeaderZH = '主題樂團'
+        enterInfoItem.infoLogo = 'assets/img/info/entertain/park.png'
+        enterInfoItem.info1Flag = true
+        enterInfoItem.info1HdrEN = 'Ocean Park'
+        enterInfoItem.info1HdrCN = '海洋公园'
+        enterInfoItem.info1HdrZH = '海洋公園'
+        enterInfoItem.info1DescEN = 'Ocean Park is located on the southern side of Hong Kong Island. It is a marine-life theme park featuring animals, thrill rides and shows. Traveler can go there by MTR (Ocean Park Station).'
+        enterInfoItem.info1DescCN = '海洋公园位於港岛南面。 是一个海洋生物主题乐园，集娱乐丶表演及教育於一体。访客可以乘坐地铁（海洋公园站）去。'
+        enterInfoItem.info1DescZH = '海洋公園位於港島南面。 是一個海洋生物主題樂園，集娛樂、表演及教育於一體。訪客可以乘坐地鐵（海洋公園站）去。'
+        enterInfoItem.info1Pic = 'https://vgy.me/rjHFT6.jpg'
+        enterInfoItem.info2Flag = true
+        enterInfoItem.info2HdrEN = 'Hong Kong Disneyland'
+        enterInfoItem.info2HdrCN = '香港迪士尼乐园'
+        enterInfoItem.info2HdrZH = '香港迪士尼樂園'
+        enterInfoItem.info2DescEN = `Hong Kong Disneyland is located on reclaimed land in Penny's Bay, Lantau Island. <br>
+                                    The park consists of many themed areas: Main Street, U.S.A., Fantasyland, Adventureland, Tomorrowland, Grizzly Gulch, Mystic Point, Toy Story Land and Marvel area.`
+        enterInfoItem.info2DescCN = `香港迪士尼乐园是位於香港新界大屿山香港迪士尼乐园度假区。<br>
+                                    由许多主题区域组成：美国小镇大街丶探险世界丶幻想世界丶明日世界丶反斗奇兵大本营丶灰熊山谷丶迷离庄园及漫威主题区。`
+        enterInfoItem.info2DescZH = `香港迪士尼樂園是位於香港新界大嶼山香港迪士尼樂園度假區。<br>
+                                    由許多主題區域組成：美國小鎮大街、探險世界、幻想世界、明日世界、反斗奇兵大本營、灰熊山谷、迷離莊園及漫威主題區。`
+        enterInfoItem.info2Pic = 'https://vgy.me/DdH3Ve.jpg'
+        enterInfoItem.info3Flag = false
+        enterInfoItem.info3HdrEN = ''
+        enterInfoItem.info3HdrCN = ''
+        enterInfoItem.info3HdrZH = ''
+        enterInfoItem.info3DescEN = ''
+        enterInfoItem.info3DescCN = ''
+        enterInfoItem.info3DescZH = ''
+        enterInfoItem.info3Pic = ''
+        enterInfoItem.info4Flag = false
+        enterInfoItem.info4HdrEN = ''
+        enterInfoItem.info4HdrCN = ''
+        enterInfoItem.info4HdrZH = ''
+        enterInfoItem.info4DescEN = ''
+        enterInfoItem.info4DescCN = ''
+        enterInfoItem.info4DescZH = ''
+        enterInfoItem.info4Pic = ''
+        enterInfoItem.info5Flag = false
+        enterInfoItem.info5HdrEN = ''
+        enterInfoItem.info5HdrCN = ''
+        enterInfoItem.info5HdrZH = ''
+        enterInfoItem.info5DescEN = ''
+        enterInfoItem.info5DescCN = ''
+        enterInfoItem.info5DescZH = ''
+        enterInfoItem.info5Pic = ''
+        enterInfoItem.info6Flag = false
+        enterInfoItem.info6HdrEN = ''
+        enterInfoItem.info6HdrCN = ''
+        enterInfoItem.info6HdrZH = ''
+        enterInfoItem.info6DescEN = ''
+        enterInfoItem.info6DescCN = ''
+        enterInfoItem.info6DescZH = ''
+        enterInfoItem.info6Pic = ''
+        enterInfoItem.info7Flag = false
+        enterInfoItem.info7HdrEN = ''
+        enterInfoItem.info7HdrCN = ''
+        enterInfoItem.info7HdrZH = ''
+        enterInfoItem.info7DescEN = ''
+        enterInfoItem.info7DescCN = ''
+        enterInfoItem.info7DescZH = ''
+        enterInfoItem.info7Pic = ''
+        enterInfoItem.infoAppFlag = true
+        enterInfoItem.appItemIdList.push("");
+        enterInfoItem.appItemList = null
 
-        this.list.push(accomInfoItem);
-        accomInfoItem = new InfoItem();
+        this.list.push(enterInfoItem);
+        enterInfoItem = new InfoItem();
+
+        enterInfoItem.id = 'IE002'
+        enterInfoItem.infoHeaderEN = 'Hiking'
+        enterInfoItem.infoHeaderCN = '远足'
+        enterInfoItem.infoHeaderZH = '遠足'
+        enterInfoItem.infoLogo = 'assets/img/info/entertain/hiking.png'
+        enterInfoItem.info1Flag = true
+        enterInfoItem.info1HdrEN = 'Tung Chung to Tai O'
+        enterInfoItem.info1HdrCN = '东涌至大澳'
+        enterInfoItem.info1HdrZH = '東涌至大澳'
+        enterInfoItem.info1DescEN = `On Lantau Island, start at Tung Chung and end in Tai O. <br>
+                                    Pass temples and bays and a centuries-old fishing village.`
+        enterInfoItem.info1DescCN = `在大屿山，从东涌开始。<br>
+                                    在大澳结束，通过寺庙和海湾，以及数百年的渔村。`
+        enterInfoItem.info1DescZH = `在大嶼山，從東湧開始。<br>
+                                    在大澳結束，通過寺廟和海灣，以及數百年的漁村。`
+        enterInfoItem.info1Pic = 'https://vgy.me/VomsN7.jpg'
+        enterInfoItem.info2Flag = true
+        enterInfoItem.info2HdrEN = 'Lamma Island'
+        enterInfoItem.info2HdrCN = '南丫岛'
+        enterInfoItem.info2HdrZH = '南丫島'
+        enterInfoItem.info2DescEN = `On Lamma Island (traditional fishing village), start at Sok Kwu Wan and end in Yung Shue Wan. <br>
+                                    Pass temples and beaches and Lamma Winds (wind turbine).`
+        enterInfoItem.info2DescCN = `在南丫岛（传统渔村），从索鼓湾开始，在榕树湾结束。<br>
+                                    通过寺庙和海滩和南丫风采发电站（风力发电机）。`
+        enterInfoItem.info2DescZH = `在南丫島（傳統漁村），從索鼓灣開始，在榕樹灣結束。<br>
+                                    通過寺廟和海灘和南丫風采發電站（風力發電機）。`
+        enterInfoItem.info2Pic = 'https://vgy.me/HPoF9l.jpg'
+        enterInfoItem.info3Flag = true
+        enterInfoItem.info3HdrEN = 'Peak Circle Walk'
+        enterInfoItem.info3HdrCN = '山顶环回步行径'
+        enterInfoItem.info3HdrZH = '山頂環迴步行徑'
+        enterInfoItem.info3DescEN = `On The Peak, Peak Circle Walk provides different views around the highest point on Hong Kong Island.`
+        enterInfoItem.info3DescCN = `山顶上的山顶环回步行径提供港岛的不同景观。`
+        enterInfoItem.info3DescZH = `山頂上的山頂環迴步行徑提供港島的不同景觀。`
+        enterInfoItem.info3Pic = 'https://vgy.me/ujIO33.jpg'
+        enterInfoItem.info4Flag = false
+        enterInfoItem.info4HdrEN = ''
+        enterInfoItem.info4HdrCN = ''
+        enterInfoItem.info4HdrZH = ''
+        enterInfoItem.info4DescEN = ''
+        enterInfoItem.info4DescCN = ''
+        enterInfoItem.info4DescZH = ''
+        enterInfoItem.info4Pic = ''
+        enterInfoItem.info5Flag = false
+        enterInfoItem.info5HdrEN = ''
+        enterInfoItem.info5HdrCN = ''
+        enterInfoItem.info5HdrZH = ''
+        enterInfoItem.info5DescEN = ''
+        enterInfoItem.info5DescCN = ''
+        enterInfoItem.info5DescZH = ''
+        enterInfoItem.info5Pic = ''
+        enterInfoItem.info6Flag = false
+        enterInfoItem.info6HdrEN = ''
+        enterInfoItem.info6HdrCN = ''
+        enterInfoItem.info6HdrZH = ''
+        enterInfoItem.info6DescEN = ''
+        enterInfoItem.info6DescCN = ''
+        enterInfoItem.info6DescZH = ''
+        enterInfoItem.info6Pic = ''
+        enterInfoItem.info7Flag = false
+        enterInfoItem.info7HdrEN = ''
+        enterInfoItem.info7HdrCN = ''
+        enterInfoItem.info7HdrZH = ''
+        enterInfoItem.info7DescEN = ''
+        enterInfoItem.info7DescCN = ''
+        enterInfoItem.info7DescZH = ''
+        enterInfoItem.info7Pic = ''
+        enterInfoItem.infoAppFlag = true
+        enterInfoItem.appItemIdList.push("E002", "E003");
+        enterInfoItem.appItemList = null
+
+        this.list.push(enterInfoItem);
+        enterInfoItem = new InfoItem();
     }
 
 }

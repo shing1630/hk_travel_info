@@ -56,49 +56,63 @@ export class GenInfoList {
       case 'transport': {
         this.infoItemList = transInfoItemList.list;
         this.infoItemList.forEach(infoItem => {
-          infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, transAppItemList.list);
+          if (infoItem.infoAppFlag) {
+            infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, transAppItemList.list);
+          }
         });
         break;
       }
       case 'dining': {
         this.infoItemList = diningInfoItemList.list;
         this.infoItemList.forEach(infoItem => {
-          infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, diningAppItemList.list);
+          if (infoItem.infoAppFlag) {
+            infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, diningAppItemList.list);
+          }
         });
         break;
       }
       case 'weather': {
         this.infoItemList = weatherInfoItemList.list;
         this.infoItemList.forEach(infoItem => {
-          infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, weatherAppItemList.list);
+          if (infoItem.infoAppFlag) {
+            infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, weatherAppItemList.list);
+          }
         });
         break;
       }
       case 'accommodation': {
         this.infoItemList = accomInfoItemList.list;
         this.infoItemList.forEach(infoItem => {
-          infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, accomAppItemList.list);
+          if (infoItem.infoAppFlag) {
+            infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, accomAppItemList.list);
+          }
         });
         break;
       }
       case 'shopping': {
         this.infoItemList = shopInfoItemList.list;
         this.infoItemList.forEach(infoItem => {
-          infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, shopAppItemList.list);
+          if (infoItem.infoAppFlag) {
+            infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, shopAppItemList.list);
+          }
         });
         break;
       }
       case 'entertainment': {
         this.infoItemList = enterInfoItemList.list;
         this.infoItemList.forEach(infoItem => {
-          infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, enterAppItemList.list);
+          if (infoItem.infoAppFlag) {
+            infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, enterAppItemList.list);
+          }
         });
         break;
       }
       case 'utility': {
         this.infoItemList = utilityInfoItemList.list;
         this.infoItemList.forEach(infoItem => {
-          infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, utilityAppItemList.list);
+          if (infoItem.infoAppFlag) {
+            infoItem.appItemList = this.getAppItemList(infoItem.appItemIdList, utilityAppItemList.list);
+          }
         });
         break;
       }

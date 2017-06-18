@@ -12,53 +12,147 @@ export class UtilityInfoItemList {
 
     init() {
 
-        let accomInfoItem = new InfoItem();
-        accomInfoItem.id=	'IA001'
-        accomInfoItem.infoHeaderEN=	'Taxi'
-        accomInfoItem.infoHeaderCN=	'出租车'
-        accomInfoItem.infoHeaderZH=	'的士'
-        accomInfoItem.infoLogo=	'assets/img/info/train.png'
-        accomInfoItem.info1Flag=	true
-        accomInfoItem.info1DescEN=	'Taxis of Hong Kong provide a taxi system. Although a few taxis are independently owned and operated, the vast majority are owned by 17 independent taxi companies that rent out taxis on a shift basis to 40,000 self-employed drivers.'
-        accomInfoItem.info1DescCN=	'香港的士，即香港的出租车，“的士”一字是从出租车的英语“Taxi”音译出来的。乘客上车后指明目的地，司机直接驾驶前往，是方便快捷的公共交通工具。车费根据车程及等候时间而定，而存放行李、电话召唤出租车及使用收费道路等则需缴付附加费用。香港各区设有不少出租车站供乘客等候出租车，而部分停车禁区亦设有一些出租车专用的上落客位置。'
-        accomInfoItem.info1DescZH=	'香港的士，即香港的的士，「的士」一字是從計程車的英語「Taxi」音譯出來的。乘客上車後指明目的地，司機直接駕駛前往，是方便快捷的公共交通工具。車費根據車程及等候時間而定，而存放行李、電話召喚的士及使用收費道路等則需繳付附加費用。香港各區設有不少的士站供乘客等候的士，而部分停車禁區亦設有一些的士專用的上落客位置。'
-        accomInfoItem.info1Pic=	'https://vgy.me/GMohI1.jpeg'
-        accomInfoItem.info2Flag=	true
-        accomInfoItem.info2DescEN=	'Taxis of Hong Kong provide a taxi system. Although a few taxis are independently owned and operated, the vast majority are owned by 17 independent taxi companies that rent out taxis on a shift basis to 40,000 self-employed drivers.'
-        accomInfoItem.info2DescCN=	'香港的士，即香港的出租车，“的士”一字是从出租车的英语“Taxi”音译出来的。乘客上车后指明目的地，司机直接驾驶前往，是方便快捷的公共交通工具。车费根据车程及等候时间而定，而存放行李、电话召唤出租车及使用收费道路等则需缴付附加费用。香港各区设有不少出租车站供乘客等候出租车，而部分停车禁区亦设有一些出租车专用的上落客位置。'
-        accomInfoItem.info2DescZH=	'香港的士，即香港的的士，「的士」一字是從計程車的英語「Taxi」音譯出來的。乘客上車後指明目的地，司機直接駕駛前往，是方便快捷的公共交通工具。車費根據車程及等候時間而定，而存放行李、電話召喚的士及使用收費道路等則需繳付附加費用。香港各區設有不少的士站供乘客等候的士，而部分停車禁區亦設有一些的士專用的上落客位置。'
-        accomInfoItem.info2Pic=	'https://vgy.me/FenAPG.jpeg'
-        accomInfoItem.info3Flag=	false
-        accomInfoItem.info3DescEN=	''
-        accomInfoItem.info3DescCN=	'IA001'
-        accomInfoItem.info3DescZH=	''
-        accomInfoItem.info3Pic=	''
-        accomInfoItem.info4Flag=	false
-        accomInfoItem.info4DescEN=	''
-        accomInfoItem.info4DescCN=	''
-        accomInfoItem.info4DescZH=	''
-        accomInfoItem.info5Pic=	''
-        accomInfoItem.info5Flag=	false
-        accomInfoItem.info5DescEN=	''
-        accomInfoItem.info5DescCN=	''
-        accomInfoItem.info5DescZH=	''
-        accomInfoItem.info5Pic=	''
-        accomInfoItem.info6Flag=	false
-        accomInfoItem.info6DescEN=	''
-        accomInfoItem.info6DescCN=	''
-        accomInfoItem.info6DescZH=	''
-        accomInfoItem.info6Pic=	''
-        accomInfoItem.info7Flag=	false
-        accomInfoItem.info7DescEN=	''
-        accomInfoItem.info7DescCN=	''
-        accomInfoItem.info7DescZH=	''
-        accomInfoItem.info7Pic=	''
-        accomInfoItem.infoAppFlag=	true
-        accomInfoItem.appItemIdList.push('A001', 'A002');
-        accomInfoItem.appItemList=	null;
+        let utilityInfoItem = new InfoItem();
+        utilityInfoItem.id = 'IU001'
+        utilityInfoItem.infoHeaderEN = 'Wi-Fi'
+        utilityInfoItem.infoHeaderCN = 'Wi-Fi'
+        utilityInfoItem.infoHeaderZH = 'Wi-Fi'
+        utilityInfoItem.infoLogo = 'assets/img/info/utility/wifi.png'
+        utilityInfoItem.info1Flag = true
+        utilityInfoItem.info1HdrEN = 'Free Wi-Fi'
+        utilityInfoItem.info1HdrCN = '免费Wi-Fi'
+        utilityInfoItem.info1HdrZH = '免費Wi-Fi'
+        utilityInfoItem.info1DescEN = `There are many Wi-Fi.HK in Hong Kong such as major tourist attractions, shopping malls, parks and government buildings, which offer free Wi-Fi service for a period of time.  `
+        utilityInfoItem.info1DescCN = `香港有很多Wi-Fi.HK，如主要的旅游景点，商场，公园和政府大楼，会提供一段时间的免费Wi-Fi服务。`
+        utilityInfoItem.info1DescZH = `香港有很多Wi-Fi.HK，如主要的旅遊景點，商場，公園和政府大樓，會提供一段時間的免費Wi-Fi服務。`
+        utilityInfoItem.info1Pic = 'https://vgy.me/DRLomY.jpg'
+        utilityInfoItem.info2Flag = false
+        utilityInfoItem.info2HdrEN = ''
+        utilityInfoItem.info2HdrCN = ''
+        utilityInfoItem.info2HdrZH = ''
+        utilityInfoItem.info2DescEN = ''
+        utilityInfoItem.info2DescCN = ''
+        utilityInfoItem.info2DescZH = ''
+        utilityInfoItem.info2Pic = ''
+        utilityInfoItem.info3Flag = false
+        utilityInfoItem.info3HdrEN = ''
+        utilityInfoItem.info3HdrCN = ''
+        utilityInfoItem.info3HdrZH = ''
+        utilityInfoItem.info3DescEN = ''
+        utilityInfoItem.info3DescCN = ''
+        utilityInfoItem.info3DescZH = ''
+        utilityInfoItem.info3Pic = ''
+        utilityInfoItem.info4Flag = false
+        utilityInfoItem.info4HdrEN = ''
+        utilityInfoItem.info4HdrCN = ''
+        utilityInfoItem.info4HdrZH = ''
+        utilityInfoItem.info4DescEN = ''
+        utilityInfoItem.info4DescCN = ''
+        utilityInfoItem.info4DescZH = ''
+        utilityInfoItem.info4Pic = ''
+        utilityInfoItem.info5Flag = false
+        utilityInfoItem.info5HdrEN = ''
+        utilityInfoItem.info5HdrCN = ''
+        utilityInfoItem.info5HdrZH = ''
+        utilityInfoItem.info5DescEN = ''
+        utilityInfoItem.info5DescCN = ''
+        utilityInfoItem.info5DescZH = ''
+        utilityInfoItem.info5Pic = ''
+        utilityInfoItem.info6Flag = false
+        utilityInfoItem.info6HdrEN = ''
+        utilityInfoItem.info6HdrCN = ''
+        utilityInfoItem.info6HdrZH = ''
+        utilityInfoItem.info6DescEN = ''
+        utilityInfoItem.info6DescCN = ''
+        utilityInfoItem.info6DescZH = ''
+        utilityInfoItem.info6Pic = ''
+        utilityInfoItem.info7Flag = false
+        utilityInfoItem.info7HdrEN = ''
+        utilityInfoItem.info7HdrCN = ''
+        utilityInfoItem.info7HdrZH = ''
+        utilityInfoItem.info7DescEN = ''
+        utilityInfoItem.info7DescCN = ''
+        utilityInfoItem.info7DescZH = ''
+        utilityInfoItem.info7Pic = ''
+        utilityInfoItem.infoAppFlag = true
+        utilityInfoItem.appItemIdList.push("U004", "U005");
+        utilityInfoItem.appItemList = null
 
-        this.list.push(accomInfoItem);
-        accomInfoItem = new InfoItem();
+        this.list.push(utilityInfoItem);
+        utilityInfoItem = new InfoItem();
+
+        utilityInfoItem.id = 'IU002'
+        utilityInfoItem.infoHeaderEN = 'Toilet (Washroom)'
+        utilityInfoItem.infoHeaderCN = '洗手间 (卫生间)'
+        utilityInfoItem.infoHeaderZH = '洗手間 (衛生間)'
+        utilityInfoItem.infoLogo = 'assets/img/info/utility/toilet.png'
+        utilityInfoItem.info1Flag = true
+        utilityInfoItem.info1HdrEN = 'Public Toilet'
+        utilityInfoItem.info1HdrCN = '公众厕所'
+        utilityInfoItem.info1HdrZH = '公眾廁所'
+        utilityInfoItem.info1DescEN = `No paid toilet in Hong Kong.<br>
+                                        All malls, hotels and tourist attractions have toilets for public use.<br>
+                                        However, However, some restaurants provide toilets for their customers only.`
+        utilityInfoItem.info1DescCN = `香港没有付费厕所。<br>
+                                        所有商场，酒店和旅游景点都有厕所供公众使用。<br>
+                                        然而，一些餐厅只为客户提供厕所。`
+        utilityInfoItem.info1DescZH = `香港沒有付費廁所。<br>
+                                        所有商場，酒店和旅遊景點都有廁所供公眾使用。<br>
+                                        然而，一些餐廳只為客戶提供廁所。`
+        utilityInfoItem.info1Pic = 'https://vgy.me/dJRkvv.jpg'
+        utilityInfoItem.info2Flag = false
+        utilityInfoItem.info2HdrEN = ''
+        utilityInfoItem.info2HdrCN = ''
+        utilityInfoItem.info2HdrZH = ''
+        utilityInfoItem.info2DescEN = ''
+        utilityInfoItem.info2DescCN = ''
+        utilityInfoItem.info2DescZH = ''
+        utilityInfoItem.info2Pic = ''
+        utilityInfoItem.info3Flag = false
+        utilityInfoItem.info3HdrEN = ''
+        utilityInfoItem.info3HdrCN = ''
+        utilityInfoItem.info3HdrZH = ''
+        utilityInfoItem.info3DescEN = ''
+        utilityInfoItem.info3DescCN = ''
+        utilityInfoItem.info3DescZH = ''
+        utilityInfoItem.info3Pic = ''
+        utilityInfoItem.info4Flag = false
+        utilityInfoItem.info4HdrEN = ''
+        utilityInfoItem.info4HdrCN = ''
+        utilityInfoItem.info4HdrZH = ''
+        utilityInfoItem.info4DescEN = ''
+        utilityInfoItem.info4DescCN = ''
+        utilityInfoItem.info4DescZH = ''
+        utilityInfoItem.info4Pic = ''
+        utilityInfoItem.info5Flag = false
+        utilityInfoItem.info5HdrEN = ''
+        utilityInfoItem.info5HdrCN = ''
+        utilityInfoItem.info5HdrZH = ''
+        utilityInfoItem.info5DescEN = ''
+        utilityInfoItem.info5DescCN = ''
+        utilityInfoItem.info5DescZH = ''
+        utilityInfoItem.info5Pic = ''
+        utilityInfoItem.info6Flag = false
+        utilityInfoItem.info6HdrEN = ''
+        utilityInfoItem.info6HdrCN = ''
+        utilityInfoItem.info6HdrZH = ''
+        utilityInfoItem.info6DescEN = ''
+        utilityInfoItem.info6DescCN = ''
+        utilityInfoItem.info6DescZH = ''
+        utilityInfoItem.info6Pic = ''
+        utilityInfoItem.info7Flag = false
+        utilityInfoItem.info7HdrEN = ''
+        utilityInfoItem.info7HdrCN = ''
+        utilityInfoItem.info7HdrZH = ''
+        utilityInfoItem.info7DescEN = ''
+        utilityInfoItem.info7DescCN = ''
+        utilityInfoItem.info7DescZH = ''
+        utilityInfoItem.info7Pic = ''
+        utilityInfoItem.infoAppFlag = true
+        utilityInfoItem.appItemIdList.push("U002", "U003");
+        utilityInfoItem.appItemList = null
+        this.list.push(utilityInfoItem);
+        utilityInfoItem = new InfoItem();
     }
 
 }

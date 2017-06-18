@@ -88,9 +88,18 @@ export class TransInfoItemList {
         transInfoItem.info1HdrEN = 'Bus Companies'
         transInfoItem.info1HdrCN = '巴士公司'
         transInfoItem.info1HdrZH = '巴士公司'
-        transInfoItem.info1DescEN = 'Three major bus companies operate franchised public bus services - 1. Kowloon Motor Bus provides Kowloon and the New Territories, and operates cross-harbour tunnel routes. 2. Citybus Limited provides Hong Kong Island, cross-harbour routes. 3. New World First Bus provides Hong Kong Island, cross-harbour routes.'
-        transInfoItem.info1DescCN = '三大巴士公司特许经营公共巴士服务 - 1.九龙巴士(简称九巴)营运九龙，新界及过海隧道路线。2.城巴有限公司(简称城巴)营运香港岛及过海路线。3.新世界第一巴士(简称新巴)营运香港岛及过海路线。'
-        transInfoItem.info1DescZH = '三大巴士公司特許經營公共巴士服務 - 1.九龍巴士(簡稱九巴)營運九龍，新界及過海隧道路線。2.城巴有限公司(簡稱城巴)營運香港島及過海路線。3.新世界第一巴士(簡稱新巴)營運香港島及過海路線。'
+        transInfoItem.info1DescEN = `Three major bus companies operate franchised public bus services <br> 
+                                    1. Kowloon Motor Bus provides Kowloon and the New Territories, and operates cross-harbour tunnel routes. <br>
+                                    2. Citybus Limited provides Hong Kong Island, cross-harbour routes. <br>
+                                    3. New World First Bus provides Hong Kong Island, cross-harbour routes.`
+        transInfoItem.info1DescCN = `三大巴士公司特许经营公共巴士服务 <br>
+                                    1. 九龙巴士(简称九巴)营运九龙，新界及过海隧道路线<br>
+                                    2. 城巴有限公司(简称城巴)营运香港岛及过海路线。<br>
+                                    3. 新世界第一巴士(简称新巴)营运香港岛及过海路线。`
+        transInfoItem.info1DescZH = `三大巴士公司特許經營公共巴士服務 <br>
+                                    1. 九龍巴士(簡稱九巴)營運九龍，新界及過海隧道路線<br>
+                                    2. 城巴有限公司(簡稱城巴)營運香港島及過海路線。<br>
+                                    3. 新世界第一巴士(簡稱新巴)營運香港島及過海路線。`
         transInfoItem.info1Pic = 'https://vgy.me/budT5Q.jpg'
         transInfoItem.info2Flag = true
         transInfoItem.info2HdrEN = 'How to ride'
@@ -120,9 +129,18 @@ export class TransInfoItemList {
         transInfoItem.info5HdrEN = 'Sightseeing Bus'
         transInfoItem.info5HdrCN = '观光巴士'
         transInfoItem.info5HdrZH = '觀光巴士'
-        transInfoItem.info5DescEN = 'If you stay in Hong Kong only for 1 or 2 days, the sightseeing bus may help you to feel the city in a short time. There are two sightseeing bus services provided: 1. Big Bus Tours (More routes, recorded commentary in ten languages) 2. Rickshaw Sightseeing Bus (Cheaper, provided single trip)'
-        transInfoItem.info5DescCN = '如果您只在香港逗留一至两天，可乘坐观光巴士，於短时间内感受到这个城市。 两种观光巴士提供服务：1. 大巴士公司（路线多，十国语言的电子导游）2.人力车观光巴士（便宜，提供单程）'
-        transInfoItem.info5DescZH = '如果您只在香港逗留一至兩天，可乘坐觀光巴士，於短時間內感受到這個城市。 兩種觀光巴士提供服務：1. 大巴士公司（路線多，十國語言的電子導遊）2.人力車觀光巴士（便宜，提供單程）'
+        transInfoItem.info5DescEN = `If you stay in Hong Kong only for 1 or 2 days, the sightseeing bus may help you to feel the city in a short time. <br>
+                                    There are two sightseeing bus services provided: <br>
+                                    1. Big Bus Tours (More routes, recorded commentary in ten languages) <br>
+                                    2. Rickshaw Sightseeing Bus (Cheaper, provided single trip)`
+        transInfoItem.info5DescCN = `如果您只在香港逗留一至两天，可乘坐观光巴士，於短时间内感受到这个城市。 <br>
+                                    两种观光巴士提供服务：<br>
+                                    1. 大巴士公司（路线多，十国语言的电子导游）<br>
+                                    2. 人力车观光巴士（便宜，提供单程）`
+        transInfoItem.info5DescZH = `如果您只在香港逗留一至兩天，可乘坐觀光巴士，於短時間內感受到這個城市。 <br>
+                                    兩種觀光巴士提供服務：<br>
+                                    1. 大巴士公司（路線多，十國語言的電子導游）<br>
+                                    2. 人力車觀光巴士（便宜，提供單程）`
         transInfoItem.info5Pic = 'https://vgy.me/dgXBQF.jpg'
         transInfoItem.info6Flag = false
         transInfoItem.info6HdrEN = ''
@@ -220,17 +238,53 @@ export class TransInfoItemList {
         transInfoItem.info1HdrEN = 'Taxi type'
         transInfoItem.info1HdrCN = '的士类型'
         transInfoItem.info1HdrZH = '的士類型'
-        transInfoItem.info1DescEN = 'Three are three types of taxis are defined by the service areas. 1. Urban taxi (Red): serve all areas of New Territories, Kowloon and Hong Kong Island. 2. New Territories taxi (Green): serve only parts of the New Territories. 3. Lantau taxi (Blue): serve Lantau Island.'
-        transInfoItem.info1DescCN = '香港的士(出租车)分为三个类型。1. 市区的士(红色)：行走新界，九龙及港岛区。 2.新界的士（绿色）：只为新界的部分地区服务。 3. 大屿山的士（蓝色）：行走大屿山。'
-        transInfoItem.info1DescZH = '香港的士(計程車)分為三個類型。1. 市區的士(紅色)：行走新界，九龍及港島區。 2.新界的士（綠色）：只為新界的部分地區服務。 3. 大嶼山的士（藍色）：行走大嶼山。'
+        transInfoItem.info1DescEN = `Three are three types of taxis are defined by the service areas. <br>
+                                    1. Urban taxi (Red): serve all areas of New Territories, Kowloon and Hong Kong Island. <br>
+                                    2. New Territories taxi (Green): serve only parts of the New Territories. <br>
+                                    3. Lantau taxi (Blue): serve Lantau Island.`
+        transInfoItem.info1DescCN = `香港的士(出租车)分为三个类型。<br>
+                                    1. 市区的士(红色)：行走新界，九龙及港岛区。 <br>
+                                    2. 新界的士（绿色）：只为新界的部分地区服务。<br>
+                                    3. 大屿山的士（蓝色）：行走大屿山。`
+        transInfoItem.info1DescZH = `香港的士(出租車)分為三個類型。<br>
+                                    1. 市區的士(紅色)：行走新界，九龍及港島區。 <br>
+                                    2. 新界的士（綠色）：只為新界的部分地區服務。<br>
+                                    3. 大嶼山的士（藍色）：行走大嶼山。`
         transInfoItem.info1Pic = 'https://vgy.me/G4ASo5.jpg'
         transInfoItem.info2Flag = true
         transInfoItem.info2HdrEN = 'Taxi Fare'
         transInfoItem.info2HdrCN = '的士收费'
         transInfoItem.info2HdrZH = '的士收費'
-        transInfoItem.info2DescEN = '1. Urban taxi (Red): First 2 kilometres HK$ 24. Every subsequent 200 metres/ Every period of 1 minute waiting time HK$ 1.7. After the chargeable amount has reached HK$83.5 then HK$1.2. 2. New Territories taxi (Green): First 2 kilometres HK$ 20.5. Every subsequent 200 metres/ Every period of 1 minute waiting time HK$ 1.5. After the chargeable amount has reached HK$83.5 then HK$1.2. 3. Lantau taxi (Blue): First 2 kilometres HK$ 19. Every subsequent 200 metres/ Every period of 1 minute waiting time HK$ 1.5. After the chargeable amount has reached HK$83.5 then HK$1.4. For all taxi type, every piece of baggage (Except light personal hand baggage carried inside passenger compartment) HK$ 6.'
-        transInfoItem.info2DescCN = '1. 市区的士（红色）：首 2 公里HK$$ 24。其後每 200 米／每分钟等候时间HK $ 1.7。 在应收款额达$ 83.5後，然後为HK$1.2元。 2.新界的士（绿色）：首2公里HK$20.5元。 其後每 200 米／每分钟等候时间HK $ 1.5。 在应收款额达$ 83.5後，然後为HK$1.2元。 3.大屿山出租车（蓝色）：首2公里HK$19.後续200米/每1分钟等候时间HK $ 1.5。 应课税金额达到HK$$ 83.5，然後是1.4港元。 对於所有的士类型，每件行李（摆放在乘客车厢内的轻便行李除外）HK $ 6。'
-        transInfoItem.info2DescZH = '1. 市區的士（紅色）：首 2 公里HK$$ 24。其後每 200 米／每分鐘等候時間HK $ 1.7。 在應收款額達$ 83.5後，然後為HK$1.2元。 2.新界的士（綠色）：首2公里HK$20.5元。 其後每 200 米／每分鐘等候時間HK $ 1.5。 在應收款額達$ 83.5後，然後為HK$1.2元。 3.大嶼山計程車（藍色）：首2公里HK$19.後續200米/每1分鐘等候時間HK $ 1.5。 應課稅金額達到HK$$ 83.5，然後是1.4港元。 對於所有的士類型，每件行李（擺放在乘客車廂內的輕便行李除外）HK $ 6。'
+        transInfoItem.info2DescEN = `1. Urban taxi (Red): First 2 kilometres HK$ 24. <br>
+                                    Every subsequent 200 metres/ Every period of 1 minute waiting time HK$ 1.7. <br>
+                                    After the chargeable amount has reached HK$83.5 then HK$1.2. <br>
+                                    2. New Territories taxi (Green): First 2 kilometres HK$ 20.5. <br>
+                                    Every subsequent 200 metres/ Every period of 1 minute waiting time HK$ 1.5. <br>
+                                    After the chargeable amount has reached HK$83.5 then HK$1.2. <br>
+                                    3. Lantau taxi (Blue): First 2 kilometres HK$ 19. <br>
+                                    Every subsequent 200 metres/ Every period of 1 minute waiting time HK$ 1.5. <br>
+                                    After the chargeable amount has reached HK$83.5 then HK$1.4. <br>
+                                    For all taxi type, every piece of baggage (Except light personal hand baggage carried inside passenger compartment) HK$ 6.`
+        transInfoItem.info2DescCN = `1. 市区的士（红色）：首 2 公里HK$$ 24。<br>
+                                    其後每 200 米／每分钟等候时间HK $ 1.7。 <br>
+                                    在应收款额达$ 83.5後，然後为HK$1.2元。 <br>
+                                    2. 新界的士（绿色）：首2公里HK$20.5元。 <br>
+                                    其後每 200 米／每分钟等候时间HK $ 1.5。 <br>
+                                    在应收款额达$ 83.5後，然後为HK$1.2元。 <br>
+                                    3. 大屿山出租车（蓝色）：首2公里HK$19。<br>
+                                    後续200米/每1分钟等候时间HK $ 1.5。 <br>
+                                    应课税金额达到HK$$ 83.5，然後是1.4港元。 <br>
+                                    对於所有的士类型，每件行李（摆放在乘客车厢内的轻便行李除外）HK $ 6。`
+        transInfoItem.info2DescZH = `1. 市區的士（紅色）：首 2 公裡HK$$ 24。<br>
+                                    其後每 200 米／每分鐘等候時間HK $ 1.7。 <br>
+                                    在應收款額達$ 83.5後，然後為HK$1.2元。 <br>
+                                    2. 新界的士（綠色）：首2公裡HK$20.5元。 <br>
+                                    其後每 200 米／每分鐘等候時間HK $ 1.5。 <br>
+                                    在應收款額達$ 83.5後，然後為HK$1.2元。 <br>
+                                    3. 大嶼山出租車（藍色）：首2公裡HK$19。<br>
+                                    後續200米/每1分鐘等候時間HK $ 1.5。 <br>
+                                    應課稅金額達到HK$$ 83.5，然後是1.4港元。 <br>
+                                    對於所有的士類型，每件行李（擺放在乘客車廂內的輕便行李除外）HK $ 6。`
         transInfoItem.info2Pic = 'https://vgy.me/1M94Iu.jpg'
         transInfoItem.info3Flag = true
         transInfoItem.info3HdrEN = 'Cross-harbour taxi stands'
@@ -302,9 +356,18 @@ export class TransInfoItemList {
         transInfoItem.info3HdrEN = 'To Macau'
         transInfoItem.info3HdrCN = '到澳门'
         transInfoItem.info3HdrZH = '到澳門'
-        transInfoItem.info3DescEN = 'Many visitors will travel to Macau during visiting in Hong Kong. Macau is famous for the blend of Portuguese and Chinese cultures and its gambling industry (Casino). There are two major ferry companies that provided frequent high-speed ferry services between Hong Kong  and Macau. 1. TurboJET  2. Cotai Water Jet'
-        transInfoItem.info3DescCN = '许多游客在香港访问期间会到澳门游览。 澳门以葡萄牙和中国文化融合及其赌博业（赌场）而闻名。 两个主要的渡轮公司提供在香港和澳门之间频繁的高速渡轮服务。 1. TurboJET 2.金光飞航'
-        transInfoItem.info3DescZH = '許多遊客在香港訪問期間會到澳門遊覽。 澳門以葡萄牙和中國文化融合及其賭博業（賭場）而聞名。 兩個主要的渡輪公司提供在香港和澳門之間頻繁的高速渡輪服務。 1. TurboJET 2.金光飛航'
+        transInfoItem.info3DescEN = `Many visitors will travel to Macau during visiting in Hong Kong. Macau is famous for the blend of Portuguese and Chinese cultures and its gambling industry (Casino). <br>
+                                    There are two major ferry companies that provided frequent high-speed ferry services between Hong Kong  and Macau. <br>
+                                    1. TurboJET  <br>
+                                    2. Cotai Water Jet `
+        transInfoItem.info3DescCN = `许多游客在香港访问期间会到澳门游览。 澳门以葡萄牙和中国文化融合及其赌博业（赌场）而闻名。 <br>
+                                    两个主要的渡轮公司提供在香港和澳门之间频繁的高速渡轮服务。 <br>
+                                    1. TurboJET <br>
+                                    2. 金光飞航 `
+        transInfoItem.info3DescZH = `許多游客在香港訪問期間會到澳門游覽。 澳門以葡萄牙和中國文化融合及其賭博業（賭場）而聞名。 <br>
+                                    兩個主要的渡輪公司提供在香港和澳門之間頻繁的高速渡輪服務。 <br>
+                                    1. TurboJET <br>
+                                    2. 金光飛航 `
         transInfoItem.info3Pic = 'https://vgy.me/e7fIwv.jpg'
         transInfoItem.info4Flag = false
         transInfoItem.info4HdrEN = ''
