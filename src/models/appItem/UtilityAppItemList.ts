@@ -226,7 +226,7 @@ export class UtilityAppItemList {
         utilityAppItem.nameEN = 'Wi-Fi.HK'
         utilityAppItem.nameCN = 'Wi-Fi.HK'
         utilityAppItem.nameZH = 'Wi-Fi.HK'
-        utilityAppItem.logoPic = 'https://vgy.me/sxJXML.png'
+        utilityAppItem.logoPic = 'https://vgy.me/SO150e.jpg'
         utilityAppItem.iosLink = 'https://appsto.re/hk/3NQL1.i'
         utilityAppItem.androiLink = 'org.wtia.wifihk'
         utilityAppItem.iosPicEN1 = 'https://vgy.me/FZP66F.jpeg'

@@ -60,7 +60,7 @@
   <ion-list *ngIf="IGV.gPageInd !== 'favourite'" class="borderBottomTo1">
     <button ion-item class="borderBottomTo1" *ngFor="let appItem of appItemList | isShowAppItem" (click)="itemTapped($event, appItem)" >
       <div class="item-note centerAndMiddle" item-left>
-        <ion-img [width]="75" [height]="75" [src]="appItem.logoPic"></ion-img>
+        <img style="width: 75px; height: 75px;" class="infoImgLoader" [src]="appItem.logoPic">
       </div>
      
       <div *ngIf="IGV.gLangInd === 'en'" class="item-note forceToMiddle" item-left style="min-width: 41%; max-width: 41%;">

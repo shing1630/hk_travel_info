@@ -58,10 +58,13 @@ export interface IGV {
 
 export const IGV: IGV = {
 
-    // Change it to false when production
+    // In DEV
     isTestingAdmob: true,
-    DEPLOY_CHANNEL: 'dev',
-    // Change it to false when production
+    DEPLOY_CHANNEL: 'hk_travel_dev',
+
+    // In Prod
+    // isTestingAdmob: false,
+    // DEPLOY_CHANNEL: 'hk_travel_prod_live',
 
     ADMOB_MAX_NUMBER: 10,
     admobCount: 10,
