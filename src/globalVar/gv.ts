@@ -60,11 +60,11 @@ export const IGV: IGV = {
 
     // In DEV
     isTestingAdmob: true,
-    DEPLOY_CHANNEL: 'hk_travel_dev',
+    DEPLOY_CHANNEL: 'hk_travel_dev_v1',
 
     // In Prod
     // isTestingAdmob: false,
-    // DEPLOY_CHANNEL: 'hk_travel_prod_live',
+    // DEPLOY_CHANNEL: 'hk_travel_prod_live_v1',
 
     ADMOB_MAX_NUMBER: 10,
     admobCount: 10,

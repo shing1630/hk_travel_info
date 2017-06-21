@@ -1,13 +1,10 @@
 <ion-menu [content]="content" (ionOpen)="menuOpened()" (ionClose)="menuClosed()">
     <ion-content class="applyBasicBgColor">
         <ion-list class="applyBasicBgColor colorToWhite">
-            <!--<button class="applyBasicBgColor colorToWhite" ion-item (click)="updateApp()">
-                <div *ngIf="!updateFlag"><ion-icon name="settings" item-left> {{ 'MENU.CHECK_UPDATE' | translate }}</ion-icon></div>
-                <div *ngIf="updateFlag" >
-                    <ion-icon name="download" class="colorToRed" item-left></ion-icon> 
-                    {{ 'MENU.UPDATE_NOW' | translate }} 
-                </div>
-            </button>-->
+            <button class="applyBasicBgColor colorToWhite" ion-item (click)="updateApp()">
+                <img class="centerAndMiddle" style="margin-right: 8px; min-width: 28px; min-height:28px; max-width: 28px; max-height:28px" 
+                    src="assets/img/update.png">{{ 'MENU.CHECK_UPDATE' | translate }}
+            </button>
             <button class="applyBasicBgColor colorToWhite borderToZero" ion-item (click)="openPage('HomePage', 'homePage')">
                 <img class="centerAndMiddle" style="margin-right: 8px; min-width: 28px; min-height:28px; max-width: 28px; max-height:28px" 
                     src="assets/img/menu/home.png"> {{ 'MENU.HOME' | translate }}

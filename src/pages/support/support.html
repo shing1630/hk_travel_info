@@ -19,19 +19,11 @@
 
     <ion-row>
       <ion-col col-12 class="centerAndMiddle">
-        <div style="font-size:x-large" class="centerAndMiddle fontToBold">
-          {{ 'SUPPORT.MORE_APPS_COMING_SOON' | translate }} 
-        </div>
-      </ion-col>
-    </ion-row>
-
-    <ion-row>
-      <ion-col col-12 class="centerAndMiddle">
         <div *ngIf="IGV.isIOS" class="centerAndMiddle fontToBold">
-          {{ 'SUPPORT.CHECK_UPDATE_IN_APP_STORE' | translate }}
+          {{ 'SUPPORT.CHECK_MAJOR_UPDATE_IN_APP_STORE' | translate }}
         </div>
         <div *ngIf="IGV.isAndroid" class="centerAndMiddle fontToBold">
-          {{ 'SUPPORT.CHECK_UPDATE_IN_GOOGLE_PLAY' | translate }}
+          {{ 'SUPPORT.CHECK_MAJOR_UPDATE_IN_GOOGLE_PLAY' | translate }}
         </div>
       </ion-col>
     </ion-row>

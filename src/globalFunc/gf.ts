@@ -3,6 +3,7 @@ import { Platform, AlertController, LoadingController, ToastController } from 'i
 import { AdMob, AdMobOptions } from '@ionic-native/admob';
 import { OT_GV, IGV } from './../globalVar/gv';
 import { Market } from '@ionic-native/market';
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 @Injectable()
 export class GF {
@@ -16,7 +17,8 @@ export class GF {
         private market: Market,
         public loadingCtrl: LoadingController,
         public adMob: AdMob,
-        private toastCtrl: ToastController) { }
+        private toastCtrl: ToastController,
+		private iab: InAppBrowser) { }
 
 
     // -------------  App Store -------------//
@@ -61,6 +63,12 @@ export class GF {
         });
         alert.present();
     }
+	
+	// -------------  In App Browser -------------//
+	openInAppBrowser(url: string) {
+		const browser = this.iab.create(url);
+		browser.show();
+	}
 
     // -------------  Loading -------------//
     loadingPresent() {
@@ -252,7 +260,7 @@ export class GF {
         let toast = this.toastCtrl.create({
             message: msg,
             duration: 10000,
-            position: 'bottom'
+            position: 'middle'
         });
         toast.present();
     }
@@ -271,7 +279,7 @@ export class GF {
         let toast = this.toastCtrl.create({
             message: msg,
             duration: 3000,
-            position: 'bottom'
+            position: 'middle'
         });
         toast.present();
     }

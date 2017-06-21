@@ -97,13 +97,6 @@ export class MyApp {
           this.globalFunc.showToastNoNetwork();
         });
 
-        // this.deploy.channel = this.IGV.DEPLOY_CHANNEL;
-
-        // this.deploy.check().then((snapshotAvailable: boolean) => {
-        //   this.updateFlag = snapshotAvailable;
-        //   this.globalFunc.loadingDismiss();
-        // });
-
       }, (error) => {
         this.globalFunc.presentSysErr();
         this.globalFunc.loadingDismiss();
@@ -158,6 +151,7 @@ export class MyApp {
 
   // -------------  Ionic deploy -------------//
   updateApp() {
+    
     this.globalFunc.loadingPresent();
     this.deploy.channel = this.IGV.DEPLOY_CHANNEL;
 
