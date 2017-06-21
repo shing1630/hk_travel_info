@@ -38,6 +38,7 @@ import { DiningInfoItemList } from "../models/infoItem/DiningInfoItemList";
 import { ShopInfoItemList } from "../models/infoItem/ShopInfoItemList";
 import { EnterInfoItemList } from "../models/infoItem/EnterInfoItemList";
 import { UtilityInfoItemList } from "../models/infoItem/UtilityInfoItemList";
+import { InAppBrowser } from "@ionic-native/in-app-browser";
 
 const cloudSettings: CloudSettings = {
   'core': {
@@ -89,6 +90,7 @@ const cloudSettings: CloudSettings = {
     Market,
     StatusBar,
     SplashScreen,
+    InAppBrowser,
     TransInfoItemList,
     DiningInfoItemList,
     WeatherInfoItemList,
