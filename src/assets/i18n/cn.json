@@ -3,8 +3,8 @@
     "HONG_KONG_TRAVEL_APP_PACK": "香港旅游流动应用程式合集"
   },
   "MENU": {
-    "CHECK_UPDATE": "Check Update",
-    "UPDATE_NOW": "Update Now",
+    "CHECK_UPDATE": "检查更新",
+    "UPDATE_NOW": "立即更新",
     "HOME": "首页",
     "MY_FAVOURITE_APP": "我的最爱",
     "TRANSPORT": "交通",
@@ -26,7 +26,7 @@
     "CLEAR_All": "全部清空"
   },
   "GENINFO": {
-    "RELATED_APP_REVIEW": "Related App Review"
+    "RELATED_APP_REVIEW": "相关应用程式评论"
   },
   "GENAPP": {
     "REVIEW": "评论",
