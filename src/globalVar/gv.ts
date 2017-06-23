@@ -6,6 +6,7 @@ export let OT_GV = new OpaqueToken('gv');
 export interface IGV {
     isTestingAdmob: boolean;
     DEPLOY_CHANNEL: string;
+    DEL_CHANNEL_LIST: String[];
     ADMOB_MAX_NUMBER: number;
     admobCount: number;
     isDisableVideoAdv: boolean;
@@ -61,10 +62,16 @@ export const IGV: IGV = {
     // In DEV
     isTestingAdmob: true,
     DEPLOY_CHANNEL: 'hk_travel_dev_v1',
+    DEL_CHANNEL_LIST: ['f7bed499-7a1f-4727-9295-2bd10554c3b2', 
+                        'e4c662f5-64a5-4779-9e27-5ac824fa2eaa',
+                        '8492f9fc-5ce4-418f-94e7-d68f43ad10cd',
+                        '20e83925-cf21-4368-8c14-89fdcb4b0653'],
 
     // In Prod
     // isTestingAdmob: false,
     // DEPLOY_CHANNEL: 'hk_travel_prod_live_v1',
+    //DEL_CHANNEL_LIST: ['f7bed499-7a1f-4727-9295-2bd10554c3b2', 
+    //                    'e4c662f5-64a5-4779-9e27-5ac824fa2eaa'],
 
     ADMOB_MAX_NUMBER: 10,
     admobCount: 10,

@@ -152,11 +152,26 @@ export class MyApp {
 
   // -------------  Ionic deploy -------------//
   updateApp() {
-    
+
     this.globalFunc.loadingPresent();
     this.deploy.channel = this.IGV.DEPLOY_CHANNEL;
 
     this.deploy.check().then((snapshotAvailable: boolean) => {
+      this.deploy.getSnapshots().then((snapshotList) => {
+        // snapshots will be an array of snapshot uuids
+        if (Array.isArray(snapshotList) && snapshotList.length) {
+          snapshotList.forEach(snapshot => {
+            alert('snapshot: ' + snapshot);
+            this.IGV.DEL_CHANNEL_LIST.forEach(savedSnapShot => {
+              if( savedSnapShot === snapshot){
+                alert('Delete snapshot: ' + snapshot);
+                this.deploy.deleteSnapshot(snapshot);
+              }
+            });
+          });
+        }
+      });
+
       if (snapshotAvailable) {
         this.downloadAndInstall();
       }
@@ -170,31 +185,32 @@ export class MyApp {
   downloadAndInstall() {
     this.globalFunc.showToastDownloading();
     this.deploy.download().then(() => {
-      this.deploy.extract();
-    }).then(() => {
-      let inputTitle: string;
-      if (this.IGV.gLangInd === 'zh') {
-        inputTitle = this.IGV.RELOAD_ZH;
-      } if (this.IGV.gLangInd === 'cn') {
-        inputTitle = this.IGV.RELOAD_CN;
-      } else {
-        inputTitle = this.IGV.RELOAD_EN;
-      }
+      this.deploy.extract().then(() => {
 
-      let alert = this.alertCtrl.create({
-        title: inputTitle,
-        message: '',
-        buttons: [
-          {
-            text: 'OK',
-            handler: () => {
-              this.deploy.load();
+        let inputTitle: string;
+        if (this.IGV.gLangInd === 'zh') {
+          inputTitle = this.IGV.RELOAD_ZH;
+        } if (this.IGV.gLangInd === 'cn') {
+          inputTitle = this.IGV.RELOAD_CN;
+        } else {
+          inputTitle = this.IGV.RELOAD_EN;
+        }
+
+        let alert = this.alertCtrl.create({
+          title: inputTitle,
+          message: '',
+          buttons: [
+            {
+              text: 'OK',
+              handler: () => {
+                this.deploy.load();
+              }
             }
-          }
-        ]
-      });
-      alert.present();
-      this.globalFunc.loadingDismiss();
+          ]
+        });
+        alert.present();
+        this.globalFunc.loadingDismiss();
+      })
     });
   }
 
