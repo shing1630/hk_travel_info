@@ -114,6 +114,7 @@ export class MyApp {
 
   menuOpened() {
     //code to execute when menu ha opened
+     this.globalFunc.removeBanner();
   }
 
   openPage(page, pageInd) {
