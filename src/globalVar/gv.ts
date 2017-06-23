@@ -103,8 +103,8 @@ export const IGV: IGV = {
     UPDATE_AVAILABLE_ZH: '有更新！',
 
     DOWNLOADING_TAKE_MIN_EN: 'Downloading... This will take a few minutes!',
-    DOWNLOADING_TAKE_MIN_CN: 'Downloading... This will take a few minutes!',
-    DOWNLOADING_TAKE_MIN_ZH: 'Downloading... This will take a few minutes!',
+    DOWNLOADING_TAKE_MIN_CN: '下载中...需要数分钟！',
+    DOWNLOADING_TAKE_MIN_ZH: '下載中...需要數分鐘！',
 
     RELOAD_EN: 'Reload',
     RELOAD_CN: '重载',
