@@ -42,7 +42,7 @@ import { InAppBrowser } from "@ionic-native/in-app-browser";
 
 const cloudSettings: CloudSettings = {
   'core': {
-    'app_id': 'a61ff4fd'
+    'app_id': '7187e7b9'
   }
 };
 
