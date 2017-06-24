@@ -22,7 +22,7 @@ export class DiningInfoItemList {
         diningInfoItem.info1HdrEN = 'Dim Sum'
         diningInfoItem.info1HdrCN = '点心'
         diningInfoItem.info1HdrZH = '點心'
-        diningInfoItem.info1DescEN = 'Normally Cantonese restaurants serve dim sum from morning to lunch. But some restaurants serve dim sum all day. '
+        diningInfoItem.info1DescEN = 'Normally Cantonese restaurants serve dim sum from breakfast to lunch. But some restaurants serve dim sum all day. '
         diningInfoItem.info1DescCN = '通常茶楼会从早餐到午餐供应点心。 但有些餐厅全天供应点心。'
         diningInfoItem.info1DescZH = '通常茶樓會從早餐到午餐供應點心。 但有些餐廳全天供應點心。'
         diningInfoItem.info1Pic = 'https://vgy.me/7gzXgl.jpg'

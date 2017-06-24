@@ -116,7 +116,7 @@ export class TransInfoItemList {
         transInfoItem.info3HdrEN = 'Airport Bus'
         transInfoItem.info3HdrCN = '机场巴士'
         transInfoItem.info3HdrZH = '機場巴士'
-        transInfoItem.info3DescEN = 'Route number A prefix (A11, A20) and E (E23, E33) prefix are airport bus. A prefix route is faster than E prefix but E prefix is cheaper (with longer route).'
+        transInfoItem.info3DescEN = 'Route number A prefix (A11, A20) and E (E23, E33) prefix are airport buses. A prefix route is faster than E prefix but E prefix is cheaper (with longer route).'
         transInfoItem.info3DescCN = '路线为A字首（A11，A20）和路线为E字首（E23，E33）是机场巴士。 A字首比E字首快，但E字首比A字首便宜（较长车程）。'
         transInfoItem.info3DescZH = '路線為A字首（A11，A20）和路線為E字首（E23，E33）是機場巴士。 A字首比E字首快，但E字首比A字首便宜（較長車程）。'
         transInfoItem.info3Pic = 'https://vgy.me/HpgaDX.jpg'

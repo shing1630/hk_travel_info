@@ -90,7 +90,7 @@ export class ShopInfoItemList {
         shopInfoItem.info1HdrEN = `Ladies' Market`
         shopInfoItem.info1HdrCN = '女人街 '
         shopInfoItem.info1HdrZH = '女人街 '
-        shopInfoItem.info1DescEN = `Ladies' Market – Located in Tung Choi Street, Mong Kok.A one- kilometre stretch with 100 stalls of clothing, accessories and souvenirs. `
+        shopInfoItem.info1DescEN = `Ladies' Market – Located in Tung Choi Street, Mong Kok. A one- kilometre stretch with 100 stalls of clothing, accessories and souvenirs. `
         shopInfoItem.info1DescCN = '女人街 - 位於旺角通菜街。 长一公里丶逾百个地摊的露天市集。您可以找到服装丶首饰丶玩具和纪念品。'
         shopInfoItem.info1DescZH = '女人街 - 位於旺角通菜街。 長一公里、逾百個地攤的露天市集。您可以找到服裝、首飾、玩具和紀念品。'
         shopInfoItem.info1Pic = 'https://vgy.me/Kz8RSj.jpg'

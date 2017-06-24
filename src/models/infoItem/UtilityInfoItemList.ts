@@ -92,7 +92,7 @@ export class UtilityInfoItemList {
         utilityInfoItem.info1HdrZH = '公眾廁所'
         utilityInfoItem.info1DescEN = `No paid toilet in Hong Kong.<br>
                                         All malls, hotels and tourist attractions have toilets for public use.<br>
-                                        However, However, some restaurants provide toilets for their customers only.`
+                                        However, some restaurants provide toilets for their customers only.`
         utilityInfoItem.info1DescCN = `香港没有付费厕所。<br>
                                         所有商场，酒店和旅游景点都有厕所供公众使用。<br>
                                         然而，一些餐厅只为客户提供厕所。`
