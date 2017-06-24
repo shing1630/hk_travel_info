@@ -161,10 +161,8 @@ export class MyApp {
         // snapshots will be an array of snapshot uuids
         if (Array.isArray(snapshotList) && snapshotList.length) {
           snapshotList.forEach(snapshot => {
-            alert('snapshot: ' + snapshot);
             this.IGV.DEL_CHANNEL_LIST.forEach(savedSnapShot => {
               if( savedSnapShot === snapshot){
-                alert('Delete snapshot: ' + snapshot);
                 this.deploy.deleteSnapshot(snapshot);
               }
             });

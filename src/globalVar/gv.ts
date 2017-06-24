@@ -70,8 +70,7 @@ export const IGV: IGV = {
     // In Prod
     // isTestingAdmob: false,
     // DEPLOY_CHANNEL: 'hk_travel_prod_live_v1',
-    //DEL_CHANNEL_LIST: ['f7bed499-7a1f-4727-9295-2bd10554c3b2', 
-    //                    'e4c662f5-64a5-4779-9e27-5ac824fa2eaa'],
+    //DEL_CHANNEL_LIST: [''],
 
     ADMOB_MAX_NUMBER: 10,
     admobCount: 10,
