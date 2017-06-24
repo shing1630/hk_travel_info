@@ -104,20 +104,17 @@ export class GF {
 
     public setAdMobIds() {
         if (this.IGV.isAndroid) {
-            this.IGV.AD_MOB_ID_BANNER = 'ca-app-pub-7668464781725150/7147483825';
-            this.IGV.AD_MOB_ID_INTER = 'ca-app-pub-7668464781725150/8624217023';
-            this.IGV.AD_MOB_ID_INTER_VIDEO = 'ca-app-pub-7668464781725150/1817033427';
-            this.IGV.AD_MOB_ID_VIDEO = 'ca-app-pub-7668464781725150/3543909029';
+            this.IGV.AD_MOB_ID_BANNER = 'ca-app-pub-7668464781725150/7233793828';
+            this.IGV.AD_MOB_ID_INTER = 'ca-app-pub-7668464781725150/8710527025';
+            this.IGV.AD_MOB_ID_INTER_VIDEO = 'ca-app-pub-7668464781725150/1187260228';
         } else if (this.IGV.isIOS) {
-            this.IGV.AD_MOB_ID_BANNER = 'ca-app-pub-7668464781725150/2577683427';
-            this.IGV.AD_MOB_ID_INTER = 'ca-app-pub-7668464781725150/4054416623';
-            this.IGV.AD_MOB_ID_INTER_VIDEO = 'ca-app-pub-7668464781725150/3293766628';
-            this.IGV.AD_MOB_ID_VIDEO = 'ca-app-pub-7668464781725150/2067175827';
+            this.IGV.AD_MOB_ID_BANNER = 'ca-app-pub-7668464781725150/2803594227';
+            this.IGV.AD_MOB_ID_INTER = 'ca-app-pub-7668464781725150/4280327420';
+            this.IGV.AD_MOB_ID_INTER_VIDEO = 'ca-app-pub-7668464781725150/5757060622';
         } else {
             this.IGV.AD_MOB_ID_BANNER = '';
             this.IGV.AD_MOB_ID_INTER = '';
             this.IGV.AD_MOB_ID_INTER_VIDEO = '';
-            this.IGV.AD_MOB_ID_VIDEO = '';
         }
     }
 
@@ -274,7 +271,6 @@ export class GF {
 
     showNoUpdate() {
         let msg: string;
-        alert('this.IGV.gLangInd: ' + this.IGV.gLangInd);
         if (this.IGV.gLangInd === 'zh') {
             msg = this.IGV.NO_UPDATE_AVAILABLE_ZH;
         } else if (this.IGV.gLangInd === 'cn') {

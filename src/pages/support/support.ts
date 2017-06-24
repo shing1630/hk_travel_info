@@ -10,7 +10,7 @@ import { GF } from './../../globalFunc/gf';
 })
 export class SupportPage {
 
-  appID: string = 'com.hkTravelAppPack0730';
+  appID: string = 'com.hkTravelInfo0730';
 
   constructor(
     @Inject(OT_GV) public IGV: IGV,

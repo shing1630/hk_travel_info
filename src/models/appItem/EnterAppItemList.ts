@@ -87,7 +87,7 @@ export class EnterAppItemList {
         entertainmentAppItem.nameEN = 'TrailWatch: Your Best Hiking Guide'
         entertainmentAppItem.nameCN = 'TrailWatch: 随身行山向导'
         entertainmentAppItem.nameZH = 'TrailWatch: 隨身行山嚮導'
-        entertainmentAppItem.logoPic = 'https://vgy.me/6l2lgc.png'
+        entertainmentAppItem.logoPic = 'https://vgy.me/8JA7jl.jpg'
         entertainmentAppItem.iosLink = 'https://appsto.re/hk/5yZjV.i'
         entertainmentAppItem.androiLink = 'com.computancy.countrypark'
         entertainmentAppItem.iosPicEN1 = 'https://vgy.me/abXuXR.jpeg'
@@ -287,6 +287,8 @@ export class EnterAppItemList {
         entertainmentAppItem.funFactDescCN = ''
         entertainmentAppItem.funFactDescZH = ''
 
+        this.list.push(entertainmentAppItem);
+        entertainmentAppItem = new AppItem();
     }
 
 

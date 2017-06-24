@@ -16,6 +16,8 @@ export interface IGV {
     myAppItemList: AppItem[];
     myAppItemMap: Map<string, AppItem>;
 
+    isUpdatable: boolean;
+
     isIOS: boolean,
     isAndroid: boolean,
 
@@ -74,6 +76,7 @@ export const IGV: IGV = {
 
     ADMOB_MAX_NUMBER: 10,
     admobCount: 10,
+    isUpdatable: false,
 
     isDisableVideoAdv: false,
     isDisableInterAdv: false,

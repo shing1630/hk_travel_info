@@ -22,17 +22,20 @@ export class TransInfoItemList {
         transInfoItem.info1HdrEN = 'Ticket Fare'
         transInfoItem.info1HdrCN = '票价'
         transInfoItem.info1HdrZH = '票價'
-        transInfoItem.info1DescEN = 'Single Journey Ticket Fare ranged from HK$4.5 to HK$10. If crossing harbour (Hong Kong Island to Kowloon), fare ranged from HK$9 to HK$30'
-        transInfoItem.info1DescCN = '单程票价从 HK$4.5至 HK$10不等。过海（港岛至九龙）的票价为 HK$9至 HK$30'
-        transInfoItem.info1DescZH = '單程票價從 HK$4.5到 HK$10不等。 過海（港島至九龍）的票價為 HK$9至 HK$30'
+        transInfoItem.info1DescEN = 'Single Journey Ticket Fare ranged from HK$4.5 to HK$10. If crossing harbour (Hong Kong Island to Kowloon), fare ranged from HK$9 to HK$30.'
+        transInfoItem.info1DescCN = '单程票价从 HK$4.5至 HK$10不等。过海（港岛至九龙）的票价为 HK$9至 HK$30。'
+        transInfoItem.info1DescZH = '單程票價從 HK$4.5到 HK$10不等。過海（港島至九龍）的票價為 HK$9至 HK$30。'
         transInfoItem.info1Pic = 'https://vgy.me/SnBNDt.png'
         transInfoItem.info2Flag = true
         transInfoItem.info2HdrEN = 'Electronic payment'
         transInfoItem.info2HdrCN = '电子收费'
         transInfoItem.info2HdrZH = '電子收費'
-        transInfoItem.info2DescEN = 'Using Octopus card (electronic payment) instead of Single Journey Ticket can enjoy discount.(Ranged from HK$0.2 to HK$3) PS: If On-Loan Octopus returned within 90 days, it will be charged refund fee HK$9'
-        transInfoItem.info2DescCN = '使用八达通（电子收费）而不是单程票，可享受折扣。(HK$0.2 至 HK$3) PS：如果在90天内退八达通，将收取退款费用 HK$9'
-        transInfoItem.info2DescZH = '使用八達通（電子收費）而不是單程票，可享受折扣。(HK$0.2 至 HK$3) PS：如果在90天內退八達通，將收取退款費用 HK$9'
+        transInfoItem.info2DescEN = `Using Octopus card (electronic payment) instead of Single Journey Ticket can enjoy discount.(Ranged from HK$0.2 to HK$3) <br>
+                                    PS: If On-Loan Octopus returned within 90 days, it will be charged refund fee HK$9. `
+        transInfoItem.info2DescCN = `使用八达通（电子收费）而不是单程票，可享受折扣。(HK$0.2 至 HK$3) <br>
+                                   PS：如果在90天内退八达通，将收取退款费用 HK$9。`
+        transInfoItem.info2DescZH = `使用八達通（電子收費）而不是單程票，可享受折扣。(HK$0.2 至 HK$3) <br>
+                                    PS：如果在90天內退八達通，將收取退款費用 HK$9。`
         transInfoItem.info2Pic = 'https://vgy.me/7Ewjf4.png'
         transInfoItem.info3Flag = true
         transInfoItem.info3HdrEN = 'Day Pass'
@@ -47,8 +50,8 @@ export class TransInfoItemList {
         transInfoItem.info4HdrCN = '机场快线'
         transInfoItem.info4HdrZH = '機場快線'
         transInfoItem.info4DescEN = 'The ride of Airport Express between the Airport and Central (Hong Kong Island) takes less than 30 minutes. However, bus is more convenient and cheaper way to travel from Airport to your hotel.'
-        transInfoItem.info4DescCN = '搭乘机场快线从机场及中环（香港岛）之间的车程不到30分钟。然而，从机场到酒店的方法是搭乘更方便，更便宜的巴士。'
-        transInfoItem.info4DescZH = '搭乘機場快線從機場及中環（香港島）之間的車程不到30分鐘。然而，從機場到酒店的方法是搭乘更方便，更便宜的巴士。'
+        transInfoItem.info4DescCN = '搭乘机场快线从机场至中环（香港岛）之间的车程不到30分钟。然而，从机场到酒店的方法是搭乘更方便，更便宜的巴士。'
+        transInfoItem.info4DescZH = '搭乘機場快線從機場至中環（香港島）之間的車程不到30分鐘。然而，從機場到酒店的方法是搭乘更方便，更便宜的巴士。'
         transInfoItem.info4Pic = 'https://vgy.me/dayc0P.jpg'
         transInfoItem.info5Flag = true
         transInfoItem.info5HdrEN = 'Fare gates'
@@ -93,11 +96,11 @@ export class TransInfoItemList {
                                     2. Citybus Limited provides Hong Kong Island, cross-harbour routes. <br>
                                     3. New World First Bus provides Hong Kong Island, cross-harbour routes.`
         transInfoItem.info1DescCN = `三大巴士公司特许经营公共巴士服务 <br>
-                                    1. 九龙巴士(简称九巴)营运九龙，新界及过海隧道路线<br>
+                                    1. 九龙巴士(简称九巴)营运九龙，新界及过海隧道路线。<br>
                                     2. 城巴有限公司(简称城巴)营运香港岛及过海路线。<br>
                                     3. 新世界第一巴士(简称新巴)营运香港岛及过海路线。`
         transInfoItem.info1DescZH = `三大巴士公司特許經營公共巴士服務 <br>
-                                    1. 九龍巴士(簡稱九巴)營運九龍，新界及過海隧道路線<br>
+                                    1. 九龍巴士(簡稱九巴)營運九龍，新界及過海隧道路線。<br>
                                     2. 城巴有限公司(簡稱城巴)營運香港島及過海路線。<br>
                                     3. 新世界第一巴士(簡稱新巴)營運香港島及過海路線。`
         transInfoItem.info1Pic = 'https://vgy.me/budT5Q.jpg'
@@ -122,8 +125,8 @@ export class TransInfoItemList {
         transInfoItem.info4HdrCN = '巴士票价'
         transInfoItem.info4HdrZH = '巴士票價'
         transInfoItem.info4DescEN = 'Bus fare ranged from HK$4 to HK$50. Average fare is around HK$7. Check the fare in related apps or on bus stop signs.'
-        transInfoItem.info4DescCN = '巴士票价由HK$4至HK$50不等。平均票价约HK$7。可在相关应用程序或巴士车站查询票价。'
-        transInfoItem.info4DescZH = '巴士票價由HK$4至HK$50不等。平均票價約HK$7。可在相關應用程序或巴士車站查詢票價。'
+        transInfoItem.info4DescCN = '巴士票价由HK$4至HK$50不等。平均票价约HK$7。可在相关应用程式或巴士车站查询票价。'
+        transInfoItem.info4DescZH = '巴士票價由HK$4至HK$50不等。平均票價約HK$7。可在相關應用程式或巴士車站查詢票價。'
         transInfoItem.info4Pic = 'https://vgy.me/F7UfR6.jpg'
         transInfoItem.info5Flag = true
         transInfoItem.info5HdrEN = 'Sightseeing Bus'
@@ -133,11 +136,11 @@ export class TransInfoItemList {
                                     There are two sightseeing bus services provided: <br>
                                     1. Big Bus Tours (More routes, recorded commentary in ten languages) <br>
                                     2. Rickshaw Sightseeing Bus (Cheaper, provided single trip)`
-        transInfoItem.info5DescCN = `如果您只在香港逗留一至两天，可乘坐观光巴士，於短时间内感受到这个城市。 <br>
+        transInfoItem.info5DescCN = `如果您只在香港逗留一至两天，可乘坐观光巴士，於短时间内感受这个城市。 <br>
                                     两种观光巴士提供服务：<br>
                                     1. 大巴士公司（路线多，十国语言的电子导游）<br>
                                     2. 人力车观光巴士（便宜，提供单程）`
-        transInfoItem.info5DescZH = `如果您只在香港逗留一至兩天，可乘坐觀光巴士，於短時間內感受到這個城市。 <br>
+        transInfoItem.info5DescZH = `如果您只在香港逗留一至兩天，可乘坐觀光巴士，於短時間內感受這個城市。 <br>
                                     兩種觀光巴士提供服務：<br>
                                     1. 大巴士公司（路線多，十國語言的電子導游）<br>
                                     2. 人力車觀光巴士（便宜，提供單程）`
@@ -196,9 +199,9 @@ export class TransInfoItemList {
         transInfoItem.info4HdrEN = 'Tram Fare'
         transInfoItem.info4HdrCN = '电车票价'
         transInfoItem.info4HdrZH = '電車票價'
-        transInfoItem.info4DescEN = 'Fare charged is uniform regardless of the distance travelled. The fare for single journey is HK$2.30'
-        transInfoItem.info4DescCN = '电车采不分远近丶单一收费。单程收费HK$2.3'
-        transInfoItem.info4DescZH = '電車採不分遠近、單一收費。單程收費HK$2.3'
+        transInfoItem.info4DescEN = 'Fare charged is uniform regardless of the distance travelled. The fare for single journey is HK$2.3.'
+        transInfoItem.info4DescCN = '电车采不分远近丶单一收费。单程收费HK$2.3。'
+        transInfoItem.info4DescZH = '電車採不分遠近、單一收費。單程收費HK$2.3。'
         transInfoItem.info4Pic = 'https://vgy.me/S63cID.jpg'
         transInfoItem.info5Flag = false
         transInfoItem.info5HdrEN = ''
@@ -241,15 +244,15 @@ export class TransInfoItemList {
         transInfoItem.info1DescEN = `Three are three types of taxis are defined by the service areas. <br>
                                     1. Urban taxi (Red): serve all areas of New Territories, Kowloon and Hong Kong Island. <br>
                                     2. New Territories taxi (Green): serve only parts of the New Territories. <br>
-                                    3. Lantau taxi (Blue): serve Lantau Island.`
+                                    3. Lantau taxi (Blue): serve only in Lantau Island.`
         transInfoItem.info1DescCN = `香港的士(出租车)分为三个类型。<br>
-                                    1. 市区的士(红色)：行走新界，九龙及港岛区。 <br>
+                                    1. 市区的士（紅色）：行走新界，九龙及港岛区。 <br>
                                     2. 新界的士（绿色）：只为新界的部分地区服务。<br>
-                                    3. 大屿山的士（蓝色）：行走大屿山。`
+                                    3. 大屿山的士（蓝色）：只行走大屿山。`
         transInfoItem.info1DescZH = `香港的士(出租車)分為三個類型。<br>
-                                    1. 市區的士(紅色)：行走新界，九龍及港島區。 <br>
+                                    1. 市區的士（紅色）：行走新界，九龍及港島區。 <br>
                                     2. 新界的士（綠色）：只為新界的部分地區服務。<br>
-                                    3. 大嶼山的士（藍色）：行走大嶼山。`
+                                    3. 大嶼山的士（藍色）：只行走大嶼山。`
         transInfoItem.info1Pic = 'https://vgy.me/G4ASo5.jpg'
         transInfoItem.info2Flag = true
         transInfoItem.info2HdrEN = 'Taxi Fare'
@@ -264,8 +267,8 @@ export class TransInfoItemList {
                                     3. Lantau taxi (Blue): First 2 kilometres HK$ 19. <br>
                                     Every subsequent 200 metres/ Every period of 1 minute waiting time HK$ 1.5. <br>
                                     After the chargeable amount has reached HK$83.5 then HK$1.4. <br>
-                                    For all taxi type, every piece of baggage (Except light personal hand baggage carried inside passenger compartment) HK$ 6.`
-        transInfoItem.info2DescCN = `1. 市区的士（红色）：首 2 公里HK$$ 24。<br>
+                                    PS: For all taxi type, every piece of baggage (Except light personal hand baggage carried inside passenger compartment) HK$ 6.`
+        transInfoItem.info2DescCN = `1. 市区的士（红色）：首 2 公里HK$ 24。<br>
                                     其後每 200 米／每分钟等候时间HK $ 1.7。 <br>
                                     在应收款额达$ 83.5後，然後为HK$1.2元。 <br>
                                     2. 新界的士（绿色）：首2公里HK$20.5元。 <br>
@@ -274,8 +277,8 @@ export class TransInfoItemList {
                                     3. 大屿山出租车（蓝色）：首2公里HK$19。<br>
                                     後续200米/每1分钟等候时间HK $ 1.5。 <br>
                                     应课税金额达到HK$$ 83.5，然後是1.4港元。 <br>
-                                    对於所有的士类型，每件行李（摆放在乘客车厢内的轻便行李除外）HK $ 6。`
-        transInfoItem.info2DescZH = `1. 市區的士（紅色）：首 2 公裡HK$$ 24。<br>
+                                    PS: 对於所有的士类型，每件行李（摆放在乘客车厢内的轻便行李除外）HK $ 6。`
+        transInfoItem.info2DescZH = `1. 市區的士（紅色）：首 2 公裡HK$ 24。<br>
                                     其後每 200 米／每分鐘等候時間HK $ 1.7。 <br>
                                     在應收款額達$ 83.5後，然後為HK$1.2元。 <br>
                                     2. 新界的士（綠色）：首2公裡HK$20.5元。 <br>
@@ -284,7 +287,7 @@ export class TransInfoItemList {
                                     3. 大嶼山出租車（藍色）：首2公裡HK$19。<br>
                                     後續200米/每1分鐘等候時間HK $ 1.5。 <br>
                                     應課稅金額達到HK$$ 83.5，然後是1.4港元。 <br>
-                                    對於所有的士類型，每件行李（擺放在乘客車廂內的輕便行李除外）HK $ 6。`
+                                    PS: 對於所有的士類型，每件行李（擺放在乘客車廂內的輕便行李除外）HK $ 6。`
         transInfoItem.info2Pic = 'https://vgy.me/1M94Iu.jpg'
         transInfoItem.info3Flag = true
         transInfoItem.info3HdrEN = 'Cross-harbour taxi stands'
@@ -348,24 +351,27 @@ export class TransInfoItemList {
         transInfoItem.info2HdrEN = 'Harbour Cruise'
         transInfoItem.info2HdrCN = '维港游'
         transInfoItem.info2HdrZH = '維港遊'
-        transInfoItem.info2DescEN = '1. DukLing Harbour Cruise: An authentic Chinese junk sailing into Victoria Harbour. 2. ICC Light Show & Symphony of Lights Harbour Cruise: For passengers who would like to watch the ICC light & music show and multi-media laser show (A Symphony of Lights) on board.'
-        transInfoItem.info2DescCN = '1. 鸭灵号维港游: 中式帆船，畅游维多利亚港。 2. 幻彩咏香江维港游: 在观光轮及维港内观赏「幻彩咏香江」多媒体激光汇演。'
-        transInfoItem.info2DescZH = '1. 鴨靈號維港遊: 中式帆船，暢遊維多利亞港。 2. 幻彩詠香江維港遊: 在觀光輪及維港內觀賞「幻彩詠香江」多媒體激光匯演。'
+        transInfoItem.info2DescEN = `1. DukLing Harbour Cruise: An authentic Chinese junk sailing into Victoria Harbour. <br>
+                                    2. ICC Light Show & Symphony of Lights Harbour Cruise: For passengers who would like to watch the ICC light & music show and multi-media laser show (A Symphony of Lights) on board.`
+        transInfoItem.info2DescCN = `1. 鸭灵号维港游: 中式帆船，畅游维多利亚港。 <br>
+                                    2. 幻彩咏香江维港游: 在观光轮及维港内观赏「幻彩咏香江」多媒体激光汇演。`
+        transInfoItem.info2DescZH = `1. 鴨靈號維港游: 中式帆船，暢游維多利亞港。 <br>
+                                    2. 幻彩詠香江維港游: 在觀光輪及維港內觀賞「幻彩詠香江」多媒體激光彙演。`
         transInfoItem.info2Pic = 'https://vgy.me/i197wN.jpg'
         transInfoItem.info3Flag = true
         transInfoItem.info3HdrEN = 'To Macau'
         transInfoItem.info3HdrCN = '到澳门'
         transInfoItem.info3HdrZH = '到澳門'
         transInfoItem.info3DescEN = `Many visitors will travel to Macau during visiting in Hong Kong. Macau is famous for the blend of Portuguese and Chinese cultures and its gambling industry (Casino). <br>
-                                    There are two major ferry companies that provided frequent high-speed ferry services between Hong Kong  and Macau. <br>
+                                    There are two major ferry companies that provided frequent high-speed ferry services between Hong Kong and Macau<br>
                                     1. TurboJET  <br>
                                     2. Cotai Water Jet `
         transInfoItem.info3DescCN = `许多游客在香港访问期间会到澳门游览。 澳门以葡萄牙和中国文化融合及其赌博业（赌场）而闻名。 <br>
-                                    两个主要的渡轮公司提供在香港和澳门之间频繁的高速渡轮服务。 <br>
+                                    两个主要的渡轮公司提供在香港和澳门之间频繁的高速渡轮服务 <br>
                                     1. TurboJET <br>
                                     2. 金光飞航 `
         transInfoItem.info3DescZH = `許多游客在香港訪問期間會到澳門游覽。 澳門以葡萄牙和中國文化融合及其賭博業（賭場）而聞名。 <br>
-                                    兩個主要的渡輪公司提供在香港和澳門之間頻繁的高速渡輪服務。 <br>
+                                    兩個主要的渡輪公司提供在香港和澳門之間頻繁的高速渡輪服務 <br>
                                     1. TurboJET <br>
                                     2. 金光飛航 `
         transInfoItem.info3Pic = 'https://vgy.me/e7fIwv.jpg'

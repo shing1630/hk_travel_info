@@ -33,20 +33,23 @@ export class DiningInfoItemList {
         diningInfoItem.info2DescEN = 'Traditionally, Dim sum is ordered from trolleys that circulate around the restaurant. But nowadays, Dim sum is ordered from a paper menu that customers write down the number of each dim sum type and then pass it to staff for ordering.'
         diningInfoItem.info2DescCN = '传统上，点心手推车会在荼楼内游走，食客可在附近的手推车直接点选。但现在，大多数是从点心纸中点选每个点心类型的数量，再交给职员下单。'
         diningInfoItem.info2DescZH = '傳統上，點心手推車會在荼樓內遊走，食客可在附近的手推車直接點選。但現在，大多數是從點心紙中點選每個點心類型的數量，再交給職員下單。'
-        diningInfoItem.info2Pic = ""
+        diningInfoItem.info2Pic = 'https://vgy.me/a2pGVY.jpg'
         diningInfoItem.info3Flag = true
         diningInfoItem.info3HdrEN = 'Extra Charge'
         diningInfoItem.info3HdrCN = '附加费'
         diningInfoItem.info3HdrZH = '附加費'
         diningInfoItem.info3DescEN = `There are extra charges in Cantonese restaurants. <br>
                                     1. Tea (Cover) charge around HK$6-20 per person. <br>
-                                    2. 10% Service charge. Some restaurants may apply no service charge and no tea charge policies to attract customers. `
+                                    2. 10% Service charge. <br>
+                                    PS: Some restaurants may apply no service charge and no tea charge policies to attract customers. `
         diningInfoItem.info3DescCN = `茶楼附加费。<br>
                                     1. 茶位费每人约 HK$6-20。 <br>
-                                    2. 10％ 服务费。 一些餐厅可能不需要服务费，也不需要收取茶位费来吸引顾客。`
+                                    2. 10％ 服务费。 <br>
+                                    PS: 一些餐厅可能不需要服务费，也不需要收取茶位费来吸引顾客。`
         diningInfoItem.info3DescZH = `茶樓附加費。<br>
                                     1. 茶位費每人約 HK$6-20。 <br>
-                                    2. 10％ 服務費。 一些餐廳可能不需要服務費，也不需要收取茶位費來吸引顧客。`
+                                    2. 10％ 服務費。 <br>
+                                    PS: 一些餐廳可能不需要服務費，也不需要收取茶位費來吸引顧客。`
         diningInfoItem.info3Pic = 'https://vgy.me/hkfx4S.jpg'
         diningInfoItem.info4Flag = false
         diningInfoItem.info4HdrEN = ''
@@ -97,8 +100,8 @@ export class DiningInfoItemList {
         diningInfoItem.info1HdrCN = '地点'
         diningInfoItem.info1HdrZH = '地點'
         diningInfoItem.info1DescEN = 'Street food can be found throughout the city, especially around Mong Kok, Prince Edward, Tsim Sha Tsui and Causeway Bay.'
-        diningInfoItem.info1DescCN = '整个城市都可以找到街头小食，在旺角，太子，尖沙咀和铜锣湾最为集中。'
-        diningInfoItem.info1DescZH = '整個城市都可以找到街頭小食，在旺角，太子，尖沙咀和銅鑼灣最為集中。'
+        diningInfoItem.info1DescCN = '整个城市都可以找到街头小食。但在旺角，太子，尖沙咀和铜锣湾最为集中。'
+        diningInfoItem.info1DescZH = '整個城市都可以找到街頭小食。但在旺角，太子，尖沙咀和銅鑼灣最為集中。'
         diningInfoItem.info1Pic = 'https://vgy.me/csnvE1.jpg'
         diningInfoItem.info2Flag = true
         diningInfoItem.info2HdrEN = 'Must eat - 1'

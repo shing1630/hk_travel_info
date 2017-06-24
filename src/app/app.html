@@ -4,6 +4,8 @@
             <button class="applyBasicBgColor colorToWhite" ion-item (click)="updateApp()">
                 <img class="centerAndMiddle" style="margin-right: 8px; min-width: 28px; min-height:28px; max-width: 28px; max-height:28px" 
                     src="assets/img/update.png">{{ 'MENU.CHECK_UPDATE' | translate }}
+                <img class="centerAndMiddle" *ngIf="IGV.isUpdatable" style="margin-right: 8px; min-width: 28px; min-height:28px; max-width: 28px; max-height:28px" 
+                    src="assets/img/attent.png">
             </button>
             <button class="applyBasicBgColor colorToWhite borderToZero" ion-item (click)="openPage('HomePage', 'homePage')">
                 <img class="centerAndMiddle" style="margin-right: 8px; min-width: 28px; min-height:28px; max-width: 28px; max-height:28px" 

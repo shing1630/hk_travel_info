@@ -78,7 +78,7 @@ export class EnterInfoItemList {
         enterInfoItem.info7DescZH = ''
         enterInfoItem.info7Pic = ''
         enterInfoItem.infoAppFlag = true
-        enterInfoItem.appItemIdList.push("");
+        enterInfoItem.appItemIdList.push("E004", "E005");
         enterInfoItem.appItemList = null
 
         this.list.push(enterInfoItem);
@@ -97,7 +97,7 @@ export class EnterInfoItemList {
                                     Pass temples and bays and a centuries-old fishing village.`
         enterInfoItem.info1DescCN = `在大屿山，从东涌开始。<br>
                                     在大澳结束，通过寺庙和海湾，以及数百年的渔村。`
-        enterInfoItem.info1DescZH = `在大嶼山，從東湧開始。<br>
+        enterInfoItem.info1DescZH = `在大嶼山，從東涌開始。<br>
                                     在大澳結束，通過寺廟和海灣，以及數百年的漁村。`
         enterInfoItem.info1Pic = 'https://vgy.me/VomsN7.jpg'
         enterInfoItem.info2Flag = true

@@ -97,6 +97,17 @@ export class MyApp {
           this.globalFunc.showToastNoNetwork();
         });
 
+        // check update
+        this.deploy.channel = this.IGV.DEPLOY_CHANNEL;
+
+        this.deploy.check().then((snapshotAvailable: boolean) => {
+          if (snapshotAvailable) {
+            this.IGV.isUpdatable = true;
+          } else {
+            this.IGV.isUpdatable = false;
+          }
+        });
+
       }, (error) => {
         this.globalFunc.presentSysErr();
         this.globalFunc.loadingDismiss();
@@ -157,6 +168,13 @@ export class MyApp {
     this.deploy.channel = this.IGV.DEPLOY_CHANNEL;
 
     this.deploy.check().then((snapshotAvailable: boolean) => {
+
+      if (snapshotAvailable) {
+        this.IGV.isUpdatable = true;
+      } else {
+        this.IGV.isUpdatable = false;
+      }
+
       this.deploy.getSnapshots().then((snapshotList) => {
         // snapshots will be an array of snapshot uuids
         if (Array.isArray(snapshotList) && snapshotList.length) {
@@ -185,6 +203,8 @@ export class MyApp {
     this.deploy.download().then(() => {
       this.deploy.extract().then(() => {
 
+        this.IGV.isUpdatable = false;
+        
         let inputTitle: string;
         if (this.IGV.gLangInd === 'zh') {
           inputTitle = this.IGV.RELOAD_ZH;
