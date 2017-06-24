@@ -114,7 +114,7 @@ export class MyApp {
 
   menuOpened() {
     //code to execute when menu ha opened
-     this.globalFunc.removeBanner();
+    this.globalFunc.removeBanner();
   }
 
   openPage(page, pageInd) {
@@ -162,7 +162,7 @@ export class MyApp {
         if (Array.isArray(snapshotList) && snapshotList.length) {
           snapshotList.forEach(snapshot => {
             this.IGV.DEL_CHANNEL_LIST.forEach(savedSnapShot => {
-              if( savedSnapShot === snapshot){
+              if (savedSnapShot === snapshot) {
                 this.deploy.deleteSnapshot(snapshot);
               }
             });
@@ -188,7 +188,7 @@ export class MyApp {
         let inputTitle: string;
         if (this.IGV.gLangInd === 'zh') {
           inputTitle = this.IGV.RELOAD_ZH;
-        } if (this.IGV.gLangInd === 'cn') {
+        } else if (this.IGV.gLangInd === 'cn') {
           inputTitle = this.IGV.RELOAD_CN;
         } else {
           inputTitle = this.IGV.RELOAD_EN;

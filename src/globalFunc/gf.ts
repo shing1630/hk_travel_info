@@ -18,7 +18,7 @@ export class GF {
         public loadingCtrl: LoadingController,
         public adMob: AdMob,
         private toastCtrl: ToastController,
-		private iab: InAppBrowser) { }
+        private iab: InAppBrowser) { }
 
 
     // -------------  App Store -------------//
@@ -29,9 +29,9 @@ export class GF {
 
     isMyFavourite(appID: string) {
         let saveApp = this.IGV.myAppItemMap.get(appID);
-        if(saveApp == null){
+        if (saveApp == null) {
             return false;
-        }else{
+        } else {
             return true;
         }
     }
@@ -42,6 +42,13 @@ export class GF {
             let alert = this.alertCtrl.create({
                 title: this.IGV.ERROR_ZH,
                 subTitle: this.IGV.SORRY_SOMETHING_WRONG_ZH,
+                buttons: ['OK']
+            });
+            alert.present();
+        } else if (this.IGV.gLangInd === 'cn') {
+            let alert = this.alertCtrl.create({
+                title: this.IGV.ERROR_CN,
+                subTitle: this.IGV.SORRY_SOMETHING_WRONG_EN,
                 buttons: ['OK']
             });
             alert.present();
@@ -63,12 +70,12 @@ export class GF {
         });
         alert.present();
     }
-	
-	// -------------  In App Browser -------------//
-	openInAppBrowser(url: string) {
-		const browser = this.iab.create(url);
-		browser.show();
-	}
+
+    // -------------  In App Browser -------------//
+    openInAppBrowser(url: string) {
+        const browser = this.iab.create(url);
+        browser.show();
+    }
 
     // -------------  Loading -------------//
     loadingPresent() {
@@ -210,7 +217,7 @@ export class GF {
             && !this.IGV.isIOS) {
             return false;
         }
-        
+
         let adInterOptions: AdMobOptions = <AdMobOptions>{};
 
         adInterOptions = {
@@ -232,7 +239,7 @@ export class GF {
 
         if (this.IGV.gLangInd === 'zh') {
             msg = this.IGV.NO_NETWORK_CONNECTION_ZH;
-        } if (this.IGV.gLangInd === 'cn') {
+        } else if (this.IGV.gLangInd === 'cn') {
             msg = this.IGV.NO_NETWORK_CONNECTION_CN;
         } else {
             msg = this.IGV.NO_NETWORK_CONNECTION_EN;
@@ -251,7 +258,7 @@ export class GF {
 
         if (this.IGV.gLangInd === 'zh') {
             msg = this.IGV.DOWNLOADING_TAKE_MIN_ZH;
-        } if (this.IGV.gLangInd === 'cn') {
+        } else if (this.IGV.gLangInd === 'cn') {
             msg = this.IGV.DOWNLOADING_TAKE_MIN_CN;
         } else {
             msg = this.IGV.DOWNLOADING_TAKE_MIN_EN;
@@ -267,10 +274,10 @@ export class GF {
 
     showNoUpdate() {
         let msg: string;
-
+        alert('this.IGV.gLangInd: ' + this.IGV.gLangInd);
         if (this.IGV.gLangInd === 'zh') {
             msg = this.IGV.NO_UPDATE_AVAILABLE_ZH;
-        } if (this.IGV.gLangInd === 'cn') {
+        } else if (this.IGV.gLangInd === 'cn') {
             msg = this.IGV.NO_UPDATE_AVAILABLE_CN;
         } else {
             msg = this.IGV.NO_UPDATE_AVAILABLE_EN;
